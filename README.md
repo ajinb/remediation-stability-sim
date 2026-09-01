@@ -15,14 +15,16 @@ Companion artifact for the paper **"Stable by Design: A Control-Theoretic Accoun
 
 ```bash
 pip install -e ".[dev]"
-pytest                          # 13 tests: H1, H2, H3 each pinned
-python examples/paper_study.py  # E1/E2/E3 tables (20 seeds per cell)
+pytest                           # 16 tests: H1, H2, H3 and the E4 frontier pinned
+python examples/paper_study.py   # E1/E2/E3 tables (20 seeds per cell)
+python examples/frontier_study.py  # E4: the stability frontier (v0.3)
 ```
 
 Headline results (400-step scenarios, 20 seeds per cell):
 
 - **E1 (H1)** — at fixed gain, growing dead-time alone flips the loop from stable (τ=1: 1/20 oscillating, MTTR ≈ 15) to rail-to-rail oscillation that never settles (τ≥4: 20/20 oscillating).
 - **E2 (H2)** — hysteresis+damping alone do *not* stabilize a dead-time-driven oscillation; the temporal constructs are each individually sufficient, and **dead-time-aware gating settles ~3× faster than a fixed cooldown** (MTTR ≈ 40 vs ≈ 117) because it adapts its hold to the controller's actual dead-time.
+- **E4 (v0.3)** — the settle/diverge boundary of the greedy loop follows a **delay–gain product law**: across a 6× gain range the critical product g·L (L = dead-time + sensor delay) stays in 1.35–1.8, the deterministic cliff is one dead-time step wide, and controller stochasticity **blurs the frontier instead of shifting it** — 1 → 4 → 15 of 70 cells settle only partially as jitter grows 0 → 0.3 → 0.6, in both directions (stable marginal cells lose reliability, divergent cells occasionally settle). Every sampled cell at g·L ≤ 1.2 settled in all seeds at every jitter level — the engineering margin.
 - **E3 (H3)** — two individually-stable loops sharing an actuator destabilize each other (overshoot 8.9 vs 1.3; 13/20 settle); an actuator mutex held through the settling window restores single-loop behavior (20/20 settle).
 
 ## Not in scope
