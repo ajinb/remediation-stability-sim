@@ -1,0 +1,1318 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    15
+   ]
+  ],
+  "date-time": "2026-09-15T01:05:13Z",
+  "timestamp": 1789434313586,
+  "version": "build-2803163510"
+ },
+ "reference-count": 197,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "2",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2018,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2018-03-01T00:00:00Z",
+    "timestamp": 1519862400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  }
+ ],
+ "funder": [
+  {
+   "name": "OCCIware research and development project"
+  },
+  {
+   "name": "French Programme d'Investissements d'Avenir"
+  },
+  {
+   "name": "Scalair company"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Serv. Comput."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2018,
+    3,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.1109/tsc.2017.2711009",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2017,
+    6,
+    1
+   ]
+  ],
+  "date-time": "2017-06-01T14:06:20Z",
+  "timestamp": 1496325980000
+ },
+ "page": "430-447",
+ "source": "Crossref",
+ "is-referenced-by-count": 325,
+ "title": [
+  "Elasticity in Cloud Computing: State of the Art and Research Challenges"
+ ],
+ "prefix": "10.1109",
+ "volume": "11",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-2271-2098",
+   "authenticated-orcid": false,
+   "given": "Yahya",
+   "family": "Al-Dhuraibi",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Fawaz",
+   "family": "Paraiso",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Nabil",
+   "family": "Djarallah",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Philippe",
+   "family": "Merle",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref170",
+   "year": "0"
+  },
+  {
+   "key": "ref172",
+   "article-title": "CloudStone: Multi-platform, multi-language benchmark and measurement tools for Web 2.0",
+   "volume": "8",
+   "author": "sobel",
+   "year": "2008",
+   "journal-title": "Proc Cloud Comput Appl"
+  },
+  {
+   "key": "ref171",
+   "year": "0"
+  },
+  {
+   "key": "ref174",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SRDS.2012.12"
+  },
+  {
+   "key": "ref173",
+   "year": "0"
+  },
+  {
+   "key": "ref176",
+   "year": "0"
+  },
+  {
+   "key": "ref175",
+   "year": "0"
+  },
+  {
+   "key": "ref178",
+   "year": "0"
+  },
+  {
+   "key": "ref177",
+   "first-page": "209",
+   "author": "huang",
+   "year": "2011",
+   "journal-title": "The Hibench Benchmark Suite Characterization of the Mapreduce-based Data Analysis"
+  },
+  {
+   "key": "ref168",
+   "article-title": "Workload classification for efficient auto-scaling of cloud resources",
+   "author": "ali-eldin",
+   "year": "2005"
+  },
+  {
+   "key": "ref169",
+   "year": "0"
+  },
+  {
+   "key": "ref39",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGrid.2013.48"
+  },
+  {
+   "key": "ref38",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2038916.2038921"
+  },
+  {
+   "key": "ref33",
+   "year": "0"
+  },
+  {
+   "key": "ref32",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGRID.2010.80"
+  },
+  {
+   "key": "ref31",
+   "doi-asserted-by": "crossref",
+   "first-page": "431",
+   "DOI": "10.1007/978-3-642-22709-7_43",
+   "article-title": "Elastic VM for cloud resources provisioning optimization",
+   "author": "dawoud",
+   "year": "2011",
+   "journal-title": "Advances in Computing and Communications"
+  },
+  {
+   "key": "ref30",
+   "year": "0"
+  },
+  {
+   "key": "ref37",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDCS.2011.59"
+  },
+  {
+   "key": "ref36",
+   "year": "0"
+  },
+  {
+   "key": "ref35",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2011.42"
+  },
+  {
+   "key": "ref34",
+   "year": "0"
+  },
+  {
+   "key": "ref181",
+   "article-title": "Docker: Lightweight linux containers for consistent development and deployment",
+   "author": "merkel",
+   "year": "2014"
+  },
+  {
+   "key": "ref180",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CISIS.2015.35"
+  },
+  {
+   "key": "ref185",
+   "year": "0"
+  },
+  {
+   "key": "ref184",
+   "year": "0"
+  },
+  {
+   "key": "ref183",
+   "year": "0"
+  },
+  {
+   "key": "ref182",
+   "year": "0"
+  },
+  {
+   "key": "ref189",
+   "year": "0"
+  },
+  {
+   "key": "ref188",
+   "year": "0"
+  },
+  {
+   "key": "ref187",
+   "year": "0"
+  },
+  {
+   "key": "ref186",
+   "year": "0"
+  },
+  {
+   "key": "ref28",
+   "doi-asserted-by": "crossref",
+   "first-page": "539",
+   "DOI": "10.1007/s00607-014-0421-x",
+   "article-title": "soCloud: A service-oriented component-based PaaS for managing portability, provisioning, elasticity, and high availability across multiple clouds",
+   "volume": "98",
+   "author": "paraiso",
+   "year": "2016",
+   "journal-title": "Computing"
+  },
+  {
+   "key": "ref27",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2014.02.018"
+  },
+  {
+   "key": "ref179",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ISPASS.2015.7095802"
+  },
+  {
+   "key": "ref29",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2150976.2151021"
+  },
+  {
+   "key": "ref20",
+   "year": "0"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CloudCom.2012.6427605"
+  },
+  {
+   "key": "ref21",
+   "year": "0"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2013.12.037"
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IC2E.2014.25"
+  },
+  {
+   "key": "ref26",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1555228.1555261"
+  },
+  {
+   "key": "ref25",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2010.10.016"
+  },
+  {
+   "key": "ref50",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2011.07.005"
+  },
+  {
+   "key": "ref51",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2012.12"
+  },
+  {
+   "key": "ref154",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IAdCC.2013.6514357"
+  },
+  {
+   "key": "ref153",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ISADS.2011.79"
+  },
+  {
+   "key": "ref156",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/FiCloud.2016.48"
+  },
+  {
+   "key": "ref155",
+   "first-page": "97",
+   "article-title": "A survey on resource allocation strategies in cloud computing",
+   "volume": "3",
+   "author": "vinothina dr",
+   "year": "2012",
+   "journal-title": "Int J Adv Comput Sci Appl"
+  },
+  {
+   "key": "ref150",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jcss.2011.12.014"
+  },
+  {
+   "key": "ref152",
+   "article-title": "Auto-scaling techniques for elastic applications in cloud environments",
+   "volume": "12",
+   "author": "lorido-botr",
+   "year": "2012",
+   "journal-title": "Dept Comput Archit and Technol University Basque Country Vizcaya Spain Tech Rep EHU-KAT-IK-09"
+  },
+  {
+   "key": "ref151",
+   "doi-asserted-by": "crossref",
+   "first-page": "559",
+   "DOI": "10.1007/s10723-014-9314-7",
+   "article-title": "A review of auto-scaling techniques for elastic applications in cloud environments",
+   "volume": "12",
+   "author": "miguel-alonso",
+   "year": "2014",
+   "journal-title": "J Grid Comput"
+  },
+  {
+   "key": "ref146",
+   "doi-asserted-by": "crossref",
+   "first-page": "713",
+   "DOI": "10.1109/TSMCB.2011.2174355",
+   "article-title": "A price-and-time-slot-negotiation mechanism for cloud service reservations",
+   "volume": "42",
+   "author": "son",
+   "year": "2012",
+   "journal-title": "IEEE Trans Syst Man Cybern B (Cybern )"
+  },
+  {
+   "key": "ref147",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/UCC.2014.88"
+  },
+  {
+   "key": "ref148",
+   "year": "0"
+  },
+  {
+   "key": "ref149",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IPDPSW.2012.132"
+  },
+  {
+   "key": "ref59",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IWQOS.2004.1309357"
+  },
+  {
+   "key": "ref58",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10922-012-9251-3"
+  },
+  {
+   "key": "ref57",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SEAA.2014.57"
+  },
+  {
+   "key": "ref56",
+   "doi-asserted-by": "crossref",
+   "first-page": "316",
+   "DOI": "10.1007/978-3-662-48616-0_20",
+   "article-title": "Four-fold auto-scaling on a contemporary deployment platform using docker containers",
+   "author": "hoenisch",
+   "year": "2015",
+   "journal-title": "Service-Oriented Computing"
+  },
+  {
+   "key": "ref55",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2012.05.018"
+  },
+  {
+   "key": "ref54",
+   "first-page": "1",
+   "article-title": "Providing IaaS resources automatically through prediction and monitoring approaches",
+   "author": "nakamura",
+   "year": "2014",
+   "journal-title": "Proc IEEE Symp Comput Commun"
+  },
+  {
+   "key": "ref53",
+   "doi-asserted-by": "crossref",
+   "first-page": "13",
+   "DOI": "10.1007/978-3-642-13119-6_2",
+   "article-title": "InterCloud: Utility-oriented federation of cloud computing environments for scaling of application services",
+   "author": "buyya",
+   "year": "2010",
+   "journal-title": "Algorithms and Architectures for Parallel Processing"
+  },
+  {
+   "key": "ref52",
+   "year": "0"
+  },
+  {
+   "key": "ref40",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CloudCom.2010.95"
+  },
+  {
+   "key": "ref167",
+   "first-page": "417",
+   "article-title": "Real Workload Characterization and Synthetic Workload Generation",
+   "volume": "5",
+   "author": "bangari",
+   "year": "2016",
+   "journal-title": "IJRE"
+  },
+  {
+   "key": "ref166",
+   "year": "0"
+  },
+  {
+   "key": "ref165",
+   "year": "0"
+  },
+  {
+   "key": "ref164",
+   "year": "0"
+  },
+  {
+   "key": "ref163",
+   "year": "0"
+  },
+  {
+   "key": "ref162",
+   "year": "0"
+  },
+  {
+   "key": "ref161",
+   "year": "0"
+  },
+  {
+   "key": "ref160",
+   "year": "0"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/UCC.2012.30"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s12243-014-0450-7"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "crossref",
+   "first-page": "83",
+   "DOI": "10.1145/2737182.2737185",
+   "article-title": "Scalability, elasticity, and efficiency in cloud computing: A systematic literature review of definitions and metrics",
+   "author": "lehrig",
+   "year": "2015",
+   "journal-title": "Proc 11th Int ACM SIGSOFT Conf Qual Softw Archit"
+  },
+  {
+   "key": "ref5",
+   "first-page": "23",
+   "article-title": "Elasticity in cloud computing: What it is, and what it is not",
+   "author": "herbst",
+   "year": "2013",
+   "journal-title": "Proc 10th Int Conf Autonomic Comput"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2011.23"
+  },
+  {
+   "key": "ref159",
+   "doi-asserted-by": "crossref",
+   "first-page": "505",
+   "DOI": "10.1002/spe.2422",
+   "article-title": "ContainerCloudSim: An environment for modeling and simulation of containers in cloud data centers",
+   "volume": "47",
+   "author": "piraghaj",
+   "year": "2017",
+   "journal-title": "Softw Practice and Experience"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1996130.1996161"
+  },
+  {
+   "key": "ref49",
+   "article-title": "A survey on elasticity management in the PaaS service model",
+   "author": "munoz-esco?",
+   "year": "2015"
+  },
+  {
+   "key": "ref157",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MIC.2012.28"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2188286.2188301"
+  },
+  {
+   "key": "ref158",
+   "year": "0"
+  },
+  {
+   "key": "ref46",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CloudCom.2011.58"
+  },
+  {
+   "key": "ref45",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1988008.1988033"
+  },
+  {
+   "key": "ref48",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MCOM.2012.6178831"
+  },
+  {
+   "key": "ref47",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-3-319-02681-7"
+  },
+  {
+   "key": "ref42",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2662112"
+  },
+  {
+   "key": "ref41",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICEBE.2011.63"
+  },
+  {
+   "key": "ref44",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s11036-011-0305-7"
+  },
+  {
+   "key": "ref43",
+   "article-title": "Elasticity in cloud computing",
+   "author": "sobeslavsky",
+   "year": "2011"
+  },
+  {
+   "key": "ref73",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2011.77"
+  },
+  {
+   "key": "ref72",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/cpe.2864"
+  },
+  {
+   "key": "ref71",
+   "year": "0"
+  },
+  {
+   "key": "ref70",
+   "year": "0"
+  },
+  {
+   "key": "ref76",
+   "first-page": "33",
+   "article-title": "ShuttleDB: Database-aware elasticity in the cloud",
+   "author": "barker",
+   "year": "2014",
+   "journal-title": "Proc 11th Int Conf Autonomic Comput"
+  },
+  {
+   "key": "ref77",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2405186.2405188"
+  },
+  {
+   "key": "ref74",
+   "doi-asserted-by": "crossref",
+   "first-page": "159",
+   "DOI": "10.1016/j.procs.2013.05.179",
+   "article-title": "Elastic memory management of virtualized infrastructures for applications with dynamic memory requirements",
+   "volume": "18",
+   "author": "molt\u00f3",
+   "year": "2013",
+   "journal-title": "Procedia Comput Sci"
+  },
+  {
+   "key": "ref75",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2016.59"
+  },
+  {
+   "key": "ref78",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2465351.2465370"
+  },
+  {
+   "key": "ref79",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/BigData.2014.7004232"
+  },
+  {
+   "key": "ref60",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1890799.1890803"
+  },
+  {
+   "key": "ref62",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2378975.2378984"
+  },
+  {
+   "key": "ref61",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TCC.2014.2338295"
+  },
+  {
+   "key": "ref63",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2462326.2462338"
+  },
+  {
+   "key": "ref64",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TEMU.2012.6294736"
+  },
+  {
+   "key": "ref65",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/WI.2016.0062"
+  },
+  {
+   "key": "ref66",
+   "first-page": "79",
+   "author": "hadley",
+   "year": "2015",
+   "journal-title": "MultiBox Lightweight Containers for Vendor-Independent Multi-Cloud Deployments"
+  },
+  {
+   "key": "ref67",
+   "first-page": "478",
+   "article-title": "DoCloud: An elastic cloud platform for Web applications based on Docker",
+   "author": "kan",
+   "year": "2016",
+   "journal-title": "Proc 18th Int Conf Adv Commun Technol"
+  },
+  {
+   "key": "ref68",
+   "first-page": "1960",
+   "article-title": "Auto-scaling of micro-services using containerization",
+   "volume": "4",
+   "author": "kukade",
+   "year": "2013",
+   "journal-title": "Int J Sci Res"
+  },
+  {
+   "key": "ref69",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2016.0100"
+  },
+  {
+   "key": "ref197",
+   "article-title": "Auto-scaling Web applications in clouds: A taxonomy and survey",
+   "volume": "abs 1609 9224",
+   "author": "qu",
+   "year": "2016",
+   "journal-title": "CoRR"
+  },
+  {
+   "key": "ref193",
+   "article-title": "Inter-Cloud application migration and portability using Linux containers for better resource provisioning and interoperability",
+   "year": "2015"
+  },
+  {
+   "key": "ref194",
+   "first-page": "915",
+   "article-title": "Checkpoint and restoration of micro-service in docker containers",
+   "author": "yang",
+   "year": "2015",
+   "journal-title": "Proc 3rd Int Conf Mechatron Ind Informat"
+  },
+  {
+   "key": "ref195",
+   "year": "0"
+  },
+  {
+   "key": "ref196",
+   "first-page": "15:1",
+   "article-title": "PEAS: A performance evaluation framework for auto-scaling strategies in cloud applications",
+   "volume": "1",
+   "author": "papadopoulos",
+   "year": "2016",
+   "journal-title": "IEEE Trans Model Perform Eval Comput Syst"
+  },
+  {
+   "key": "ref95",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICEBE.2009.45"
+  },
+  {
+   "key": "ref94",
+   "first-page": "981",
+   "article-title": "Automated negotiation with decommitment for dynamic resource allocation in cloud computing",
+   "author": "an",
+   "year": "2010",
+   "journal-title": "Proc 9th Int Conf Auton Agents Multiagent Syst"
+  },
+  {
+   "key": "ref190",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2890784"
+  },
+  {
+   "key": "ref93",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/UCC.2013.104"
+  },
+  {
+   "key": "ref191",
+   "year": "0"
+  },
+  {
+   "key": "ref92",
+   "first-page": "1",
+   "article-title": "Proactive self-adaptation under uncertainty: A probabilistic model checking approach",
+   "author": "moreno",
+   "year": "2015",
+   "journal-title": "Proc Power Eng Meeting"
+  },
+  {
+   "key": "ref192",
+   "year": "0"
+  },
+  {
+   "key": "ref91",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2950290.2950328"
+  },
+  {
+   "key": "ref90",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDCS.2012.65"
+  },
+  {
+   "key": "ref98",
+   "first-page": "455",
+   "article-title": "Enacting SLAs in clouds using rules",
+   "author": "maurer",
+   "year": "2011",
+   "journal-title": "Proc 17th Int Conf Parallel Process"
+  },
+  {
+   "key": "ref99",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGrid.2015.91"
+  },
+  {
+   "key": "ref96",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2010.55"
+  },
+  {
+   "key": "ref97",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NOMS.2012.6212070"
+  },
+  {
+   "key": "ref82",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2213836.2213943"
+  },
+  {
+   "key": "ref81",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2593929.2593940"
+  },
+  {
+   "key": "ref84",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2460756.2460758"
+  },
+  {
+   "key": "ref83",
+   "first-page": "87",
+   "article-title": "A coordinated reactive and predictive approach to cloud elasticity",
+   "author": "moore",
+   "year": "2013",
+   "journal-title": "Proc 4th Int Conf Cloud Comput GRIDs Virtualization"
+  },
+  {
+   "key": "ref80",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGrid.2012.52"
+  },
+  {
+   "key": "ref89",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGrid.2013.66"
+  },
+  {
+   "key": "ref85",
+   "first-page": "42",
+   "article-title": "Autoflex: Service agnostic auto-scaling framework for IaaS deployment models",
+   "author": "morais",
+   "year": "2013",
+   "journal-title": "Proc 13th IEEE/ACM Int Symp Cluster Cloud Grid Comput"
+  },
+  {
+   "key": "ref86",
+   "first-page": "69",
+   "article-title": "AGILE: Elastic distributed resource scaling for infrastructure-as-a-service",
+   "author": "nguyen",
+   "year": "2013",
+   "journal-title": "Proc USENIX Int Conf Automated Comput"
+  },
+  {
+   "key": "ref87",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NCCA.2012.20"
+  },
+  {
+   "key": "ref88",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.14778/2732977.2732979"
+  },
+  {
+   "key": "ref101",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1555271.1555275"
+  },
+  {
+   "key": "ref100",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1809049.1809051"
+  },
+  {
+   "key": "ref127",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2014.109"
+  },
+  {
+   "key": "ref126",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CGC.2012.108"
+  },
+  {
+   "key": "ref125",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SASO.2014.29"
+  },
+  {
+   "key": "ref124",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGrid.2011.49"
+  },
+  {
+   "key": "ref129",
+   "doi-asserted-by": "crossref",
+   "first-page": "11",
+   "DOI": "10.1007/978-3-642-29219-4_2",
+   "article-title": "Elastic virtual machine for fine-grained cloud resource provisioning",
+   "author": "dawoud",
+   "year": "2012",
+   "journal-title": "Global Trends in Computing and Communication Systems"
+  },
+  {
+   "key": "ref128",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1508293.1508297"
+  },
+  {
+   "key": "ref130",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NOMS.2002.1015566"
+  },
+  {
+   "key": "ref133",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NOMS.2014.6838238"
+  },
+  {
+   "key": "ref134",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLUSTR.2009.5289170"
+  },
+  {
+   "key": "ref131",
+   "year": "0"
+  },
+  {
+   "key": "ref132",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICCAC.2015.20"
+  },
+  {
+   "key": "ref136",
+   "first-page": "99",
+   "article-title": "Provisioning rapid elasticity by light-weight live resource migration",
+   "volume": "2",
+   "author": "kirthica1",
+   "year": "2015",
+   "journal-title": "International Journal of Modern Trends in Engineering and Research"
+  },
+  {
+   "key": "ref135",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/HiPC.2012.6507481"
+  },
+  {
+   "key": "ref138",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPDS.2013.67"
+  },
+  {
+   "key": "ref137",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NCM.2009.350"
+  },
+  {
+   "key": "ref139",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.14778/2002974.2002977"
+  },
+  {
+   "key": "ref140",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2011.47"
+  },
+  {
+   "key": "ref141",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1508293.1508301"
+  },
+  {
+   "key": "ref142",
+   "article-title": "Elastic load balancing for dynamic virtual machine reconfiguration based on vertical and horizontal scaling",
+   "volume": "pp",
+   "author": "sotiriadis",
+   "year": "2016",
+   "journal-title": "IEEE Trans Services Comput"
+  },
+  {
+   "key": "ref143",
+   "doi-asserted-by": "crossref",
+   "first-page": "8",
+   "DOI": "10.1007/s00607-012-0198-8",
+   "article-title": "DEPAS: A decentralized probabilistic algorithm for auto-scaling",
+   "volume": "94",
+   "author": "calcavecchia",
+   "year": "2012",
+   "journal-title": "Computing"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MCC.2015.51"
+  },
+  {
+   "key": "ref144",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICEBE.2011.45"
+  },
+  {
+   "key": "ref1",
+   "article-title": "Draft cloud computing synopsis and recommendations",
+   "volume": "800",
+   "author": "badger",
+   "year": "2011",
+   "journal-title": "NIST Special Publication"
+  },
+  {
+   "key": "ref145",
+   "doi-asserted-by": "crossref",
+   "first-page": "17",
+   "DOI": "10.1007/978-3-642-28675-9_2",
+   "article-title": "Concurrent negotiations in cloud-based systems",
+   "author": "siebenhaar",
+   "year": "2012",
+   "journal-title": "Proc 8th Int Conf Econ Grids Clouds Syst Services"
+  },
+  {
+   "key": "ref109",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/VECIMS.2010.5609349"
+  },
+  {
+   "key": "ref108",
+   "first-page": "9",
+   "article-title": "PRESS: Predictive elastic resource scaling for cloud systems",
+   "author": "gong",
+   "year": "2010",
+   "journal-title": "Proc Int Conf Netw Service Manage"
+  },
+  {
+   "key": "ref107",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SCC.2010.69"
+  },
+  {
+   "key": "ref106",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CECNet.2012.6201461"
+  },
+  {
+   "key": "ref105",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGRID.2009.84"
+  },
+  {
+   "key": "ref104",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2494621.2494630"
+  },
+  {
+   "key": "ref103",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1342171.1342172"
+  },
+  {
+   "key": "ref102",
+   "first-page": "67",
+   "article-title": "Using reinforcement learning for autonomic resource allocation in clouds: Towards a fully automated workflow",
+   "author": "dutreilh",
+   "year": "2011",
+   "journal-title": "Proc 7th Int Conf Autonomic Auton Syst"
+  },
+  {
+   "key": "ref111",
+   "article-title": "Scaling into the cloud",
+   "author": "kupferman",
+   "year": "2009",
+   "journal-title": "CS270-Advanced Operating Systems"
+  },
+  {
+   "key": "ref112",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CloudCom.2010.65"
+  },
+  {
+   "key": "ref110",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2011.05.027"
+  },
+  {
+   "key": "ref10",
+   "article-title": "Defining and quantifying elasticity of resources in cloud computing and scalable platforms",
+   "volume": "16",
+   "author": "kuperberg",
+   "year": "2011"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1155/2016/7519507"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jss.2015.08.051"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "crossref",
+   "first-page": "235",
+   "DOI": "10.1007/978-1-4471-6452-4_10",
+   "article-title": "Survey of elasticity management solutions in cloud computing",
+   "author": "najjar",
+   "year": "2014",
+   "journal-title": "Continued Rise of the Cloud"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "crossref",
+   "first-page": "151",
+   "DOI": "10.1007/978-3-319-29919-8_12",
+   "article-title": "Cloud elasticity: A survey",
+   "author": "naskos",
+   "year": "2016",
+   "journal-title": "Algorithmic Aspects of Cloud Computing"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2371536.2371567"
+  },
+  {
+   "key": "ref16",
+   "year": "0"
+  },
+  {
+   "key": "ref118",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MASCOTS.2011.70"
+  },
+  {
+   "key": "ref17",
+   "year": "0"
+  },
+  {
+   "key": "ref117",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2007.1"
+  },
+  {
+   "key": "ref18",
+   "article-title": "Deadline sensitive lease scheduling in cloud computing environment using AHP",
+   "author": "nayak",
+   "year": "2016",
+   "journal-title": "Journal of King Saud University-Comp and Info Sciences"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3233/MGS-140215"
+  },
+  {
+   "key": "ref119",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICPP.2011.17"
+  },
+  {
+   "key": "ref114",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2006.1662383"
+  },
+  {
+   "key": "ref113",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1555228.1555263"
+  },
+  {
+   "key": "ref116",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/UCC.2014.86"
+  },
+  {
+   "key": "ref115",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NOMS.2012.6211900"
+  },
+  {
+   "key": "ref120",
+   "first-page": "181",
+   "article-title": "Auto-scaling model for cloud computing system",
+   "volume": "5",
+   "author": "hung",
+   "year": "2012",
+   "journal-title": "Int J Hybrid Inf Technol"
+  },
+  {
+   "key": "ref121",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2012.21"
+  },
+  {
+   "key": "ref122",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/comjnl/bxt009"
+  },
+  {
+   "key": "ref123",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/INFCOM.2012.6195785"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Services Computing"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/4629386/8332642/07937885.pdf?arnumber=7937885",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    18
+   ]
+  ],
+  "date-time": "2025-06-18T18:31:36Z",
+  "timestamp": 1750271496000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/7937885/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2018,
+    3,
+    1
+   ]
+  ]
+ },
+ "references-count": 197,
+ "journal-issue": {
+  "issue": "2"
+ },
+ "URL": "https://doi.org/10.1109/tsc.2017.2711009",
+ "relation": {},
+ "ISSN": [
+  "1939-1374"
+ ],
+ "issn-type": [
+  {
+   "value": "1939-1374",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2018,
+    3,
+    1
+   ]
+  ]
+ },
+ "fetched": "2026-09-15"
+}

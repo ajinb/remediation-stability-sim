@@ -1,0 +1,20 @@
+{"type": "config", "run_id": "e3b-claude-haiku-4-5-pulse-r1", "model": "claude-haiku-4-5", "condition": "pulse", "effort": null, "lam": 6.0, "mu": 0.97, "target": 150, "burst": 100, "r_min": 1, "r_max": 45, "duration": 300.0, "ns": "lab-2", "started": 1789465082.0085812}
+{"type": "sample", "t": 1789465083.142821, "queue": 144, "done": 0, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465084.15914, "queue": 143, "done": 6, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465085.1506271, "queue": 144, "done": 12, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465086.151205, "queue": 143, "done": 18, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465087.1518679, "queue": 143, "done": 24, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465088.17809, "queue": 143, "done": 30, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465089.160776, "queue": 143, "done": 36, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465090.1755269, "queue": 144, "done": 42, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465091.19612, "queue": 143, "done": 48, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465092.172134, "queue": 143, "done": 54, "spec": 6, "running": 6}
+{"type": "burst", "t": 1789465093.140598, "jobs": 100}
+{"type": "sample", "t": 1789465093.170112, "queue": 244, "done": 60, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465094.148989, "queue": 243, "done": 66, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465095.1606872, "queue": 243, "done": 72, "spec": 6, "running": 6}
+{"type": "sample", "t": 1789465096.165937, "queue": 243, "done": 78, "spec": 6, "running": 6}
+{"type": "decision", "t_obs": 1789465094.148989, "obs": {"type": "sample", "t": 1789465094.148989, "queue": 243, "done": 66, "spec": 6, "running": 6}, "t_return": 1789465096.276609, "ok": false, "wall_s": 1.6300010681152344, "api_ms": 0, "usage": {"input_tokens": 0, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0, "output_tokens": 0, "server_tool_use": {"web_search_requests": 0, "web_fetch_requests": 0}, "service_tier": "standard", "cache_creation": {"ephemeral_1h_input_tokens": 0, "ephemeral_5m_input_tokens": 0}, "inference_geo": "", "iterations": [], "speed": "standard"}, "error": "You've hit your org's monthly usage limit", "api_error_status": 429}
+{"type": "abort", "reason": "You've hit your org's monthly usage limit"}
+{"type": "sample", "t": 1789465097.146823, "queue": 244, "done": 78, "spec": 6, "running": 6}
+{"type": "end", "t": 1789465097.165774, "calls": 1}

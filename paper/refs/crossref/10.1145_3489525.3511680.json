@@ -1,0 +1,556 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    28
+   ]
+  ],
+  "date-time": "2026-08-28T17:00:34Z",
+  "timestamp": 1787936434733,
+  "version": "build-2784847793"
+ },
+ "publisher-location": "New York, NY, USA",
+ "reference-count": 52,
+ "publisher": "ACM",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2022,
+      4,
+      9
+     ]
+    ],
+    "date-time": "2022-04-09T00:00:00Z",
+    "timestamp": 1649462400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "dl.acm.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2022,
+    4,
+    9
+   ]
+  ]
+ },
+ "DOI": "10.1145/3489525.3511680",
+ "type": "proceedings-article",
+ "created": {
+  "date-parts": [
+   [
+    2022,
+    3,
+    25
+   ]
+  ],
+  "date-time": "2022-03-25T22:11:46Z",
+  "timestamp": 1648246306000
+ },
+ "page": "105-115",
+ "update-policy": "https://doi.org/10.1145/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 27,
+ "title": [
+  "Why Is It Not Solved Yet?"
+ ],
+ "prefix": "10.1145",
+ "author": [
+  {
+   "given": "Martin",
+   "family": "Straesser",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "University of W\u00fcrzburg, W\u00fcrzburg, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Johannes",
+   "family": "Grohmann",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of W\u00fcrzburg, W\u00fcrzburg, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "J\u00f3akim",
+   "family": "von Kistowski",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "DATEV eG, N\u00fcrnberg, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Simon",
+   "family": "Eismann",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of W\u00fcrzburg, W\u00fcrzburg, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Andr\u00e9",
+   "family": "Bauer",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of W\u00fcrzburg, W\u00fcrzburg, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Samuel",
+   "family": "Kounev",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of W\u00fcrzburg, W\u00fcrzburg, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "320",
+ "published-online": {
+  "date-parts": [
+   [
+    2022,
+    4,
+    9
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_3_2_1_1_1",
+   "volume-title": "Dagstuhl Reports",
+   "volume": "11",
+   "author": "Abad Cristina",
+   "year": "2021",
+   "unstructured": "Cristina Abad , Ian T. Foster , Nikolas Herbst , and Alexandru Iosup . 2021 . Serverless Computing (Dagstuhl Seminar 21201) . In Dagstuhl Reports , Vol. 11 . Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik. Cristina Abad, Ian T. Foster, Nikolas Herbst, and Alexandru Iosup. 2021. Serverless Computing (Dagstuhl Seminar 21201). In Dagstuhl Reports, Vol. 11. Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik."
+  },
+  {
+   "key": "e_1_3_2_1_2_1",
+   "volume-title": "Shuiguang Deng, and Albert Zomaya.",
+   "author": "Al-Dulaimy Auday",
+   "year": "2020",
+   "unstructured": "Auday Al-Dulaimy , Javid Taheri , Andreas Kassler , M. Reza Hoseiny Farahabady , Shuiguang Deng, and Albert Zomaya. 2020 . MULTISCALER : A Multi-Loop Auto-Scaling Approach for Cloud-Based Applications. IEEE Transactions on Cloud Computing ( 2020). Auday Al-Dulaimy, Javid Taheri, Andreas Kassler, M. Reza Hoseiny Farahabady, Shuiguang Deng, and Albert Zomaya. 2020. MULTISCALER: A Multi-Loop Auto-Scaling Approach for Cloud-Based Applications. IEEE Transactions on Cloud Computing (2020)."
+  },
+  {
+   "key": "e_1_3_2_1_3_1",
+   "volume-title": "Impact of CPU Utilization Thresholds and Scaling Size on Autoscaling Cloud Resources. In 2013 IEEE 5th International Conference on Cloud Computing Technology and Science",
+   "volume": "2",
+   "author": "Al-Haidari Fahd",
+   "year": "2013",
+   "unstructured": "Fahd Al-Haidari , Mohammed H. Sqalli , and Khaled Salah . 2013 . Impact of CPU Utilization Thresholds and Scaling Size on Autoscaling Cloud Resources. In 2013 IEEE 5th International Conference on Cloud Computing Technology and Science , Vol. 2 . 256--261. Fahd Al-Haidari, Mohammed H. Sqalli, and Khaled Salah. 2013. Impact of CPU Utilization Thresholds and Scaling Size on Autoscaling Cloud Resources. In 2013 IEEE 5th International Conference on Cloud Computing Technology and Science , Vol. 2. 256--261."
+  },
+  {
+   "key": "e_1_3_2_1_4_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2287036.2287044"
+  },
+  {
+   "key": "e_1_3_2_1_5_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NOMS.2012.6211900"
+  },
+  {
+   "key": "e_1_3_2_1_7_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jnca.2017.07.012"
+  },
+  {
+   "key": "e_1_3_2_1_8_1",
+   "unstructured": "The Kubernetes Authors. 2021. Horizontal Pod Autoscaler . https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/.  The Kubernetes Authors. 2021. Horizontal Pod Autoscaler . https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/."
+  },
+  {
+   "key": "e_1_3_2_1_9_1",
+   "unstructured": "Microsoft Azure. 2021. How To Scale Cloud Services . https://docs.microsoft.com/de-de/azure/cloud-services/cloud-services-how-to-scale-portal .  Microsoft Azure. 2021. How To Scale Cloud Services . https://docs.microsoft.com/de-de/azure/cloud-services/cloud-services-how-to-scale-portal ."
+  },
+  {
+   "key": "e_1_3_2_1_10_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-3-319-74947-1_10"
+  },
+  {
+   "key": "e_1_3_2_1_11_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPDS.2018.2870389"
+  },
+  {
+   "key": "e_1_3_2_1_12_1",
+   "volume-title": "Chamulteon: Coordinated Auto-Scaling of Micro-Services. In 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS) . 2015--2025",
+   "author": "Bauer Andr\u00e9",
+   "year": "2019",
+   "unstructured": "Andr\u00e9 Bauer , Veronika Lesch , Laurens Versluis , Alexey Ilyushkin , Nikolas Herbst , and Samuel Kounev . 2019 b . Chamulteon: Coordinated Auto-Scaling of Micro-Services. In 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS) . 2015--2025 . Andr\u00e9 Bauer, Veronika Lesch, Laurens Versluis, Alexey Ilyushkin, Nikolas Herbst, and Samuel Kounev. 2019 b. Chamulteon: Coordinated Auto-Scaling of Micro-Services. In 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS) . 2015--2025."
+  },
+  {
+   "key": "e_1_3_2_1_13_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDE48307.2020.00199"
+  },
+  {
+   "key": "e_1_3_2_1_14_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s11227-015-1380-5"
+  },
+  {
+   "key": "e_1_3_2_1_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/3297663.3309672"
+  },
+  {
+   "key": "e_1_3_2_1_16_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5555/1387589.1387613"
+  },
+  {
+   "key": "e_1_3_2_1_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICEBE.2009.45"
+  },
+  {
+   "key": "e_1_3_2_1_18_1",
+   "volume-title": "Entropy",
+   "volume": "21",
+   "author": "Delgado-Bonal Alfonso",
+   "year": "2019",
+   "unstructured": "Alfonso Delgado-Bonal and Alexander Marshak . 2019 . Approximate Entropy and Sample Entropy: A Comprehensive Tutorial . Entropy , Vol. 21 , 6 (2019). Alfonso Delgado-Bonal and Alexander Marshak. 2019. Approximate Entropy and Sample Entropy: A Comprehensive Tutorial. Entropy , Vol. 21, 6 (2019)."
+  },
+  {
+   "key": "e_1_3_2_1_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s11227-018-2387-5"
+  },
+  {
+   "key": "e_1_3_2_1_20_1",
+   "unstructured": "Google Cloud Docs. 2021. Autosclaing groups of instances . https://cloud.google.com/compute/docs/autoscaler .  Google Cloud Docs. 2021. Autosclaing groups of instances . https://cloud.google.com/compute/docs/autoscaler ."
+  },
+  {
+   "key": "e_1_3_2_1_21_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2010.55"
+  },
+  {
+   "key": "e_1_3_2_1_22_1",
+   "unstructured": "CloudFoundry Foundation. 2021. KubeCF: A Kubernetes Native Distribution of Cloud Foundry . https://kubecf.io/.  CloudFoundry Foundation. 2021. KubeCF: A Kubernetes Native Distribution of Cloud Foundry . https://kubecf.io/."
+  },
+  {
+   "key": "e_1_3_2_1_23_1",
+   "volume-title": "Kozuch",
+   "author": "Gandhi Anshul",
+   "year": "2012",
+   "unstructured": "Anshul Gandhi , Mor Harchol-Balter , Ram Raghunathan , and Michael A . Kozuch . 2012 . AutoScale: Dynamic, Robust Capacity Management for Multi-Tier Data Centers . ACM Trans. Comput. Syst. , Vol. 30 , 4, Article 14 (Nov. 2012). Anshul Gandhi, Mor Harchol-Balter, Ram Raghunathan, and Michael A. Kozuch. 2012. AutoScale: Dynamic, Robust Capacity Management for Multi-Tier Data Centers. ACM Trans. Comput. Syst. , Vol. 30, 4, Article 14 (Nov. 2012)."
+  },
+  {
+   "key": "e_1_3_2_1_24_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2011.101"
+  },
+  {
+   "key": "e_1_3_2_1_25_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CNSM.2010.5691343"
+  },
+  {
+   "key": "e_1_3_2_1_26_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/3361525.3361543"
+  },
+  {
+   "key": "e_1_3_2_1_27_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/3427921.3450248"
+  },
+  {
+   "key": "e_1_3_2_1_28_1",
+   "volume-title": "10th International Conference on Autonomic Computing (ICAC 13)",
+   "author": "Herbst Nikolas Roman",
+   "year": "2013",
+   "unstructured": "Nikolas Roman Herbst , Samuel Kounev , and Ralf Reussner . 2013 . Elasticity in Cloud Computing: What It Is, and What It Is Not . In 10th International Conference on Autonomic Computing (ICAC 13) . USENIX Association, San Jose, CA, 23--27. Nikolas Roman Herbst, Samuel Kounev, and Ralf Reussner. 2013. Elasticity in Cloud Computing: What It Is, and What It Is Not. In 10th International Conference on Autonomic Computing (ICAC 13). USENIX Association, San Jose, CA, 23--27."
+  },
+  {
+   "key": "e_1_3_2_1_29_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2010.10.016"
+  },
+  {
+   "key": "e_1_3_2_1_30_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGrid.2013.73"
+  },
+  {
+   "key": "e_1_3_2_1_31_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jpdc.2018.04.016"
+  },
+  {
+   "key": "e_1_3_2_1_32_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s11036-018-0996-0"
+  },
+  {
+   "key": "e_1_3_2_1_33_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1555228.1555261"
+  },
+  {
+   "key": "e_1_3_2_1_34_1",
+   "volume-title": "2016 International Conference on Computing Technologies and Intelligent Data Engineering (ICCTIDE'16)",
+   "author": "Mahalakshmi G.",
+   "unstructured": "G. Mahalakshmi , S. Sridevi , and S. Rajaram . 2016. A survey on forecasting of time series data . In 2016 International Conference on Computing Technologies and Intelligent Data Engineering (ICCTIDE'16) . 1--8. G. Mahalakshmi, S. Sridevi, and S. Rajaram. 2016. A survey on forecasting of time series data. In 2016 International Conference on Computing Technologies and Intelligent Data Engineering (ICCTIDE'16) . 1--8."
+  },
+  {
+   "key": "e_1_3_2_1_35_1",
+   "unstructured": "Micrometer Metrics. 2021. Micrometer GitHub Repository and Documentation . https://github.com/micrometer-metrics/micrometer .  Micrometer Metrics. 2021. Micrometer GitHub Repository and Documentation . https://github.com/micrometer-metrics/micrometer ."
+  },
+  {
+   "key": "e_1_3_2_1_36_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/for.3980020104"
+  },
+  {
+   "key": "e_1_3_2_1_37_1",
+   "volume-title": "AGILE: Elastic Distributed Resource Scaling for Infrastructure-as-a-Service. In 10th International Conference on Autonomic Computing (ICAC 13)",
+   "author": "Nguyen Hiep",
+   "year": "2013",
+   "unstructured": "Hiep Nguyen , Zhiming Shen , Xiaohui Gu , Sethuraman Subbiah , and John Wilkes . 2013 . AGILE: Elastic Distributed Resource Scaling for Infrastructure-as-a-Service. In 10th International Conference on Autonomic Computing (ICAC 13) . USENIX Association, San Jose, CA, 69--82. Hiep Nguyen, Zhiming Shen, Xiaohui Gu, Sethuraman Subbiah, and John Wilkes. 2013. AGILE: Elastic Distributed Resource Scaling for Infrastructure-as-a-Service. In 10th International Conference on Autonomic Computing (ICAC 13). USENIX Association, San Jose, CA, 69--82."
+  },
+  {
+   "key": "e_1_3_2_1_38_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/BF01619355"
+  },
+  {
+   "key": "e_1_3_2_1_39_1",
+   "volume-title": "Efficient Autoscaling in the Cloud Using Predictive Models for Workload Forecasting. In 2011 IEEE 4th International Conference on Cloud Computing. 500--507",
+   "author": "Roy Nilabja",
+   "year": "2011",
+   "unstructured": "Nilabja Roy , Abhishek Dubey , and Aniruddha Gokhale . 2011 . Efficient Autoscaling in the Cloud Using Predictive Models for Workload Forecasting. In 2011 IEEE 4th International Conference on Cloud Computing. 500--507 . Nilabja Roy, Abhishek Dubey, and Aniruddha Gokhale. 2011. Efficient Autoscaling in the Cloud Using Predictive Models for Workload Forecasting. In 2011 IEEE 4th International Conference on Cloud Computing. 500--507."
+  },
+  {
+   "key": "e_1_3_2_1_40_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/3342195.3387524"
+  },
+  {
+   "key": "e_1_3_2_1_41_1",
+   "volume-title": "JVM Configuration Management and Its Performance Impact for Big Data Applications. In 2016 IEEE International Congress on Big Data (BigData Congress) . 410--417",
+   "author": "Sahin Semih",
+   "year": "2016",
+   "unstructured": "Semih Sahin , Wenqi Cao , Qi Zhang , and Ling Liu . 2016 . JVM Configuration Management and Its Performance Impact for Big Data Applications. In 2016 IEEE International Congress on Big Data (BigData Congress) . 410--417 . Semih Sahin, Wenqi Cao, Qi Zhang, and Ling Liu. 2016. JVM Configuration Management and Its Performance Impact for Big Data Applications. In 2016 IEEE International Congress on Big Data (BigData Congress) . 410--417."
+  },
+  {
+   "key": "e_1_3_2_1_42_1",
+   "unstructured": "Amazon Web Services. 2021. Predictive Scaling for EC2 . https://aws.amazon.com/en/blogs/aws/new-predictive-scaling-for-ec2-powered-by-machine-learning/.  Amazon Web Services. 2021. Predictive Scaling for EC2 . https://aws.amazon.com/en/blogs/aws/new-predictive-scaling-for-ec2-powered-by-machine-learning/."
+  },
+  {
+   "key": "e_1_3_2_1_43_1",
+   "volume-title": "A mathematical theory of communication. The Bell system technical journal",
+   "author": "Shannon Claude Elwood",
+   "year": "1948",
+   "unstructured": "Claude Elwood Shannon . 1948. A mathematical theory of communication. The Bell system technical journal , Vol. 27 , 3 ( 1948 ), 379--423. Claude Elwood Shannon. 1948. A mathematical theory of communication. The Bell system technical journal , Vol. 27, 3 (1948), 379--423."
+  },
+  {
+   "key": "e_1_3_2_1_44_1",
+   "volume-title": "Proceedings of the 9th International Conference on Autonomic Computing",
+   "author": "Sharma Upendra",
+   "unstructured": "Upendra Sharma , Prashant Shenoy , and Donald F. Towsley . 2012. Provisioning Multi-Tier Cloud Applications Using Statistical Bounds on Sojourn Time . In Proceedings of the 9th International Conference on Autonomic Computing ( San Jose, California, USA) (ICAC '12). Association for Computing Machinery, New York, NY, USA, 43--52. Upendra Sharma, Prashant Shenoy, and Donald F. Towsley. 2012. Provisioning Multi-Tier Cloud Applications Using Statistical Bounds on Sojourn Time. In Proceedings of the 9th International Conference on Autonomic Computing (San Jose, California, USA) (ICAC '12). Association for Computing Machinery, New York, NY, USA, 43--52."
+  },
+  {
+   "key": "e_1_3_2_1_45_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2038916.2038921"
+  },
+  {
+   "key": "e_1_3_2_1_46_1",
+   "volume-title": "2011 7th International Conference on Network and Service Management . 1--5.",
+   "author": "Simmons Bradley",
+   "year": "2011",
+   "unstructured": "Bradley Simmons , Hamoun Ghanbari , Marin Litoiu , and Gabriel Iszlai . 2011 . Managing a SaaS application in the cloud using PaaS policy sets and a strategy-tree . In 2011 7th International Conference on Network and Service Management . 1--5. Bradley Simmons, Hamoun Ghanbari, Marin Litoiu, and Gabriel Iszlai. 2011. Managing a SaaS application in the cloud using PaaS policy sets and a strategy-tree. In 2011 7th International Conference on Network and Service Management . 1--5."
+  },
+  {
+   "key": "e_1_3_2_1_47_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.12694/scpe.v20i2.1537"
+  },
+  {
+   "key": "e_1_3_2_1_48_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10586-020-03148-5"
+  },
+  {
+   "key": "e_1_3_2_1_49_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TII.2018.2799230"
+  },
+  {
+   "key": "e_1_3_2_1_50_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1342171.1342172"
+  },
+  {
+   "key": "e_1_3_2_1_51_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1155/2019/5080647"
+  },
+  {
+   "key": "e_1_3_2_1_52_1",
+   "volume-title": "HybridScaler: Handling Bursting Workload for Multi-tier Web Applications in Cloud. In 2016 15th International Symposium on Parallel and Distributed Computing (ISPDC) . 141--148",
+   "author": "Wu Song",
+   "year": "2016",
+   "unstructured": "Song Wu , Binji Li , Xinhou Wang , and Hai Jin . 2016 . HybridScaler: Handling Bursting Workload for Multi-tier Web Applications in Cloud. In 2016 15th International Symposium on Parallel and Distributed Computing (ISPDC) . 141--148 . Song Wu, Binji Li, Xinhou Wang, and Hai Jin. 2016. HybridScaler: Handling Bursting Workload for Multi-tier Web Applications in Cloud. In 2016 15th International Symposium on Parallel and Distributed Computing (ISPDC) . 141--148."
+  },
+  {
+   "key": "e_1_3_2_1_53_1",
+   "volume-title": "Economical and Robust Provisioning of N-Tier Cloud Workloads: A Multi-level Control Approach. In 2011 31st International Conference on Distributed Computing Systems . 571--580",
+   "author": "Xiong Pengcheng",
+   "year": "2011",
+   "unstructured": "Pengcheng Xiong , Zhikui Wang , Simon Malkowski , Qingyang Wang , Deepal Jayasinghe , and Calton Pu . 2011 . Economical and Robust Provisioning of N-Tier Cloud Workloads: A Multi-level Control Approach. In 2011 31st International Conference on Distributed Computing Systems . 571--580 . Pengcheng Xiong, Zhikui Wang, Simon Malkowski, Qingyang Wang, Deepal Jayasinghe, and Calton Pu. 2011. Economical and Robust Provisioning of N-Tier Cloud Workloads: A Multi-level Control Approach. In 2011 31st International Conference on Distributed Computing Systems . 571--580."
+  }
+ ],
+ "event": {
+  "name": "ICPE '22: ACM/SPEC International Conference on Performance Engineering",
+  "location": "Beijing China",
+  "acronym": "ICPE '22",
+  "sponsor": [
+   "SIGMETRICS ACM Special Interest Group on Measurement and Evaluation",
+   "SIGSOFT ACM Special Interest Group on Software Engineering"
+  ]
+ },
+ "container-title": [
+  "Proceedings of the 2022 ACM/SPEC on International Conference on Performance Engineering"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://dl.acm.org/doi/10.1145/3489525.3511680",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://dl.acm.org/doi/pdf/10.1145/3489525.3511680",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    17
+   ]
+  ],
+  "date-time": "2025-06-17T19:02:23Z",
+  "timestamp": 1750186943000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.acm.org/doi/10.1145/3489525.3511680"
+  }
+ },
+ "subtitle": [
+  "Challenges for Production-Ready Autoscaling"
+ ],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2022,
+    4,
+    9
+   ]
+  ]
+ },
+ "references-count": 52,
+ "alternative-id": [
+  "10.1145/3489525.3511680",
+  "10.1145/3489525"
+ ],
+ "URL": "https://doi.org/10.1145/3489525.3511680",
+ "relation": {},
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2022,
+    4,
+    9
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2022-04-09",
+   "order": 2,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ],
+ "fetched": "2026-09-15"
+}

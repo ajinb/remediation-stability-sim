@@ -1,0 +1,636 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    5
+   ]
+  ],
+  "date-time": "2026-09-05T16:06:07Z",
+  "timestamp": 1788624367830,
+  "version": "build-2803163510"
+ },
+ "reference-count": 81,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2007,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2007-01-01T00:00:00Z",
+    "timestamp": 1167609600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Proc. IEEE"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2007,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.1109/jproc.2006.887288",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2007,
+    3,
+    14
+   ]
+  ],
+  "date-time": "2007-03-14T15:17:10Z",
+  "timestamp": 1173885430000
+ },
+ "page": "138-162",
+ "source": "Crossref",
+ "is-referenced-by-count": 3175,
+ "title": [
+  "A Survey of Recent Results in Networked Control Systems"
+ ],
+ "prefix": "10.1109",
+ "volume": "95",
+ "author": [
+  {
+   "given": "Joo P.",
+   "family": "Hespanha",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Payam",
+   "family": "Naghshtabrizi",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Yonggang",
+   "family": "Xu",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref73",
+   "first-page": "3527",
+   "article-title": "optimal communication logics for networked control systems",
+   "author": "xu",
+   "year": "2004",
+   "journal-title": "Proc 43th Conf Decision and Contr"
+  },
+  {
+   "key": "ref72",
+   "first-page": "572",
+   "article-title": "Communication logics for networked control systems",
+   "volume": "1",
+   "author": "xu",
+   "year": "2004",
+   "journal-title": "Proc Amer Contr Conf"
+  },
+  {
+   "key": "ref71",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/9.763226"
+  },
+  {
+   "key": "ref70",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/87.998034"
+  },
+  {
+   "key": "ref76",
+   "article-title": "an lmi approach to networked control systems with data packet dropout and transmission delays",
+   "volume": "3",
+   "author": "yu",
+   "year": "2004",
+   "journal-title": "J Hybrid Syst"
+  },
+  {
+   "key": "ref77",
+   "first-page": "362",
+   "article-title": "stabilization of networked control systems with data packet droupout via switched system approach",
+   "author": "yu",
+   "year": "2004",
+   "journal-title": "IEEE Int Symp Computer Aided Control Systems Design"
+  },
+  {
+   "key": "ref74",
+   "first-page": "842",
+   "article-title": "Estimation under uncontrolled and controlled communications in networked control systems",
+   "author": "xu",
+   "year": "2005",
+   "journal-title": "Proc 44th Conf Decision and Contr"
+  },
+  {
+   "key": "ref39",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MCS.2003.1188769"
+  },
+  {
+   "key": "ref75",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TCST.2002.1014671"
+  },
+  {
+   "key": "ref38",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2004.834107"
+  },
+  {
+   "key": "ref78",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TCSII.2004.836043"
+  },
+  {
+   "key": "ref79",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACC.2002.1023907"
+  },
+  {
+   "key": "ref33",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ROBOT.2004.1307250"
+  },
+  {
+   "key": "ref32",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2003.809771"
+  },
+  {
+   "key": "ref31",
+   "author": "martins",
+   "year": "2004",
+   "journal-title": "Feedback Control in the Presence of Noisy Channels Bode-Like Fundamental Limitations of Performance"
+  },
+  {
+   "key": "ref30",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/0005-1098(90)90007-5"
+  },
+  {
+   "key": "ref37",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACC.2003.1240481"
+  },
+  {
+   "key": "ref36",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0005-1098(03)00186-9"
+  },
+  {
+   "key": "ref35",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2002.1184751"
+  },
+  {
+   "key": "ref34",
+   "article-title": "Model-based networked control systems: Necessary and sufficient conditions for stability",
+   "author": "montestruque",
+   "year": "2002",
+   "journal-title": "10th Mediterranean Contr Conf and Auto"
+  },
+  {
+   "key": "ref60",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2004.834121"
+  },
+  {
+   "key": "ref62",
+   "author": "stallings",
+   "year": "2000",
+   "journal-title": "Data and Computer Communications"
+  },
+  {
+   "key": "ref61",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2003.820140"
+  },
+  {
+   "key": "ref63",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2005.1582156"
+  },
+  {
+   "key": "ref28",
+   "article-title": "Optimal control over networks with long random delays",
+   "author": "lincoln",
+   "year": "2000",
+   "journal-title": "Proc 14th Int Symp Mathematical Networks and Syst"
+  },
+  {
+   "key": "ref64",
+   "article-title": "Adaptive stabilization of unknown linear systems under communication constraints",
+   "author": "tang",
+   "year": "2005",
+   "journal-title": "Proc Chinese Control Conf"
+  },
+  {
+   "key": "ref27",
+   "article-title": "Stability and <ref_formula><tex>${\\cal H}_{\\infty}$</tex></ref_formula> performance preserving scheduling policy for networked control systems",
+   "author": "lin",
+   "year": "2005",
+   "journal-title": "Proc 16th Int Federation of Autom Contr World Congr"
+  },
+  {
+   "key": "ref65",
+   "author": "tatikonda",
+   "year": "2000",
+   "journal-title": "Control under Communication Constrains"
+  },
+  {
+   "key": "ref66",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2004.831187"
+  },
+  {
+   "key": "ref29",
+   "first-page": "4180",
+   "article-title": "Kalman filtering with partial observation losses",
+   "author": "liu",
+   "year": "2004",
+   "journal-title": "Proc 43rd Conf Decision and Contr"
+  },
+  {
+   "key": "ref67",
+   "year": "0"
+  },
+  {
+   "key": "ref68",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/9.935062"
+  },
+  {
+   "key": "ref69",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACC.1999.786599"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.1997.650600"
+  },
+  {
+   "key": "ref1",
+   "doi-asserted-by": "crossref",
+   "first-page": "2011",
+   "DOI": "10.1109/CDC.2002.1184824",
+   "article-title": "Comparison of Riemann and Lebesgue sampling for first order stochastic systems",
+   "volume": "2",
+   "author": "strm",
+   "year": "2002",
+   "journal-title": "Proc 41st Conf Decision and Contr"
+  },
+  {
+   "key": "ref20",
+   "author": "kailath",
+   "year": "2000",
+   "journal-title": "Linear Estimation"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/0005-1098(69)90060-0"
+  },
+  {
+   "key": "ref21",
+   "author": "khalil",
+   "year": "1996",
+   "journal-title": "Nonlinear Systems"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2005.849258"
+  },
+  {
+   "key": "ref23",
+   "author": "lian",
+   "year": "2001",
+   "journal-title": "Analysis design modeling and control of networked control systems"
+  },
+  {
+   "key": "ref26",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2003.1272768"
+  },
+  {
+   "key": "ref25",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2004.1428808"
+  },
+  {
+   "key": "ref50",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACC.1998.703059"
+  },
+  {
+   "key": "ref51",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0005-1098(97)00170-2"
+  },
+  {
+   "key": "ref59",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/HAVE.2004.1391890"
+  },
+  {
+   "key": "ref58",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2005.844177"
+  },
+  {
+   "key": "ref57",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACC.2001.945935"
+  },
+  {
+   "key": "ref56",
+   "author": "sahai",
+   "year": "2001",
+   "journal-title": "Anytime information theory"
+  },
+  {
+   "key": "ref55",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0005-1098(03)00167-5"
+  },
+  {
+   "key": "ref54",
+   "author": "peterson",
+   "year": "2003",
+   "journal-title": "Computer Networks a System Approach"
+  },
+  {
+   "key": "ref53",
+   "author": "oksendal",
+   "year": "2000",
+   "journal-title": "Stochastic Differential Equations An Introduction with Applications"
+  },
+  {
+   "key": "ref52",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2004.832203"
+  },
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2002.800674"
+  },
+  {
+   "key": "ref40",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2005.1582263"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/9.983353"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/9.618250"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-1-4612-0039-0"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.automatica.2005.09.016"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2002.1184678"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.1999.830133"
+  },
+  {
+   "key": "ref81",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/37.898794"
+  },
+  {
+   "key": "ref17",
+   "article-title": "Haptic collaboration over the Internet",
+   "author": "hespanha",
+   "year": "2000",
+   "journal-title": "Proc 5th Phantom Users Group Workshop"
+  },
+  {
+   "key": "ref18",
+   "article-title": "Towards the control of linear systems with minimum bit-rate",
+   "author": "hespanha",
+   "year": "2002",
+   "journal-title": "Proc Int Symp Mathematical Theory of Networks and Syst"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/GLOCOM.2002.1188447"
+  },
+  {
+   "key": "ref80",
+   "article-title": "Stability of networked control systems with time-varying transmission period",
+   "author": "zhang",
+   "year": "2001",
+   "journal-title": "Allerton Conf Communication Contr and Computing"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2007.902739"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACC.2000.878601"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/9.855557"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1006/jmaa.1993.1341"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.sysconle.2004.08.009"
+  },
+  {
+   "key": "ref7",
+   "author": "dullerud",
+   "year": "1999",
+   "journal-title": "Number 36 in Texts in Applied Mathematics"
+  },
+  {
+   "key": "ref49",
+   "article-title": "Stochastic analysis and control of real-time systems with random time delays",
+   "author": "nilsson",
+   "year": "1996",
+   "journal-title": "Proc 13th World Congr Int Federation Automat Contr"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/9.948466"
+  },
+  {
+   "key": "ref46",
+   "author": "nilsson",
+   "year": "1998",
+   "journal-title": "Real-time control systems with delays"
+  },
+  {
+   "key": "ref45",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2004.1429511"
+  },
+  {
+   "key": "ref48",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.1997.649701"
+  },
+  {
+   "key": "ref47",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.1996.573619"
+  },
+  {
+   "key": "ref42",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2004.834105"
+  },
+  {
+   "key": "ref41",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0005-1098(02)00285-6"
+  },
+  {
+   "key": "ref44",
+   "first-page": "2121",
+   "article-title": "Input-to-state stability of networked control systems",
+   "volume": "40",
+   "author": "nesic",
+   "year": "2004",
+   "journal-title": "Automatica"
+  },
+  {
+   "key": "ref43",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TAC.2004.835360"
+  }
+ ],
+ "container-title": [
+  "Proceedings of the IEEE"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx5/5/4118453/04118465.pdf?arnumber=4118465",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2021,
+    12,
+    23
+   ]
+  ],
+  "date-time": "2021-12-23T01:05:07Z",
+  "timestamp": 1640221507000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "http://ieeexplore.ieee.org/document/4118465/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2007,
+    1
+   ]
+  ]
+ },
+ "references-count": 81,
+ "journal-issue": {
+  "issue": "1"
+ },
+ "URL": "https://doi.org/10.1109/jproc.2006.887288",
+ "relation": {},
+ "ISSN": [
+  "0018-9219"
+ ],
+ "issn-type": [
+  {
+   "value": "0018-9219",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2007,
+    1
+   ]
+  ]
+ },
+ "fetched": "2026-09-15"
+}

@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Discrete-time simulator for AI-driven self-healing remediation loops: instability modes and stable-by-design constructs"
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
+license = { text = "Apache-2.0" }
 authors = [{ name = "Ajin Baby" }]
 dependencies = []
 

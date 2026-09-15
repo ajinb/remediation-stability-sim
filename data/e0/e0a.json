@@ -1,0 +1,707 @@
+{
+ "cells": [
+  {
+   "gain": 0.1,
+   "dead_time": 1,
+   "L": 2,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.8669513175959767,
+   "steps_to_band": 14.564725062193597,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 2,
+   "L": 3,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.8158535154720251,
+   "steps_to_band": 10.217358922063893,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 3,
+   "L": 4,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.8243917649730843,
+   "steps_to_band": 10.768203596871201,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 4,
+   "L": 5,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.875530831005522,
+   "steps_to_band": 15.643730746649467,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 5,
+   "L": 6,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9095483625380388,
+   "steps_to_band": 21.93339291618986,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 6,
+   "L": 7,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9333177386735078,
+   "steps_to_band": 30.132650219510793,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 8,
+   "L": 9,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9634616740259919,
+   "steps_to_band": 55.865072016546584,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 10,
+   "L": 11,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9810486884088581,
+   "steps_to_band": 108.68243214923052,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 12,
+   "L": 13,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9920977153006514,
+   "steps_to_band": 262.103250754254,
+   "observable": true
+  },
+  {
+   "gain": 0.1,
+   "dead_time": 16,
+   "L": 17,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0044285791537195,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 1,
+   "L": 2,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.6689715320429018,
+   "steps_to_band": 5.172562938345011,
+   "observable": true
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 2,
+   "L": 3,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.8035282301381748,
+   "steps_to_band": 9.50632439693519,
+   "observable": true
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 3,
+   "L": 4,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.8769613543677975,
+   "steps_to_band": 15.838253252959912,
+   "observable": true
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 4,
+   "L": 5,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9211842722169137,
+   "steps_to_band": 25.32964093680336,
+   "observable": true
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 5,
+   "L": 6,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9497409877485549,
+   "steps_to_band": 40.325844704016745,
+   "observable": true
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 6,
+   "L": 7,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9691465015828922,
+   "steps_to_band": 66.35211789873848,
+   "observable": true
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 8,
+   "L": 9,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9928202595126656,
+   "steps_to_band": 288.5853123943353,
+   "observable": true
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 10,
+   "L": 11,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.005877153315484,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 12,
+   "L": 13,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0135927914495646,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.15,
+   "dead_time": 16,
+   "L": 17,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0213627643636243,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 1,
+   "L": 2,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.7248951765202791,
+   "steps_to_band": 6.463348319715998,
+   "observable": true
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 2,
+   "L": 3,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.850650808352039,
+   "steps_to_band": 12.855614862275067,
+   "observable": true
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 3,
+   "L": 4,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9168531340484213,
+   "steps_to_band": 23.954497875336013,
+   "observable": true
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 4,
+   "L": 5,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9555210078363218,
+   "steps_to_band": 45.70348916211053,
+   "observable": true
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 5,
+   "L": 6,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9797822550012737,
+   "steps_to_band": 101.8090382894413,
+   "observable": true
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 6,
+   "L": 7,
+   "sim_settled_frac": 0.95,
+   "theory_stable": true,
+   "rho": 0.9958018020871487,
+   "steps_to_band": 494.27720431499614,
+   "observable": false
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 8,
+   "L": 9,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0145204668977188,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 10,
+   "L": 11,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0241491592875338,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 12,
+   "L": 13,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.029361980400477,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.2,
+   "dead_time": 16,
+   "L": 17,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0337330006794487,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 1,
+   "L": 2,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.8127115748911866,
+   "steps_to_band": 10.027252294634291,
+   "observable": true
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 2,
+   "L": 3,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9227766164459494,
+   "steps_to_band": 25.873969003308332,
+   "observable": true
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 3,
+   "L": 4,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9770498298767534,
+   "steps_to_band": 89.56305889234555,
+   "observable": true
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 4,
+   "L": 5,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0068622645078973,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 5,
+   "L": 6,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.024411995411308,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 6,
+   "L": 7,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0352114044899656,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 8,
+   "L": 9,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0463890066498314,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 10,
+   "L": 11,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0508623297984752,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 12,
+   "L": 13,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0523411286382425,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.3,
+   "dead_time": 16,
+   "L": 17,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0516794961456266,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 1,
+   "L": 2,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9124667330668356,
+   "steps_to_band": 22.700422053472963,
+   "observable": true
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 2,
+   "L": 3,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0022775305260547,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 3,
+   "L": 4,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.042291701249481,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 4,
+   "L": 5,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0619016198137607,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 5,
+   "L": 6,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0718890296727308,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 6,
+   "L": 7,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.076894777202645,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 8,
+   "L": 9,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0798257272189564,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 10,
+   "L": 11,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0787387574199605,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 12,
+   "L": 13,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.076227388878876,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.45,
+   "dead_time": 16,
+   "L": 17,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0702355937494012,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 1,
+   "L": 2,
+   "sim_settled_frac": 1.0,
+   "theory_stable": true,
+   "rho": 0.9914499439771123,
+   "steps_to_band": 242.16673469552478,
+   "observable": true
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 2,
+   "L": 3,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0636156416509324,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 3,
+   "L": 4,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.091897604702989,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 4,
+   "L": 5,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1033541361856163,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 5,
+   "L": 6,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1074066139795373,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 6,
+   "L": 7,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1079219851266309,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 8,
+   "L": 9,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1045399918199528,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 10,
+   "L": 11,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.099246043764983,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 12,
+   "L": 13,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.093739411793375,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.6,
+   "dead_time": 16,
+   "L": 17,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.0837768888754729,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 1,
+   "L": 2,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1158815616267124,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 2,
+   "L": 3,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1577250053444526,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 3,
+   "L": 4,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.166872509814605,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 4,
+   "L": 5,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1653967938902126,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 5,
+   "L": 6,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1602006236756321,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 6,
+   "L": 7,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1538041965160202,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 8,
+   "L": 9,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1408237235891463,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 10,
+   "L": 11,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1292077746191256,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 12,
+   "L": 13,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1192356296896384,
+   "steps_to_band": Infinity,
+   "observable": false
+  },
+  {
+   "gain": 0.9,
+   "dead_time": 16,
+   "L": 17,
+   "sim_settled_frac": 0.0,
+   "theory_stable": false,
+   "rho": 1.1033986938654243,
+   "steps_to_band": Infinity,
+   "observable": false
+  }
+ ],
+ "n": 70,
+ "agree_theory": 70,
+ "agree_theory_with_horizon": 69
+}

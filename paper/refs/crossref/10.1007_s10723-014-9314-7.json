@@ -1,0 +1,832 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    9
+   ]
+  ],
+  "date-time": "2026-09-09T17:09:56Z",
+  "timestamp": 1788973796813,
+  "version": "build-2803163510"
+ },
+ "reference-count": 108,
+ "publisher": "Springer Science and Business Media LLC",
+ "issue": "4",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2014,
+      10,
+      11
+     ]
+    ],
+    "date-time": "2014-10-11T00:00:00Z",
+    "timestamp": 1412985600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "http://www.springer.com/tdm"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "link.springer.com"
+  ],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "J Grid Computing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2014,
+    12
+   ]
+  ]
+ },
+ "DOI": "10.1007/s10723-014-9314-7",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2014,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2014-10-10T02:28:29Z",
+  "timestamp": 1412908109000
+ },
+ "page": "559-592",
+ "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 568,
+ "title": [
+  "A Review of Auto-scaling Techniques for Elastic Applications in Cloud Environments"
+ ],
+ "prefix": "10.1007",
+ "volume": "12",
+ "author": [
+  {
+   "given": "Tania",
+   "family": "Lorido-Botran",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jose",
+   "family": "Miguel-Alonso",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jose A.",
+   "family": "Lozano",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "297",
+ "published-online": {
+  "date-parts": [
+   [
+    2014,
+    10,
+    11
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "9314_CR1",
+   "unstructured": "RUBiS: Rice University Bidding System. http://rubis.ow2.org/ . Online: Accessed 13 Sept 2012 (2009)"
+  },
+  {
+   "key": "9314_CR2",
+   "unstructured": "Workload Patterns for Cloud Computing. http://watdenkt.veenhof.nu/2010/07/13/workload-patterns-for-cloud-computing/ . Online: Accessed 29 Jan 2014 (2010)"
+  },
+  {
+   "key": "9314_CR3",
+   "unstructured": "Amazon Elastic Compute Cloud (Amazon EC2). http://aws.amazon.com/ec2/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR4",
+   "unstructured": "Apache JMeter., http://jmeter.apache.org/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR5",
+   "unstructured": "AWS Elastic Beanstalk (beta). Easy to begin, Impossible to outgrow. http://aws.amazon.com/elasticbeanstalk/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR6",
+   "unstructured": "ClarkNet HTTP Trace (From the Internet Traffic Archive). http://ita.ee.lbl.gov/html/contrib/ClarkNet-HTTP.html . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR7",
+   "unstructured": "CloudSim: A Framework for Modeling and Simulation of Cloud Computing Infrastructures and Services. http://www.cloudbus.org/cloudsim/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR8",
+   "unstructured": "CloudStone Project by Rad Lab Group., http://radlab.cs.berkeley.edu/wiki/Projects/Cloudstone/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR9",
+   "unstructured": "Eucalyptus Cloud., http://www.eucalyptus.com/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR10",
+   "unstructured": "Google App. Engine. http://cloud.google.com/products/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR11",
+   "unstructured": "Google Apps for Business. http://www.google.com/intl/es/enterprise/apps/business/products.html . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR12",
+   "unstructured": "Google Cluster Data. Traces of Google workloads. http://code.google.com/p/googleclusterdata/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR13",
+   "unstructured": "Google Compute Engine. http://cloud.google.com/products/compute-engine.html/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR14",
+   "unstructured": "Greencloud - The green cloud simulator. http://greencloud.gforge.uni.lu/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR15",
+   "unstructured": "Kernel Based Virtual Machine. http://www.linux-kvm.org/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR16",
+   "unstructured": "MediaWiki. http://www.mediawiki.org/wiki/MediaWiki . Online: Accessed 24 Nov 2012 (2012)"
+  },
+  {
+   "key": "9314_CR17",
+   "unstructured": "Microsoft Office 365. http://www.microsoft.com/en-us/office365/online-software.aspx . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR18",
+   "unstructured": "Microsoft Windows Azure. https://www.windowsazure.com/en-us/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR19",
+   "unstructured": "OpenStack Cloud Software. Open source software for building private and public clouds. http://www.openstack.org/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR20",
+   "unstructured": "Rackspace. The open cloud company. http://www.rackspace.com/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR21",
+   "unstructured": "Rain Workload Toolkit. https://github.com/yungsters/rain-workload-toolkit/wiki . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR22",
+   "unstructured": "RightScale Cloud Management. http://www.rightscale.com/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR23",
+   "unstructured": "RightScale. Set up Autoscaling using Voting Tags. http://support.rightscale.com/03-Tutorials/02-AWS/02-Website_Edition/Set_up_Autoscaling_using_Voting_Tags . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR24",
+   "unstructured": "RUBBoS: Bulletin Board Benchmark. http://jmob.ow2.org/rubbos.html/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR25",
+   "unstructured": "Salesforce.com. http://www.salesforce.com/ . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR26",
+   "unstructured": "SPEC forms cloud benchmarking group. http://www.spec.org/osgcloud/press/cloudannouncement20120613.html . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR27",
+   "unstructured": "The httperf HTTP load generator. http://code.google.com/p/httperf/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR28",
+   "unstructured": "TPC-C., http://www.tpc.org/tpcc/default.asp/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR29",
+   "unstructured": "TPC. Transaction Processing Performance Council. http://www.tpc.org/default.asp . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR30",
+   "unstructured": "TPC-W. http://www.tpc.org/tpcw/default.asp . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR31",
+   "unstructured": "VMware vCloud Director. Deliver Complete Virtual Datacenters for Consumption in Minutes. http://www.eucalyptus.com/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR32",
+   "unstructured": "VMware vSphere ESX and ESXi Info Center. http://www.vmware.com/es/products/datacenter-virtualization/vsphere/esxi-and-esx/overview.html . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR33",
+   "unstructured": "WikiBench: A Web hosting benchmark. http://www.wikibench.eu . Online: Accessed 24 Nov 2012 (2012)"
+  },
+  {
+   "key": "9314_CR34",
+   "unstructured": "Wikipedia access traces. http://www.wikibench.eu/?page_id=60 . Online: Accessed 24 Nov 2012 (2012)"
+  },
+  {
+   "key": "9314_CR35",
+   "unstructured": "World Cup 98 Trace (From the Internet Traffic Archive). http://ita.ee.lbl.gov/html/contrib/WorldCup.html . Online: Accessed 13 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR36",
+   "unstructured": "Xen hypervisor. http://www.xen.org/ . Online: Accessed 18 Sept 2012 (2012)"
+  },
+  {
+   "key": "9314_CR37",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Albus, J.: A new approach to manipulator control: The cerebellar model articulation controller (CMAC). Transaction of the ASME, Journal of Dynamic Systems, Measurement and Control (1975)",
+   "DOI": "10.1115/1.3426922"
+  },
+  {
+   "key": "9314_CR38",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Alhamazani, K., Ranjan, R., Mitra, K., Rabhi, F., Khan, S.U., Guabtni, A., Bhatnagar, V.: An Overview of the Commercial Cloud Monitoring Tools: Research Dimensions, Design Issues, and State-of-the-Art. arXiv: 13126170 (2013)",
+   "DOI": "10.1007/s00607-014-0398-5"
+  },
+  {
+   "key": "9314_CR39",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ali-Eldin, A., Kihl, M., Tordsson, J., Elmroth, E.: Efficient provisioning of bursty scientific workloads on the cloud using adaptive elasticity control. In: Proceedings of the 3rd workshop on Scientific Cloud Computing Date - ScienceCloud \u201912, p. 31\u201340. ACM (2012)",
+   "DOI": "10.1145/2287036.2287044"
+  },
+  {
+   "key": "9314_CR40",
+   "unstructured": "Ali-Eldin, A., Tordsson, J., Elmroth, E.: An adaptive hybrid elasticity controller for cloud infrastructures. In: Network Operations and Management Symposium (NOMS), 2012, IEEE, IEEE, pp. 204\u2013212 (2012)"
+  },
+  {
+   "key": "9314_CR41",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bacigalupo, D.A., van Hemert, J., Usmani, A., Dillenberger, D.N., Wills, GB, Jarvis S.A.: Resource management of enterprise cloud systems using layered queuing and historical performance models. In: 2010 IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum, (IPDPSW), IEEE, pp. 1\u20138 (2010). doi: 10.1109/IPDPSW.2010.5470782",
+   "DOI": "10.1109/IPDPSW.2010.5470782"
+  },
+  {
+   "key": "9314_CR42",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Barrett, E., Howley, E., Duggan, J.: Applying reinforcement learning towards automating resource allocation and application scalability in the cloud. Concurrency and Computation: Practice and Experience (2012)",
+   "DOI": "10.1002/cpe.2864"
+  },
+  {
+   "key": "9314_CR43",
+   "unstructured": "Bod\u00edk, P., Griffith, R., Sutton, C., Fox, A., Jordan, M., Patterson, D.: Statistical machine learning makes automatic control practical for internet datacenters. HotCloud\u201909 Proceedings of the 2009 Conference on Hot Topics in Cloud Computing (2009)"
+  },
+  {
+   "key": "9314_CR44",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Brown, R., Meyer, R.: The fundamental theorem of exponential smoothing. Operations Research (1961)",
+   "DOI": "10.1287/opre.9.5.673"
+  },
+  {
+   "key": "9314_CR45",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bu, X., Rao, J., Xu, C.Z.: Coordinated Self-configuration of Virtual Machines and Appliances using A Model-free Learning Approach. IEEE Transactions on Parallel and Distributed Systems (2012)",
+   "DOI": "10.1109/MASCOTS.2011.44"
+  },
+  {
+   "key": "9314_CR46",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Caron, E., Desprez, F., Muresan, A.: Forecasting for Cloud computing on-demand resources based on pattern matching. Research Report RR-7217, INRIA (2010)",
+   "DOI": "10.1109/CloudCom.2010.65"
+  },
+  {
+   "issue": "1",
+   "key": "9314_CR47",
+   "doi-asserted-by": "crossref",
+   "first-page": "49",
+   "DOI": "10.1007/s10723-010-9178-4",
+   "volume": "9",
+   "author": "E Caron",
+   "year": "2011",
+   "unstructured": "Caron, E., Desprez, F., Muresan, A.: Pattern Matching Based Forecast of Non-periodic Repetitive Behavior for Cloud Clients. J. Grid Comput. 9(1), 49\u201364 (2011). doi: 10.1007/s10723-010-9178-4",
+   "journal-title": "J. Grid Comput."
+  },
+  {
+   "key": "9314_CR48",
+   "doi-asserted-by": "crossref",
+   "first-page": "39",
+   "DOI": "10.1007/978-1-4471-4594-3_5",
+   "volume-title": "Computer and Information Sciences III",
+   "author": "E Casalicchio",
+   "year": "2013",
+   "unstructured": "Casalicchio, E., Silvestri, L.: Autonomic Management of Cloud-Based Systems: The Service Provider Perspective. In: Gelenbe, E., Lent, R. (eds.) Computer and Information Sciences III, pp. 39\u201347. Springer, London (2013). doi: 10.1007/978-1-4471-4594-3_5"
+  },
+  {
+   "key": "9314_CR49",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chandra, A., Gong, W., Shenoy, P.: Dynamic resource allocation for shared data centers using online measurements. In: Proceedings of the 11th International Conference on Quality of Service, pp. 381\u2013398 (2003)",
+   "DOI": "10.1007/3-540-44884-5_21"
+  },
+  {
+   "key": "9314_CR50",
+   "unstructured": "Chen, G., He, W., Liu, J., Nath, S., Rigas, L., Xiao, L., Zhao, F.: Energy-aware server provisioning and load dispatching for connection-intensive internet services. In: Proceedings of the 5th USENIX Symposium on Networked Systems Design and Implementation, USENIX Association, vol. 8, pp. 337\u2013350 (2008)"
+  },
+  {
+   "key": "9314_CR51",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chieu, T.C., Mohindra, A., Karve, A.A., Segal, A.: Dynamic scaling of web applications in a virtualized cloud computing environment. In: IEEE International Conference on e-Business Engineering, ICEBE09, IEEE, pp. 281\u2013286 (2009)",
+   "DOI": "10.1109/ICEBE.2009.45"
+  },
+  {
+   "key": "9314_CR52",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chieu, T.C., Mohindra, A., Karve, A.A.: Scalability and performance of web applications in a compute cloud. In: 2011 IEEE 8th International Conference on e-Business Engineering (ICEBE), pp. 317\u2013323 (2011)",
+   "DOI": "10.1109/ICEBE.2011.63"
+  },
+  {
+   "key": "9314_CR53",
+   "unstructured": "Cormen, T.H., Stein, C., Rivest, R.L., Leiserson, C.E.: Introduction to algorithms, chapter 32: string matching. McGraw-Hill Higher Education (2001)"
+  },
+  {
+   "key": "9314_CR54",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dutreilh, X., Moreau, A., Malenfant, J., Rivierre, N., Truck, I.: From data center resource allocation to control theory and back. In: Cloud Computing (CLOUD), 2010 IEEE 3rd International Conference on, IEEE pp. 410\u2013417 (2010)",
+   "DOI": "10.1109/CLOUD.2010.55"
+  },
+  {
+   "key": "9314_CR55",
+   "unstructured": "Dutreilh, X., Kirgizov, S., Melekhova, O., Malenfant, J., Rivierre, N., Truck, I.: Using reinforcement learning for autonomic resource allocation in clouds: Towards a fully automated workflow. In: Seventh International Conference on Autonomic and Autonomous Systems, ICAS 2011, IEEE, pp. 67\u201374 (2011)"
+  },
+  {
+   "key": "9314_CR56",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dutta, S., Gera, S., Verma, A., Viswanathan, B.: SmartScale: Automatic application scaling in enterprise clouds. In: 2012 IEEE Fifth International Conference on Cloud Computing, IEEE, pp. 221\u2013228 (2012). doi: 10.1109/CLOUD.2012.12",
+   "DOI": "10.1109/CLOUD.2012.12"
+  },
+  {
+   "key": "9314_CR57",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Fang, W., Lu, Z., Wu, J., Cao, Z.: RPPS: a novel resource prediction and provisioning scheme in cloud data center. In: 2012 IEEE Ninth International Conference on Services Computing, IEEE, pp. 609\u2013616 (2012). doi: 10.1109/SCC.2012.47",
+   "DOI": "10.1109/SCC.2012.47"
+  },
+  {
+   "key": "9314_CR58",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Gambi, A., Toffetti, G.: Modeling cloud performance with Kriging. In: 2012 34th International Conference on Software Engineering, (ICSE), IEEE, pp. 1439\u20131440 (2012). doi: 10.1109/ICSE.2012.6227075",
+   "DOI": "10.1109/ICSE.2012.6227075"
+  },
+  {
+   "key": "9314_CR59",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ghanbari, H., Simmons, B., Litoiu, M., Iszlai, G.: Exploring alternative approaches to implement an elasticity policy. In: 2011 IEEE International Conference on Cloud Computing (CLOUD), pp. 716\u2013723 (2011)",
+   "DOI": "10.1109/CLOUD.2011.101"
+  },
+  {
+   "key": "9314_CR60",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Gong, Z., Gu, X., Wilkes, J.: Press: predictive elastic resource scaling for cloud systems. In: 2010 International Conference on Network and Service Management (CNSM), pp. 9\u201316 (2010)",
+   "DOI": "10.1109/CNSM.2010.5691343"
+  },
+  {
+   "issue": "1",
+   "key": "9314_CR61",
+   "doi-asserted-by": "crossref",
+   "first-page": "68",
+   "DOI": "10.1002/cpe.1470",
+   "volume": "22",
+   "author": "J Guitart",
+   "year": "2010",
+   "unstructured": "Guitart, J., Torres, J., Ayguad\u00e9, E.: A survey on performance management for internet applications. Concurrency and Computation: Practice and Experience 22(1), 68\u2013106 (2010). doi: 10.1002/cpe.1470",
+   "journal-title": "Concurrency and Computation: Practice and Experience"
+  },
+  {
+   "key": "9314_CR62",
+   "unstructured": "Han, R., Ghanem, M.M., Guo, L., Guo, Y., Osmond, M.: Enabling cost-aware and adaptive elasticity of multi-tier cloud applications. Futur. Gener. Comput. Syst. 32, 82\u201398 (2012)"
+  },
+  {
+   "key": "9314_CR63",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Han, R., Guo, L., Ghanem, M., Han, R., Guo, L., Ghanem, M.M., Guo, Y.: Lightweight Resource Scaling for Cloud Applications. Cluster, Cloud and Grid Computing (CCGrid), 2012 12th IEEE/ACM International Symposium on (2012)",
+   "DOI": "10.1109/CCGrid.2012.52"
+  },
+  {
+   "key": "9314_CR64",
+   "unstructured": "Hasan, M.Z., Magana, E., Clemm, A., Tucker, L., Gudreddi, S.L.D.: Integrated and autonomic cloud resource scaling. In: Network Operations and Management Symposium (NOMS), 2012 IEEE, IEEE, pp. 1327\u20131334 (2012)"
+  },
+  {
+   "key": "9314_CR65",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Huang, J., Li, C., Yu, J.: Resource prediction based on double exponential smoothing in cloud computing. In: 2012 2nd International Conference on Consumer Electronics, Communications and Networks (CECNet), pp. 2056\u20132060 (2012)",
+   "DOI": "10.1109/CECNet.2012.6201461"
+  },
+  {
+   "issue": "6",
+   "key": "9314_CR66",
+   "doi-asserted-by": "crossref",
+   "first-page": "871",
+   "DOI": "10.1016/j.future.2010.10.016",
+   "volume": "27",
+   "author": "W Iqbal",
+   "year": "2011",
+   "unstructured": "Iqbal, W., Dailey, M.N., Carrera, D., Janecek, P.: Adaptive resource provisioning for read intensive multi-tier applications in the cloud. Futur. Gener. Comput. Syst. 27(6), 871\u2013879 (2011). doi: 10.1016/j.future.2010.10.016",
+   "journal-title": "Futur. Gener. Comput. Syst."
+  },
+  {
+   "issue": "1",
+   "key": "9314_CR67",
+   "doi-asserted-by": "crossref",
+   "first-page": "155",
+   "DOI": "10.1016/j.future.2011.05.027",
+   "volume": "28",
+   "author": "S Islam",
+   "year": "2012",
+   "unstructured": "Islam, S., Keung, J., Lee, K., Liu, A.: Empirical prediction models for adaptive resource provisioning in the cloud. Futur. Gener. Comput. Syst. 28(1), 155\u2013162 (2012). doi: 10.1016/j.future.2011.05.027",
+   "journal-title": "Futur. Gener. Comput. Syst."
+  },
+  {
+   "key": "9314_CR68",
+   "unstructured": "Jacob, B., Lanyon-Hogg, R., Nadgir, D.K., Yassin, A.F.: A practical guide to the IBM autonomic computing toolkit (2004)"
+  },
+  {
+   "key": "9314_CR69",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kalyvianaki, E., Charalambous, T., Hand, S.: Self-adaptive and self-configured cpu resource provisioning for virtualized servers using kalman filters. In: Proceedings of the 6th International Conference on Autonomic Computing, ACM, pp. 117\u2013126 (2009)",
+   "DOI": "10.1145/1555228.1555261"
+  },
+  {
+   "key": "9314_CR70",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kertesz, A., Kecskemeti, G., Oriol, M., Kotcauer, P., Acs, S., Rodr\u00edguez, M., Merc\u00e8, O., Marosi, A.C., Marco, J., Franch, X.: Enhancing Federated Cloud Management with an Integrated Service Monitoring Approach. J. Grid Comput. (2013)",
+   "DOI": "10.1007/s10723-013-9269-0"
+  },
+  {
+   "key": "9314_CR71",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Khatua, S., Ghosh, A., Mukherjee, N.: Optimizing the utilization of virtual resources in cloud environment. In: 2010 IEEE International Conference on Virtual Environments, Human-Computer Interfaces and Measurement Systems, IEEE, pp. 82\u201387 (2010). doi: 10.1109/VECIMS.2010.5609349",
+   "DOI": "10.1109/VECIMS.2010.5609349"
+  },
+  {
+   "key": "9314_CR72",
+   "first-page": "171",
+   "volume-title": "Parallel Processing and Applied Mathematics, Lecture Notes in Computer Science, vol. 7204",
+   "author": "P Koperek",
+   "year": "2012",
+   "unstructured": "Koperek, P., Funika, W.: Dynamic business metrics-driven resource provisioning in cloud environments. In: Wyrzykowski, R., Dongarra, J., Karczewski, K., Wa\u015bniewski, J. (eds.) Parallel Processing and Applied Mathematics, Lecture Notes in Computer Science, vol. 7204, pp. 171\u2013180. Springer, Berlin Heidelberg (2012). doi: 10.1007/978-3-642-31500-8_18"
+  },
+  {
+   "key": "9314_CR73",
+   "unstructured": "Kupferman J, Silverman J, Jara P, Browne J. Scaling into the cloud. Tech. rep., University of California, Santa Barbara; CS270 - Advanced Operating Systems (2009). http://cs.ucsb.edu/jkupferman/docs/ScalingIntoTheClouds.pdf"
+  },
+  {
+   "key": "9314_CR74",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Lama, P., Zhou, X.: Autonomic Provisioning with Self-Adaptive Neural Fuzzy Control for End-to-end Delay Guarantee. In: 2010 IEEE International Symposium on Modeling, Analysis and Simulation of Computer and Telecommunication Systems, IEEE, pp. 151\u2013160 (2010). doi: 10.1109/MASCOTS.2010.24",
+   "DOI": "10.1109/MASCOTS.2010.24"
+  },
+  {
+   "key": "9314_CR75",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Lim, H.C., Babu, S., Chase, J.S., Parekh, S.S.: Automated control in cloud computing: challenges and opportunities. In: Proceedings of the 1st Workshop on Automated Control for Datacenters and Clouds, ACM, New York, NY, USA, ACDC \u201909, pp. 13\u201318 (2009). doi: 10.1145/1555271.1555275",
+   "DOI": "10.1145/1555271.1555275"
+  },
+  {
+   "key": "9314_CR76",
+   "first-page": "1",
+   "volume-title": "Automated control for elastic storage. In: Proceeding of the 7th international conference on Autonomic computing - ICAC \u201910",
+   "author": "HC Lim",
+   "year": "2010",
+   "unstructured": "Lim, H.C., Babu, S., Chase, J.S.: Automated control for elastic storage. In: Proceeding of the 7th International Conference on Autonomic Computing - ICAC \u201910, p. 1. ACM Press, New York (2010)"
+  },
+  {
+   "key": "9314_CR77",
+   "unstructured": "Lorido-Botran, T., Miguel-Alonso, J., Lozano, J.A.: Comparison of Auto-scaling Techniques for Cloud Environments. In: Alberto, A., Del Barrio, G.B. (eds.) Actas de las XXIV Jornadas de Paralelismo, Servicio de Publicaciones (2013)"
+  },
+  {
+   "key": "9314_CR78",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Manvi, S.S., Shyam, G.K.: Resource management for Infrastructure as a Service (IaaS) in cloud computing: A survey. J. Netw. Comput. Appl. 41 424\u2013440 (2014)",
+   "DOI": "10.1016/j.jnca.2013.10.004"
+  },
+  {
+   "key": "9314_CR79",
+   "first-page": "1",
+   "volume-title": "Auto-scaling to minimize cost and meet application deadlines in cloud workflows. In: Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis on - SC \u201911",
+   "author": "M Mao",
+   "year": "2011",
+   "unstructured": "Mao, M., Humphrey, M.: Auto-scaling to minimize cost and meet application deadlines in cloud workflows. In: Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis on - SC \u201911, p. 1. ACM Press, New York (2011)"
+  },
+  {
+   "key": "9314_CR80",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mao, M., Humphrey, M.: A performance study on the VM startup time in the cloud. In: Proceedings of the 2012 IEEE Fifth International Conference on Cloud Computing, IEEE Computer Society, Washington, DC, USA, CLOUD \u201912, pp. 423\u2013430 (2012). doi: 10.1109/CLOUD.2012.103",
+   "DOI": "10.1109/CLOUD.2012.103"
+  },
+  {
+   "key": "9314_CR81",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Maurer, M., Brandic, I., Sakellariou, R.: Enacting slas in clouds using rules. Euro-Par. Parallel Processing (2011)",
+   "DOI": "10.1007/978-3-642-23400-2_42"
+  },
+  {
+   "key": "9314_CR82",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Maurer, M., Breskovic, I., Emeakaroha, V.C., Brandic, I.: Revealing the MAPE loop for the autonomic management of Cloud infrastructures. In: 2011 IEEE Symposium on Computers and Communications (ISCC), pp. 147\u2013152 (2011). doi: 10.1109/ISCC.2011.5984008",
+   "DOI": "10.1109/ISCC.2011.5984008"
+  },
+  {
+   "key": "9314_CR83",
+   "volume-title": "Performance by Design: Computer Capacity Planning By Example",
+   "author": "DA Menasce",
+   "year": "2004",
+   "unstructured": "Menasce, D.A., Dowdy, L.W., Almeida, V.A.F.: Performance by Design: Computer Capacity Planning By Example. Prentice Hall, Upper Saddle River (2004)"
+  },
+  {
+   "issue": "4",
+   "key": "9314_CR84",
+   "doi-asserted-by": "crossref",
+   "first-page": "753",
+   "DOI": "10.1007/s10723-013-9279-y",
+   "volume": "11",
+   "author": "V M\u00e9ndez Mu\u00f1oz",
+   "year": "2013",
+   "unstructured": "M\u00e9ndez Mu\u00f1oz, V., Casaj\u00fas Ramo, A., Fern\u00e1ndez Albor, V., Graciani Diaz, R., Merino Ar\u00e9valo, G.: Rafhyc: an architecture for constructing resilient services on federated hybrid clouds. J. Grid Comput. 11(4), 753\u2013770 (2013). doi: 10.1007/s10723-013-9279-y",
+   "journal-title": "Journal of Grid Computing"
+  },
+  {
+   "key": "9314_CR85",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mi, H., Wang, H., Yin, G., Zhou, Y., Shi, D., Yuan, L.: Online self-reconfiguration with performance guarantee for energy-efficient large-scale cloud computing data centers. In: 2010 IEEE International Conference on Services Computing (SCC), pp. 514\u2013521 (2010)",
+   "DOI": "10.1109/SCC.2010.69"
+  },
+  {
+   "key": "9314_CR86",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Moore, L.R., Bean, K., Ellahi, T.: Transforming reactive auto-scaling into proactive auto-scaling. In: Proceedings of the 3rd International Workshop on Cloud Data and Platforms, ACM, New York, NY, USA, CloudDP \u201913, pp. 7\u201312 (2013). doi: 10.1145/2460756.2460758",
+   "DOI": "10.1145/2460756.2460758"
+  },
+  {
+   "key": "9314_CR87",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ostermann, S., Plankensteiner, K., Prodan, R., Fahringer, T.: GroudSim: An event-based simulation framework for computational grids and clouds. In: Guarracino, M., Vivien, F., Tr\u00e4ff, J., Cannatoro, M., Danelutto, M., Hast, A., Perla, F., Kn\u00fcpfer, A., Martino, B., Alexander, M. (eds.) Euro-Par 2010 Parallel Processing Workshops, Lecture Notes in Computer Science, vol. 6586, pp. 305\u2013313. Springer, Berlin Heidelberg (2011). doi: 10.1007/978-3-642-21878-1_38",
+   "DOI": "10.1007/978-3-642-21878-1_38"
+  },
+  {
+   "key": "9314_CR88",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Padala, P., Hou, K.Y., Shin, K.G., Zhu, X., Uysal, M., Wang, Z., Singhal, S., Merchant, A.: Automated control of multiple virtualized resources. In: Proceedings of the 4th ACM European Conference on Computer Systems, ACM, pp. 13\u201326 (2009)",
+   "DOI": "10.1145/1519065.1519068"
+  },
+  {
+   "key": "9314_CR89",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Park, S.M., Humphrey, M.: Self-tuning virtual machines for predictable eScience. In: 2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid, IEEE, pp. 356\u2013363 (2009). doi: 10.1109/CCGRID.2009.84",
+   "DOI": "10.1109/CCGRID.2009.84"
+  },
+  {
+   "key": "9314_CR90",
+   "unstructured": "Patikirikorala, T., Colman, A.: Feedback controllers in the cloud. APSEC 2010, Cloud Workshop (2010)"
+  },
+  {
+   "issue": "7",
+   "key": "9314_CR91",
+   "doi-asserted-by": "crossref",
+   "first-page": "785",
+   "DOI": "10.1016/j.future.2008.11.002",
+   "volume": "25",
+   "author": "R Prodan",
+   "year": "2009",
+   "unstructured": "Prodan, R., Nae, V.: Prediction-based real-time resource provisioning for massively multiplayer online games. Futur. Gener. Comput. Syst. 25(7), 785\u2013793 (2009). doi: 10.1016/j.future.2008.11.002",
+   "journal-title": "Futur. Gener. Comput. Syst."
+  },
+  {
+   "key": "9314_CR92",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Rao, J., Bu, X., Xu, C.Z., Wang, L., Yin, G.: VCONF: a reinforcement learning approach to virtual machines auto-configuration. In: Proceedings of the 6th International Conference on Autonomic Computing, ACM, New York, NY, USA, ICAC \u201909, pp. 137\u2013146 (2009). doi: 10.1145/1555228.1555263",
+   "DOI": "10.1145/1555228.1555263"
+  },
+  {
+   "key": "9314_CR93",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Rao, J., Bu, X., Xu, C.Z., Wang, K.: 8. In: 2011 IEEE 19th Annual International Symposium on Modelling, Analysis, and Simulation of Computer and Telecommunication Systems, IEEE, pp. 45\u201354 (2011). doi: 10.1109/MASCOTS.2011.47",
+   "DOI": "10.1109/MASCOTS.2011.47"
+  },
+  {
+   "key": "9314_CR94",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Roy, N., Dubey, A., Gokhale, A.: Efficient Autoscaling in the Cloud Using Predictive Models for Workload Forecasting. In: 2011 IEEE 4th International Conference on Cloud Computing, IEEE, pp. 500\u2013507 (2011). doi: 10.1109/CLOUD.2011.42",
+   "DOI": "10.1109/CLOUD.2011.42"
+  },
+  {
+   "key": "9314_CR95",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Shen, Z., Subbiah, S., Gu, X., Wilkes, J.: Cloudscale: Elastic resource scaling for multi-tenant cloud systems. Proceedings of the 2nd ACM Symposium on Cloud Computing (2011)",
+   "DOI": "10.1145/2038916.2038921"
+  },
+  {
+   "key": "9314_CR96",
+   "unstructured": "Simmons, B., Ghanbari, H., Litoiu, M., Iszlai, G.: Managing a SaaS application in the cloud using PaaS policy sets and a strategy-tree. In: 2011 7th International Conference on Network and Service Management (CNSM), pp. 1\u20135 (2011)"
+  },
+  {
+   "key": "9314_CR97",
+   "unstructured": "SPECweb2009, (2012) The httperf HTTP load generator. http://www.spec.org/web2009/ . Online: Accessed 18 Sept 2012"
+  },
+  {
+   "key": "9314_CR98",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sutton, R.S., Barto, A.G.: Introduction to Reinforcement Learning. Cambridge University Press (1998)",
+   "DOI": "10.1109/TNN.1998.712192"
+  },
+  {
+   "key": "9314_CR99",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Tesauro, G., Jong, N.K., Das, R., Bennani, M.N.: A Hybrid Reinforcement Learning Approach to Autonomic Resource Allocation. In: Proceedings of the 2006 IEEE International Conference on Autonomic Computing, IEEE Computer Society, Washington, DC, USA, ICAC \u201906, pp. 65\u201373 (2006). doi: 10.1109/ICAC.2006.1662383",
+   "DOI": "10.1109/ICAC.2006.1662383"
+  },
+  {
+   "issue": "1",
+   "key": "9314_CR100",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1145/1342171.1342172",
+   "volume": "3",
+   "author": "B Urgaonkar",
+   "year": "2008",
+   "unstructured": "Urgaonkar, B., Shenoy, P., Chandra, A., Goyal, P., Wood, T.: Agile dynamic provisioning of multi-tier Internet applications. ACM Transactions on Autonomous and Adaptive Systems 3(1), 1\u201339 (2008). doi: 10.1145/1342171.1342172",
+   "journal-title": "ACM Transactions on Autonomous and Adaptive Systems"
+  },
+  {
+   "key": "9314_CR101",
+   "unstructured": "Villela, D., Pradhan, P., Rubenstein, D.: Provisioning servers in the application tier for e-commerce systems. In: Twelfth IEEE International Workshop on Quality of Service, 2004. IWQOS 2004, pp. 57\u201366 (2004)"
+  },
+  {
+   "key": "9314_CR102",
+   "first-page": "191",
+   "volume-title": "Adaptive virtual resource management with fuzzy model predictive control. In: Proceedings of the 8th ACM international conference on Autonomic computing - ICAC \u201911",
+   "author": "L Wang",
+   "year": "2011",
+   "unstructured": "Wang, L., Xu, J., Zhao, M., Fortes, J.: Adaptive virtual resource management with fuzzy model predictive control. In: Proceedings of the 8th ACM international conference on Autonomic computing - ICAC \u201911, p. 191. ACM Press, New York (2011)"
+  },
+  {
+   "key": "9314_CR103",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wang, L., Xu, J., Zhao, M., Tu, Y., Fortes, J.A.B.: Fuzzy Modeling Based Resource Management for Virtualized Database Systems. In: 2011 IEEE 19th International Symposium on Modeling, Analysis & Simulation of Computer and Telecommunication Systems (MASCOTS), pp. 32\u201342 (2011)",
+   "DOI": "10.1109/MASCOTS.2011.70"
+  },
+  {
+   "key": "9314_CR104",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Watkins, C., Dayan, P.: Q-learning. Machine Learning (1992)",
+   "DOI": "10.1007/BF00992698"
+  },
+  {
+   "issue": "2",
+   "key": "9314_CR105",
+   "doi-asserted-by": "crossref",
+   "first-page": "95",
+   "DOI": "10.1016/j.jpdc.2011.10.003",
+   "volume": "72",
+   "author": "CZ Xu",
+   "year": "2012",
+   "unstructured": "Xu, C.Z., Rao, J., Bu, X.: URL: A unified reinforcement learning approach for autonomic cloud management. J. Parallel Distrib. Comput. 72(2), 95\u2013105 (2012). doi: 10.1016/j.jpdc.2011.10.003",
+   "journal-title": "J. Parallel Distrib. Comput."
+  },
+  {
+   "key": "9314_CR106",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Xu, J., Zhao, M., Fortes, J., Carpenter, R., Yousif, M.: On the Use of Fuzzy Modeling in Virtualized Data Center Management. In: Proceedings of the Fourth International Conference on Autonomic Computing, IEEE Computer Society, Washington, DC, USA, ICAC \u201907, p. 25 (2007). doi: 10.1109/ICAC.2007.28",
+   "DOI": "10.1109/ICAC.2007.28"
+  },
+  {
+   "key": "9314_CR107",
+   "unstructured": "Zhang, Q., Cherkasova, L., Smirni, E.: A regression-based analytic model for dynamic resource provisioning of multi-tier applications. In: Fourth International Conference on Autonomic Computing, 2007. ICAC\u201907, p. 27 (2007)"
+  },
+  {
+   "issue": "4",
+   "key": "9314_CR108",
+   "doi-asserted-by": "crossref",
+   "first-page": "497",
+   "DOI": "10.1109/TSC.2011.61",
+   "volume": "5",
+   "author": "Q Zhu",
+   "year": "2012",
+   "unstructured": "Zhu, Q., Agrawal, G.: Resource Provisioning with Budget Constraints for Adaptive Applications in Cloud Environments. IEEE Trans. Serv. Comput. 5(4), 497\u2013511 (2012). doi: 10.1109/TSC.2011.61",
+   "journal-title": "IEEE Trans. Serv. Comput."
+  }
+ ],
+ "container-title": [
+  "Journal of Grid Computing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://link.springer.com/content/pdf/10.1007/s10723-014-9314-7.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "http://link.springer.com/article/10.1007/s10723-014-9314-7/fulltext.html",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "http://link.springer.com/content/pdf/10.1007/s10723-014-9314-7",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2022,
+    4,
+    19
+   ]
+  ],
+  "date-time": "2022-04-19T15:26:23Z",
+  "timestamp": 1650381983000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "http://link.springer.com/10.1007/s10723-014-9314-7"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2014,
+    10,
+    11
+   ]
+  ]
+ },
+ "references-count": 108,
+ "journal-issue": {
+  "issue": "4",
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     12
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "9314"
+ ],
+ "URL": "https://doi.org/10.1007/s10723-014-9314-7",
+ "relation": {},
+ "ISSN": [
+  "1570-7873",
+  "1572-9184"
+ ],
+ "issn-type": [
+  {
+   "value": "1570-7873",
+   "type": "print"
+  },
+  {
+   "value": "1572-9184",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2014,
+    10,
+    11
+   ]
+  ]
+ },
+ "fetched": "2026-09-15"
+}

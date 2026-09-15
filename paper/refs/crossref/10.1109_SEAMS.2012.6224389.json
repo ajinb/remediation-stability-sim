@@ -1,0 +1,334 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    26
+   ]
+  ],
+  "date-time": "2025-10-26T14:29:12Z",
+  "timestamp": 1761488952586,
+  "version": "3.28.0"
+ },
+ "reference-count": 21,
+ "publisher": "IEEE",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2012,
+    6
+   ]
+  ]
+ },
+ "DOI": "10.1109/seams.2012.6224389",
+ "type": "proceedings-article",
+ "created": {
+  "date-parts": [
+   [
+    2012,
+    7,
+    9
+   ]
+  ],
+  "date-time": "2012-07-09T15:34:37Z",
+  "timestamp": 1341848077000
+ },
+ "page": "33-42",
+ "source": "Crossref",
+ "is-referenced-by-count": 75,
+ "title": [
+  "A systematic survey on the design of self-adaptive software systems using control engineering approaches"
+ ],
+ "prefix": "10.1109",
+ "author": [
+  {
+   "given": "Tharindu",
+   "family": "Patikirikorala",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Alan",
+   "family": "Colman",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Jun",
+   "family": "Han",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Liuping",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "journal-title": "Model Predictive Control System Design and Implementation Using MATLAB",
+   "year": "2009",
+   "author": "wang",
+   "key": "19"
+  },
+  {
+   "journal-title": "Adaptive Control",
+   "year": "1995",
+   "author": "strom",
+   "key": "17"
+  },
+  {
+   "key": "18",
+   "doi-asserted-by": "crossref",
+   "first-page": "463",
+   "DOI": "10.1016/j.infsof.2009.11.005",
+   "article-title": "Does the technology acceptance model predict actual use? A systematic literature review",
+   "volume": "52",
+   "author": "turner",
+   "year": "2010",
+   "journal-title": "Information and Software Technology"
+  },
+  {
+   "key": "15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1516533.1516538"
+  },
+  {
+   "key": "16",
+   "doi-asserted-by": "crossref",
+   "first-page": "27",
+   "DOI": "10.1145/225907.225911",
+   "article-title": "Beyond objects: A software design paradigm based on process control",
+   "volume": "20",
+   "author": "shaw",
+   "year": "1995",
+   "journal-title": "SIGSOFT Softw Eng Notes"
+  },
+  {
+   "key": "13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SEAMS.2012.6224389"
+  },
+  {
+   "key": "14",
+   "first-page": "218",
+   "article-title": "A multimodel framework to implement self-managing control systems for QoS management",
+   "author": "patikirikorala",
+   "year": "0",
+   "journal-title": "International Symposium on Software Engineering for Adaptive and Self-managing Systems 2011"
+  },
+  {
+   "key": "11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1380584.1380585"
+  },
+  {
+   "key": "12",
+   "article-title": "Guidelines for performing Systematic Literature Reviews in Software Engineering",
+   "author": "kitchenham",
+   "year": "2007",
+   "journal-title": "Keele University and Durham University Joint Report"
+  },
+  {
+   "key": "21",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1496909.1496922"
+  },
+  {
+   "key": "3",
+   "doi-asserted-by": "crossref",
+   "first-page": "48",
+   "DOI": "10.1007/978-3-642-02161-9_3",
+   "article-title": "Engineering Self-Adaptive Systems through Feedback Loops",
+   "author": "brun",
+   "year": "2009",
+   "journal-title": "Software Engineering for Self-Adaptive Systems"
+  },
+  {
+   "key": "20",
+   "article-title": "Honoring SLAs on cloud computing services: A control perspective",
+   "author": "yfoulis",
+   "year": "2009",
+   "journal-title": "ECC09"
+  },
+  {
+   "key": "2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MCS.2003.1200252"
+  },
+  {
+   "key": "1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-0-387-79361-0_7"
+  },
+  {
+   "key": "10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/047166880X"
+  },
+  {
+   "key": "7",
+   "first-page": "103",
+   "article-title": "Control systems application in Java based enterprise and cloud environments-a survey",
+   "volume": "2",
+   "author": "gullapalli",
+   "year": "2011",
+   "journal-title": "International Journal of Advanced Computer Science and Applications"
+  },
+  {
+   "key": "6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/cpe.1470"
+  },
+  {
+   "key": "5",
+   "doi-asserted-by": "crossref",
+   "first-page": "833",
+   "DOI": "10.1016/j.infsof.2008.01.006",
+   "article-title": "Empirical studies of agile software development: A systematic review",
+   "volume": "50",
+   "author": "dyb?a",
+   "year": "2008",
+   "journal-title": "Inf Softw Technol"
+  },
+  {
+   "key": "4",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1007/978-3-642-02161-9_1",
+   "article-title": "Software Engineering for Self-Adaptive Systems: A Research Roadmap",
+   "author": "cheng",
+   "year": "2009",
+   "journal-title": "Software Engineering for Self-Adaptive Systems"
+  },
+  {
+   "key": "9",
+   "doi-asserted-by": "crossref",
+   "first-page": "1970",
+   "DOI": "10.23919/ACC.2004.1383749",
+   "article-title": "Challenges in control engineering of computing systems",
+   "volume": "3",
+   "author": "hellerstein",
+   "year": "2004",
+   "journal-title": "Proceedings of the 2004 American Control Conference ACC"
+  },
+  {
+   "key": "8",
+   "doi-asserted-by": "crossref",
+   "first-page": "1970",
+   "DOI": "10.23919/ACC.2004.1383749",
+   "article-title": "Challenges in control engineering of computing systems",
+   "volume": "3",
+   "author": "hellerstein",
+   "year": "2004",
+   "journal-title": "Proceedings of the 2004 American Control Conference ACC"
+  }
+ ],
+ "event": {
+  "name": "2012 7th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)",
+  "start": {
+   "date-parts": [
+    [
+     2012,
+     6,
+     4
+    ]
+   ]
+  },
+  "location": "Zurich, Switzerland",
+  "end": {
+   "date-parts": [
+    [
+     2012,
+     6,
+     5
+    ]
+   ]
+  }
+ },
+ "container-title": [
+  "2012 7th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx5/6220308/6224384/06224389.pdf?arnumber=6224389",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2019,
+    6,
+    30
+   ]
+  ],
+  "date-time": "2019-06-30T15:02:16Z",
+  "timestamp": 1561906936000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "http://ieeexplore.ieee.org/document/6224389/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2012,
+    6
+   ]
+  ]
+ },
+ "references-count": 21,
+ "URL": "https://doi.org/10.1109/seams.2012.6224389",
+ "relation": {},
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2012,
+    6
+   ]
+  ]
+ },
+ "fetched": "2026-09-15"
+}

@@ -1,0 +1,535 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    28
+   ]
+  ],
+  "date-time": "2026-08-28T17:00:32Z",
+  "timestamp": 1787936432395,
+  "version": "build-2784847793"
+ },
+ "reference-count": 46,
+ "publisher": "Association for Computing Machinery (ACM)",
+ "issue": "4",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2012,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2012-11-01T00:00:00Z",
+    "timestamp": 1351728000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/100000001",
+   "name": "National Science Foundation",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "1116282"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "1116282"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/100000001",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "dl.acm.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "ACM Trans. Comput. Syst."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2012,
+    11
+   ]
+  ]
+ },
+ "abstract": "<jats:p>Energy costs for data centers continue to rise, already exceeding $15 billion yearly. Sadly much of this power is wasted. Servers are only busy 10--30% of the time on average, but they are often left on, while idle, utilizing 60% or more of peak power when in the idle state.</jats:p>\n                  <jats:p>\n                    We introduce a dynamic capacity management policy,\n                    <jats:italic>AutoScale</jats:italic>\n                    , that greatly reduces the number of servers needed in data centers driven by unpredictable, time-varying load, while meeting response time SLAs.\n                    <jats:italic>AutoScale</jats:italic>\n                    scales the data center capacity, adding or removing servers as needed.\n                    <jats:italic>AutoScale</jats:italic>\n                    has two key features: (i) it autonomically maintains just the right amount of spare capacity to handle bursts in the request rate; and (ii) it is robust not just to changes in the request rate of real-world traces, but also request size and server efficiency.\n                  </jats:p>\n                  <jats:p>We evaluate our dynamic capacity management approach via implementation on a 38-server multi-tier data center, serving a web site of the type seen in Facebook or Amazon, with a key-value store workload. We demonstrate that AutoScale vastly improves upon existing dynamic capacity management policies with respect to meeting SLAs and robustness.</jats:p>",
+ "DOI": "10.1145/2382553.2382556",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2012,
+    12,
+    4
+   ]
+  ],
+  "date-time": "2012-12-04T15:10:57Z",
+  "timestamp": 1354633857000
+ },
+ "page": "1-26",
+ "update-policy": "https://doi.org/10.1145/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 236,
+ "title": [
+  "AutoScale"
+ ],
+ "prefix": "10.1145",
+ "volume": "30",
+ "author": [
+  {
+   "given": "Anshul",
+   "family": "Gandhi",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Carnegie Mellon University"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mor",
+   "family": "Harchol-Balter",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Carnegie Mellon University"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ram",
+   "family": "Raghunathan",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Carnegie Mellon University"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Michael A.",
+   "family": "Kozuch",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Intel Labs"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "320",
+ "published-online": {
+  "date-parts": [
+   [
+    2012,
+    11
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_2_1_1_1",
+   "unstructured": "Amazon Inc. 2008. Amazon Elastic Compute Cloud (Amazon EC2). Amazon Inc. 2008. Amazon Elastic Compute Cloud (Amazon EC2)."
+  },
+  {
+   "key": "e_1_2_1_2_1",
+   "unstructured": "Armbrust M. Fox A. Griffith R. Joseph A. D. Katz R. H. Konwinski A. Lee G. Patterson D. A. Rabkin A. Stoica I. and Zaharia M. 2009. Above the clouds: A Berkeley view of cloud computing. Tech. rep. UCB/EECS-2009-28 EECS Department University of California Berkeley. Armbrust M. Fox A. Griffith R. Joseph A. D. Katz R. H. Konwinski A. Lee G. Patterson D. A. Rabkin A. Stoica I. and Zaharia M. 2009. Above the clouds: A Berkeley view of cloud computing. Tech. rep. UCB/EECS-2009-28 EECS Department University of California Berkeley."
+  },
+  {
+   "key": "e_1_2_1_3_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MC.2007.443"
+  },
+  {
+   "key": "e_1_2_1_4_1",
+   "volume-title": "Proceedings of the 10th IFIP/IEEE International Symposium on Integrated Network Management (IM\u201907)",
+   "author": "Bobroff N.",
+   "unstructured": "Bobroff , N. , Kochut , A. , and Beaty , K . 2007. Dynamic placement of virtual machines for managing SLA violations . In Proceedings of the 10th IFIP/IEEE International Symposium on Integrated Network Management (IM\u201907) . 119--128. Bobroff, N., Kochut, A., and Beaty, K. 2007. Dynamic placement of virtual machines for managing SLA violations. In Proceedings of the 10th IFIP/IEEE International Symposium on Integrated Network Management (IM\u201907). 119--128."
+  },
+  {
+   "key": "e_1_2_1_5_1",
+   "volume-title": "Proceedings of the 2009 Conference on Hot Topics in Cloud Computing (HotCloud\u201909)",
+   "author": "Bod\u00edk P.",
+   "unstructured": "Bod\u00edk , P. , Griffith , R. , Sutton , C. , Fox , A. , Jordan , M. , and Patterson , D . 2009. Statistical machine learning makes automatic control practical for internet datacenters . In Proceedings of the 2009 Conference on Hot Topics in Cloud Computing (HotCloud\u201909) . Bod\u00edk, P., Griffith, R., Sutton, C., Fox, A., Jordan, M., and Patterson, D. 2009. Statistical machine learning makes automatic control practical for internet datacenters. In Proceedings of the 2009 Conference on Hot Topics in Cloud Computing (HotCloud\u201909)."
+  },
+  {
+   "key": "e_1_2_1_6_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDE.2005.73"
+  },
+  {
+   "key": "e_1_2_1_7_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/502034.502045"
+  },
+  {
+   "key": "e_1_2_1_8_1",
+   "volume-title": "Proceedings of the 5th USENIX Symposium on Networked Systems Design and Implementation (NSDI\u201908)",
+   "author": "Chen G.",
+   "unstructured": "Chen , G. , He , W. , Liu , J. , Nath , S. , Rigas , L. , Xiao , L. , and Zhao , F . 2008. Energy-aware server provisioning and load dispatching for connection-intensive internet services . In Proceedings of the 5th USENIX Symposium on Networked Systems Design and Implementation (NSDI\u201908) . 337--350. Chen, G., He, W., Liu, J., Nath, S., Rigas, L., Xiao, L., and Zhao, F. 2008. Energy-aware server provisioning and load dispatching for connection-intensive internet services. In Proceedings of the 5th USENIX Symposium on Networked Systems Design and Implementation (NSDI\u201908). 337--350."
+  },
+  {
+   "key": "e_1_2_1_9_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1064212.1064253"
+  },
+  {
+   "key": "e_1_2_1_10_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1294261.1294281"
+  },
+  {
+   "key": "e_1_2_1_11_1",
+   "volume-title": "Proceedings of the 2nd Workshop on Power-Aware Computing Systems (WPACS\u201902)",
+   "author": "Elnozahy E.",
+   "unstructured": "Elnozahy , E. , Kistler , M. , and Rajamony , R . 2002. Energy-efficient server clusters . In Proceedings of the 2nd Workshop on Power-Aware Computing Systems (WPACS\u201902) . 179--196. Elnozahy, E., Kistler, M., and Rajamony, R. 2002. Energy-efficient server clusters. In Proceedings of the 2nd Workshop on Power-Aware Computing Systems (WPACS\u201902). 179--196."
+  },
+  {
+   "key": "e_1_2_1_12_1",
+   "unstructured": "Facebook. 2011. Personal communication with Facebook. Facebook . 2011. Personal communication with Facebook."
+  },
+  {
+   "key": "e_1_2_1_13_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1250662.1250665"
+  },
+  {
+   "key": "e_1_2_1_14_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IGCC.2011.6008611"
+  },
+  {
+   "key": "e_1_2_1_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2039252.2039254"
+  },
+  {
+   "key": "e_1_2_1_16_1",
+   "volume-title": "Proceedings of the 2002 American Control Conference (ACC\u201902 Series",
+   "volume": "4927",
+   "author": "Gandhi N.",
+   "unstructured": "Gandhi , N. , Tilbury , D. , Diao , Y. , Hellerstein , J. , and Parekh , S . 2002. MIMO control of an Apache web server: Modeling and controller design . In Proceedings of the 2002 American Control Conference (ACC\u201902 Series , vol. 6). 4922-- 4927 . Gandhi, N., Tilbury, D., Diao, Y., Hellerstein, J., and Parekh, S. 2002. MIMO control of an Apache web server: Modeling and controller design. In Proceedings of the 2002 American Control Conference (ACC\u201902 Series, vol. 6). 4922--4927."
+  },
+  {
+   "key": "e_1_2_1_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1326561.1326569"
+  },
+  {
+   "key": "e_1_2_1_18_1",
+   "volume-title": "Proceedings of the 4th Conference on Symposium of Operating System Design and Implementation (OSDI\u201900)",
+   "author": "Grunwald D.",
+   "unstructured": "Grunwald , D. , Morrey III, C. B. , Levis , P. , Neufeld , M. , and Farkas , K. I . 2000. Policies for dynamic clock scheduling . In Proceedings of the 4th Conference on Symposium of Operating System Design and Implementation (OSDI\u201900) . Grunwald, D., Morrey III, C. B., Levis, P., Neufeld, M., and Farkas, K. I. 2000. Policies for dynamic clock scheduling. In Proceedings of the 4th Conference on Symposium of Operating System Design and Implementation (OSDI\u201900)."
+  },
+  {
+   "key": "e_1_2_1_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1950365.1950390"
+  },
+  {
+   "key": "e_1_2_1_20_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1454115.1454153"
+  },
+  {
+   "key": "e_1_2_1_21_1",
+   "volume-title": "The Internet Traffic Archives: WorldCup98",
+   "unstructured": "ita. 1998. The Internet Traffic Archives: WorldCup98 . http://ita.ee.lbl.gov/html/contrib/WorldCup.html. ita. 1998. The Internet Traffic Archives: WorldCup98. http://ita.ee.lbl.gov/html/contrib/WorldCup.html."
+  },
+  {
+   "key": "e_1_2_1_22_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/502034.502046"
+  },
+  {
+   "key": "e_1_2_1_23_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kim J. and Rosing T. S. 2006. Power-aware resource management techniques for low-power embedded systems. In Handbook of Real-Time and Embedded Systems. Taylor-Francis Group LLC. Kim J. and Rosing T. S. 2006. Power-aware resource management techniques for low-power embedded systems. In Handbook of Real-Time and Embedded Systems . Taylor-Francis Group LLC.",
+   "DOI": "10.1201/9781420011746.ch6"
+  },
+  {
+   "key": "e_1_2_1_24_1",
+   "volume-title": "Proceedings of the 2007 Ottawa Linux Symposium (OLS\u201907)",
+   "author": "Kivity A.",
+   "year": "2007",
+   "unstructured": "Kivity , A. 2007 . KVM: The Linux virtual machine monitor . In Proceedings of the 2007 Ottawa Linux Symposium (OLS\u201907) . 225--230. Kivity, A. 2007. KVM: The Linux virtual machine monitor. In Proceedings of the 2007 Ottawa Linux Symposium (OLS\u201907). 225--230."
+  },
+  {
+   "key": "e_1_2_1_25_1",
+   "volume-title": "Queueing Systems, Volume I: Theory",
+   "author": "Kleinrock L.",
+   "unstructured": "Kleinrock , L. 1975. Queueing Systems, Volume I: Theory . Wiley-Interscience . Kleinrock, L. 1975. Queueing Systems, Volume I: Theory. Wiley-Interscience."
+  },
+  {
+   "key": "e_1_2_1_26_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1851290.1851294"
+  },
+  {
+   "key": "e_1_2_1_27_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1809049.1809056"
+  },
+  {
+   "key": "e_1_2_1_28_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/49.790486"
+  },
+  {
+   "key": "e_1_2_1_29_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ISPASS.2011.5762742"
+  },
+  {
+   "key": "e_1_2_1_30_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPDS.2006.123"
+  },
+  {
+   "key": "e_1_2_1_31_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/343647.343688"
+  },
+  {
+   "key": "e_1_2_1_32_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1508244.1508269"
+  },
+  {
+   "key": "e_1_2_1_33_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2000064.2000103"
+  },
+  {
+   "key": "e_1_2_1_34_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/306225.306235"
+  },
+  {
+   "key": "e_1_2_1_35_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1755913.1755938"
+  },
+  {
+   "key": "e_1_2_1_36_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/00107510500052444"
+  },
+  {
+   "key": "e_1_2_1_37_1",
+   "unstructured": "nlanr. 1995. National Laboratory for Applied Network Research. Anonymized access logs. ftp://ftp.ircache.net/Traces/. nlanr . 1995. National Laboratory for Applied Network Research. Anonymized access logs. ftp://ftp.ircache.net/Traces/."
+  },
+  {
+   "key": "e_1_2_1_38_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/280756.280790"
+  },
+  {
+   "key": "e_1_2_1_39_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TCST.2006.886433"
+  },
+  {
+   "key": "e_1_2_1_40_1",
+   "unstructured": "sap. 2011. SAP application trace from anonymous source. sap . 2011. SAP application trace from anonymous source."
+  },
+  {
+   "key": "e_1_2_1_41_1",
+   "unstructured": "Snyder B. 2010. Server virtualization has stalled despite the hype. http://www.infoworld.com/print/146901. Snyder B. 2010. Server virtualization has stalled despite the hype. http://www.infoworld.com/print/146901."
+  },
+  {
+   "key": "e_1_2_1_42_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2005.27"
+  },
+  {
+   "key": "e_1_2_1_43_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1064212.1064252"
+  },
+  {
+   "key": "e_1_2_1_44_1",
+   "volume-title": "Proceedings of the 2009 Conference on USENIX Annual Technical Conference (USENIX\u201909)",
+   "author": "Verma A.",
+   "unstructured": "Verma , A. , Dasgupta , G. , Nayak , T. K. , De , P. , and Kothari , R . 2009. Server workload analysis for power minimization using consolidation . In Proceedings of the 2009 Conference on USENIX Annual Technical Conference (USENIX\u201909) . Verma, A., Dasgupta, G., Nayak, T. K., De, P., and Kothari, R. 2009. Server workload analysis for power minimization using consolidation. In Proceedings of the 2009 Conference on USENIX Annual Technical Conference (USENIX\u201909)."
+  },
+  {
+   "key": "e_1_2_1_45_1",
+   "volume-title": "Proceeding of the 14th IEEE International Symposium on High-Performance Computer Architecture (HPCA\u201908)",
+   "author": "Wang X.",
+   "unstructured": "Wang , X. and Chen , M . 2008. Cluster-level feedback power control for performance optimization . In Proceeding of the 14th IEEE International Symposium on High-Performance Computer Architecture (HPCA\u201908) . 101--110. Wang, X. and Chen, M. 2008. Cluster-level feedback power control for performance optimization. In Proceeding of the 14th IEEE International Symposium on High-Performance Computer Architecture (HPCA\u201908). 101--110."
+  },
+  {
+   "key": "e_1_2_1_46_1",
+   "volume-title": "Proceedings of the 4th USENIX Conference on Networked Systems Design and Implementation (NSDI\u201907)",
+   "author": "Wood T.",
+   "unstructured": "Wood , T. , Shenoy , P. J. , Venkataramani , A. , and Yousif , M. S . 2007. Black-box and gray-box strategies for virtual machine migration . In Proceedings of the 4th USENIX Conference on Networked Systems Design and Implementation (NSDI\u201907) . 229--242. Wood, T., Shenoy, P. J., Venkataramani, A., and Yousif, M. S. 2007. Black-box and gray-box strategies for virtual machine migration. In Proceedings of the 4th USENIX Conference on Networked Systems Design and Implementation (NSDI\u201907). 229--242."
+  }
+ ],
+ "container-title": [
+  "ACM Transactions on Computer Systems"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://dl.acm.org/doi/10.1145/2382553.2382556",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://dl.acm.org/doi/pdf/10.1145/2382553.2382556",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    18
+   ]
+  ],
+  "date-time": "2025-06-18T05:34:38Z",
+  "timestamp": 1750224878000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.acm.org/doi/10.1145/2382553.2382556"
+  }
+ },
+ "subtitle": [
+  "Dynamic, Robust Capacity Management for Multi-Tier Data Centers"
+ ],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2012,
+    11
+   ]
+  ]
+ },
+ "references-count": 46,
+ "journal-issue": {
+  "issue": "4",
+  "published-print": {
+   "date-parts": [
+    [
+     2012,
+     11
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1145/2382553.2382556"
+ ],
+ "URL": "https://doi.org/10.1145/2382553.2382556",
+ "relation": {},
+ "ISSN": [
+  "0734-2071",
+  "1557-7333"
+ ],
+ "issn-type": [
+  {
+   "value": "0734-2071",
+   "type": "print"
+  },
+  {
+   "value": "1557-7333",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2012,
+    11
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2012-04-01",
+   "order": 0,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2012-09-01",
+   "order": 1,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2012-11-01",
+   "order": 2,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ],
+ "fetched": "2026-09-15"
+}

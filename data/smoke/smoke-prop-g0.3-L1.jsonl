@@ -1,0 +1,26 @@
+{"type": "config", "run_id": "smoke-prop-g0.3-L1", "policy": "proportional", "gain": 0.3, "hold": 0, "T": 5.0, "steps": 20, "warmup_steps": 4, "arrival_rate": 6.0, "mu": 0.97, "setpoint": 150, "burst": 100, "burst_step": 3, "sensor_delay": 1, "dead_time": 0, "dead_time_jitter": 0.0, "r_min": 1, "r_max": 45, "seed": 0, "notes": "", "policy_name": "proportional", "ns": "lab-1", "started": 1789450647.9872599}
+{"type": "step", "k": -4, "t": 1789450649.635359, "lateness": 0.0, "queue": 144, "done": 0, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": null, "applied": null, "pushed": 0}
+{"type": "step", "k": -3, "t": 1789450654.655402, "lateness": 0.005, "queue": 143, "done": 30, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": null, "applied": null, "pushed": 29}
+{"type": "step", "k": -2, "t": 1789450659.65534, "lateness": 0.005, "queue": 143, "done": 60, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": null, "applied": null, "pushed": 60}
+{"type": "step", "k": -1, "t": 1789450664.650731, "lateness": 0.0032, "queue": 143, "done": 90, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": null, "applied": null, "pushed": 89}
+{"type": "step", "k": 0, "t": 1789450669.645866, "lateness": 0.0008, "queue": 143, "done": 120, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": null, "applied": null, "pushed": 119}
+{"type": "step", "k": 1, "t": 1789450674.652032, "lateness": 0.005, "queue": 149, "done": 150, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 149}
+{"type": "step", "k": 2, "t": 1789450679.648864, "lateness": 0.0012, "queue": 149, "done": 174, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 179}
+{"type": "step", "k": 3, "t": 1789450684.655026, "lateness": 0.0042, "queue": 149, "done": 204, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 209}
+{"type": "step", "k": 4, "t": 1789450689.656277, "lateness": 0.005, "queue": 249, "done": 234, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 240}
+{"type": "step", "k": 5, "t": 1789450694.652271, "lateness": 0.0018, "queue": 249, "done": 264, "spec": 6, "ready": 6, "running": 6, "commanded": 12, "decision": 12, "applied": 12, "pushed": 269}
+{"type": "step", "k": 6, "t": 1789450699.6595001, "lateness": 0.0005, "queue": 219, "done": 318, "spec": 12, "ready": 12, "running": 12, "commanded": 12, "decision": 12, "applied": null, "pushed": 300}
+{"type": "step", "k": 7, "t": 1789450704.6474612, "lateness": 0.0012, "queue": 189, "done": 378, "spec": 12, "ready": 12, "running": 12, "commanded": 10, "decision": 10, "applied": 10, "pushed": 330}
+{"type": "step", "k": 8, "t": 1789450709.638294, "lateness": 0.0009, "queue": 169, "done": 430, "spec": 10, "ready": 10, "running": 10, "commanded": 9, "decision": 9, "applied": 9, "pushed": 359}
+{"type": "step", "k": 9, "t": 1789450714.645901, "lateness": 0.0041, "queue": 154, "done": 476, "spec": 9, "ready": 9, "running": 9, "commanded": 7, "decision": 7, "applied": 7, "pushed": 390}
+{"type": "step", "k": 10, "t": 1789450719.650184, "lateness": 0.005, "queue": 149, "done": 513, "spec": 7, "ready": 7, "running": 7, "commanded": 6, "decision": 6, "applied": 6, "pushed": 419}
+{"type": "step", "k": 11, "t": 1789450724.645623, "lateness": 0.0005, "queue": 149, "done": 544, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 449}
+{"type": "step", "k": 12, "t": 1789450729.640713, "lateness": 0.0017, "queue": 149, "done": 574, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 479}
+{"type": "step", "k": 13, "t": 1789450734.6409311, "lateness": 0.0023, "queue": 149, "done": 604, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 509}
+{"type": "step", "k": 14, "t": 1789450739.640317, "lateness": 0.0038, "queue": 155, "done": 628, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 539}
+{"type": "step", "k": 15, "t": 1789450744.654131, "lateness": 0.0042, "queue": 155, "done": 658, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 569}
+{"type": "step", "k": 16, "t": 1789450749.646338, "lateness": 0.0028, "queue": 155, "done": 688, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 599}
+{"type": "step", "k": 17, "t": 1789450754.644021, "lateness": 0.005, "queue": 155, "done": 718, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 629}
+{"type": "step", "k": 18, "t": 1789450759.653329, "lateness": 0.0042, "queue": 155, "done": 748, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 659}
+{"type": "step", "k": 19, "t": 1789450764.653304, "lateness": 0.0041, "queue": 155, "done": 778, "spec": 6, "ready": 6, "running": 6, "commanded": 6, "decision": 6, "applied": null, "pushed": 690}
+{"type": "end", "ended": 1789450764.762065}

@@ -1,0 +1,140 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    28
+   ]
+  ],
+  "date-time": "2026-08-28T16:22:19Z",
+  "timestamp": 1787934139572,
+  "version": "build-2784847793"
+ },
+ "publisher-location": "Providence, Rhode Island",
+ "reference-count": 0,
+ "publisher": "American Mathematical Society",
+ "isbn-type": [
+  {
+   "value": "9780821815038",
+   "type": "print"
+  },
+  {
+   "value": "9781470412302",
+   "type": "electronic"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    1949,
+    12,
+    31
+   ]
+  ]
+ },
+ "DOI": "10.1090/surv/003",
+ "type": "monograph",
+ "created": {
+  "date-parts": [
+   [
+    2013,
+    11,
+    1
+   ]
+  ],
+  "date-time": "2013-11-01T12:50:14Z",
+  "timestamp": 1383310214000
+ },
+ "source": "Crossref",
+ "is-referenced-by-count": 177,
+ "title": [
+  "Geometry of Polynomials"
+ ],
+ "prefix": "10.1090",
+ "author": [
+  {
+   "given": "Morris",
+   "family": "Marden",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "14",
+ "container-title": [
+  "Mathematical Surveys and Monographs"
+ ],
+ "original-title": [],
+ "language": "en",
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    16
+   ]
+  ],
+  "date-time": "2026-03-16T22:57:44Z",
+  "timestamp": 1773701864000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.ams.org/surv/003"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    1949,
+    12,
+    31
+   ]
+  ]
+ },
+ "ISBN": [
+  "9780821815038",
+  "9781470412302"
+ ],
+ "references-count": 0,
+ "URL": "https://doi.org/10.1090/surv/003",
+ "relation": {},
+ "ISSN": [
+  "0076-5376",
+  "2331-7159"
+ ],
+ "issn-type": [
+  {
+   "value": "0076-5376",
+   "type": "print"
+  },
+  {
+   "value": "2331-7159",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    1949,
+    12,
+    31
+   ]
+  ]
+ },
+ "fetched": "2026-09-15"
+}

@@ -1,0 +1,420 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    13
+   ]
+  ],
+  "date-time": "2026-09-13T12:53:53Z",
+  "timestamp": 1789304033971,
+  "version": "build-2803163510"
+ },
+ "publisher-location": "New York, NY, USA",
+ "reference-count": 36,
+ "publisher": "ACM",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2010,
+      6,
+      7
+     ]
+    ],
+    "date-time": "2010-06-07T00:00:00Z",
+    "timestamp": 1275868800000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "dl.acm.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2010,
+    6,
+    7
+   ]
+  ]
+ },
+ "DOI": "10.1145/1809049.1809051",
+ "type": "proceedings-article",
+ "created": {
+  "date-parts": [
+   [
+    2010,
+    6,
+    8
+   ]
+  ],
+  "date-time": "2010-06-08T12:37:34Z",
+  "timestamp": 1276000654000
+ },
+ "page": "1-10",
+ "update-policy": "https://doi.org/10.1145/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 143,
+ "title": [
+  "Automated control for elastic storage"
+ ],
+ "prefix": "10.1145",
+ "author": [
+  {
+   "given": "Harold C.",
+   "family": "Lim",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Duke University, Durham, NC, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Shivnath",
+   "family": "Babu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Duke University, Durham, NC, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jeffrey S.",
+   "family": "Chase",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Duke University, Durham, NC, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "320",
+ "published-online": {
+  "date-parts": [
+   [
+    2010,
+    6,
+    7
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_3_2_1_1_1",
+   "unstructured": "Animoto's Facebook scale-up. http://blog.rightscale.com/2008/04/23/animoto-facebook-scale-up.  Animoto's Facebook scale-up. http://blog.rightscale.com/2008/04/23/animoto-facebook-scale-up."
+  },
+  {
+   "key": "e_1_3_2_1_2_1",
+   "unstructured": "State of the Cloud - August 2009. http://www.jackofallclouds.com/2009/08/state-of-the-cloud-august-2009/.  State of the Cloud - August 2009. http://www.jackofallclouds.com/2009/08/state-of-the-cloud-august-2009/."
+  },
+  {
+   "key": "e_1_3_2_1_3_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1629575.1629577"
+  },
+  {
+   "key": "e_1_3_2_1_4_1",
+   "volume-title": "Efficiency Matters! In Proc of HotStorage",
+   "author": "Anderson E.",
+   "year": "2009",
+   "unstructured": "E. Anderson and J. Tucek . Efficiency Matters! In Proc of HotStorage , 2009 . E. Anderson and J. Tucek. Efficiency Matters! In Proc of HotStorage, 2009."
+  },
+  {
+   "key": "e_1_3_2_1_5_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5555/647258.720796"
+  },
+  {
+   "key": "e_1_3_2_1_6_1",
+   "volume-title": "Proc. of CIDR",
+   "author": "Armbrust M.",
+   "year": "2009",
+   "unstructured": "M. Armbrust , A. Fox , D. A. Patterson , N. Lanham , B. Trushkowsky , J. Trutna , and H. Oh . Scads: Scale-independent storage for social computing applications . In Proc. of CIDR , 2009 . M. Armbrust, A. Fox, D. A. Patterson, N. Lanham, B. Trushkowsky, J. Trutna, and H. Oh. Scads: Scale-independent storage for social computing applications. In Proc. of CIDR, 2009."
+  },
+  {
+   "key": "e_1_3_2_1_7_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/945445.945462"
+  },
+  {
+   "key": "e_1_3_2_1_8_1",
+   "volume-title": "Proc. of VCI",
+   "author": "Chase J.",
+   "year": "2007",
+   "unstructured": "J. Chase , L. Grit , D. Irwin , V. Marupadi , P. Shivam , and A. Yumerefendi . Beyond virtual data centers: Toward an open resource control architecture . In Proc. of VCI , 2007 . J. Chase, L. Grit, D. Irwin, V. Marupadi, P. Shivam, and A. Yumerefendi. Beyond virtual data centers: Toward an open resource control architecture. In Proc. of VCI, 2007."
+  },
+  {
+   "key": "e_1_3_2_1_9_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/502034.502045"
+  },
+  {
+   "key": "e_1_3_2_1_10_1",
+   "volume-title": "Proc. of HotCloud",
+   "author": "Das S.",
+   "year": "2009",
+   "unstructured": "S. Das , D. Agrawal , and A. E. Abbadi . Elastras: An elastic transactional data store in the cloud . In Proc. of HotCloud , 2009 . S. Das, D. Agrawal, and A. E. Abbadi. Elastras: An elastic transactional data store in the cloud. In Proc. of HotCloud, 2009."
+  },
+  {
+   "key": "e_1_3_2_1_11_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1294261.1294281"
+  },
+  {
+   "key": "e_1_3_2_1_12_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/945445.945450"
+  },
+  {
+   "key": "e_1_3_2_1_13_1",
+   "volume-title": "Proc. of FAST",
+   "author": "Gulati A.",
+   "year": "2009",
+   "unstructured": "A. Gulati , I. Ahmad , and C. A. Waldspurger . Parda: Proportional allocation of resources for distributed storage access . In Proc. of FAST , 2009 . A. Gulati, I. Ahmad, and C. A. Waldspurger. Parda: Proportional allocation of resources for distributed storage access. In Proc. of FAST, 2009."
+  },
+  {
+   "key": "e_1_3_2_1_14_1",
+   "volume-title": "Proc. of USENIX",
+   "author": "Irwin D. E.",
+   "year": "2006",
+   "unstructured": "D. E. Irwin , J. S. Chase , L. E. Grit , A. R. Yumerefendi , D. Becker , and K. Yocum . Sharing networked resources with brokered leases . In Proc. of USENIX , 2006 . D. E. Irwin, J. S. Chase, L. E. Grit, A. R. Yumerefendi, D. Becker, and K. Yocum. Sharing networked resources with brokered leases. In Proc. of USENIX, 2006."
+  },
+  {
+   "key": "e_1_3_2_1_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1005686.1005694"
+  },
+  {
+   "key": "e_1_3_2_1_16_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IWQOS.2004.1309356"
+  },
+  {
+   "key": "e_1_3_2_1_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1111609.1111612"
+  },
+  {
+   "key": "e_1_3_2_1_18_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1352135.1352177"
+  },
+  {
+   "key": "e_1_3_2_1_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/237090.237157"
+  },
+  {
+   "key": "e_1_3_2_1_20_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1555271.1555275"
+  },
+  {
+   "key": "e_1_3_2_1_21_1",
+   "volume-title": "Proc. of FAST",
+   "author": "Lu C.",
+   "year": "2002",
+   "unstructured": "C. Lu , G. A. Alvarez , and J. Wilkes . Aqueduct: Online data migration with performance guarantees . In Proc. of FAST , 2002 . C. Lu, G. A. Alvarez, and J. Wilkes. Aqueduct: Online data migration with performance guarantees. In Proc. of FAST, 2002."
+  },
+  {
+   "key": "e_1_3_2_1_22_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1519065.1519068"
+  },
+  {
+   "key": "e_1_3_2_1_23_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1272996.1273026"
+  },
+  {
+   "key": "e_1_3_2_1_24_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1023/A:1015350520175"
+  },
+  {
+   "key": "e_1_3_2_1_25_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1024393.1024400"
+  },
+  {
+   "key": "e_1_3_2_1_26_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1084779.1084781"
+  },
+  {
+   "key": "e_1_3_2_1_27_1",
+   "volume-title": "Proc. of CCA",
+   "author": "Sobel W.",
+   "year": "2008",
+   "unstructured": "W. Sobel , S. Subramanyam , A. Sucharitakul , J. Nguyen , H. Wong , S. Patil , A. Fox , and D. Patterson . Cloudstone: Multi-platform, multi-language benchmark and measurement tools for Web 2.0 . In Proc. of CCA , 2008 . W. Sobel, S. Subramanyam, A. Sucharitakul, J. Nguyen, H. Wong, S. Patil, A. Fox, and D. Patterson. Cloudstone: Multi-platform, multi-language benchmark and measurement tools for Web 2.0. In Proc. of CCA, 2008."
+  },
+  {
+   "key": "e_1_3_2_1_28_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1217935.1217945"
+  },
+  {
+   "key": "e_1_3_2_1_29_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/268998.266694"
+  },
+  {
+   "key": "e_1_3_2_1_30_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1064212.1064252"
+  },
+  {
+   "key": "e_1_3_2_1_31_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2005.27"
+  },
+  {
+   "key": "e_1_3_2_1_32_1",
+   "volume-title": "Proc. of USENIX",
+   "author": "Uttamchandani S.",
+   "year": "2005",
+   "unstructured": "S. Uttamchandani , L. Yin , G. A. Alvarez , J. Palmer , and G. A. Agha . Chameleon: A self-evolving, fully-adaptive resource arbitrator for storage systems . In Proc. of USENIX , 2005 . S. Uttamchandani, L. Yin, G. A. Alvarez, J. Palmer, and G. A. Agha. Chameleon: A self-evolving, fully-adaptive resource arbitrator for storage systems. In Proc. of USENIX, 2005."
+  },
+  {
+   "key": "e_1_3_2_1_33_1",
+   "volume-title": "Proc. of FAST",
+   "author": "Wang Y.",
+   "year": "2007",
+   "unstructured": "Y. Wang and A. Merchant . Proportional-share scheduling for distributed storage systems . In Proc. of FAST , 2007 . Y. Wang and A. Merchant. Proportional-share scheduling for distributed storage systems. In Proc. of FAST, 2007."
+  },
+  {
+   "key": "e_1_3_2_1_34_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/11568285_12"
+  },
+  {
+   "key": "e_1_3_2_1_35_1",
+   "volume-title": "Proc. of HotAC",
+   "author": "Yumerefendi A.",
+   "year": "2007",
+   "unstructured": "A. Yumerefendi , P. Shivam , D. Irwin , P. Gunda , L. Grit , A. Demberel , J. Chase , and S. Babu . Towards an autonomic computing testbed . In Proc. of HotAC , 2007 . A. Yumerefendi, P. Shivam, D. Irwin, P. Gunda, L. Grit, A. Demberel, J. Chase, and S. Babu. Towards an autonomic computing testbed. In Proc. of HotAC, 2007."
+  },
+  {
+   "key": "e_1_3_2_1_36_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1496909.1496922"
+  }
+ ],
+ "event": {
+  "name": "ICAC '10: 7th International Conference on Autonomic Computing",
+  "location": "Washington DC USA",
+  "acronym": "ICAC '10",
+  "sponsor": [
+   "SIGARCH ACM Special Interest Group on Computer Architecture",
+   "IEEE",
+   "University of Arizona University of Arizona"
+  ]
+ },
+ "container-title": [
+  "Proceedings of the 7th international conference on Autonomic computing"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://dl.acm.org/doi/10.1145/1809049.1809051",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://dl.acm.org/doi/pdf/10.1145/1809049.1809051",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    18
+   ]
+  ],
+  "date-time": "2025-06-18T11:23:03Z",
+  "timestamp": 1750245783000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.acm.org/doi/10.1145/1809049.1809051"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2010,
+    6,
+    7
+   ]
+  ]
+ },
+ "references-count": 36,
+ "alternative-id": [
+  "10.1145/1809049.1809051",
+  "10.1145/1809049"
+ ],
+ "URL": "https://doi.org/10.1145/1809049.1809051",
+ "relation": {},
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2010,
+    6,
+    7
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2010-06-07",
+   "order": 2,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ],
+ "fetched": "2026-09-15"
+}

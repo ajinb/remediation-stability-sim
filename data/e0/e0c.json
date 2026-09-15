@@ -1,0 +1,484 @@
+{
+ "rows": [
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 0.5,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 0.8,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.0,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.25,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.6,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 0.5,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 0.8,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.0,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.25,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.6,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 0.5,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 0.8,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.0,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.25,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.6,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.0,
+   "kappa": 0.5,
+   "p_settle": 1.0,
+   "median_settle_steps": 49.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.0,
+   "kappa": 0.8,
+   "p_settle": 1.0,
+   "median_settle_steps": 27.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.0,
+   "kappa": 1.0,
+   "p_settle": 1.0,
+   "median_settle_steps": 19.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.0,
+   "kappa": 1.25,
+   "p_settle": 1.0,
+   "median_settle_steps": 13.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.0,
+   "kappa": 1.6,
+   "p_settle": 1.0,
+   "median_settle_steps": 18.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.5,
+   "kappa": 0.5,
+   "p_settle": 1.0,
+   "median_settle_steps": 48.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.5,
+   "kappa": 0.8,
+   "p_settle": 1.0,
+   "median_settle_steps": 25.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.5,
+   "kappa": 1.0,
+   "p_settle": 1.0,
+   "median_settle_steps": 17.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.5,
+   "kappa": 1.25,
+   "p_settle": 1.0,
+   "median_settle_steps": 20.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 0.5,
+   "kappa": 1.6,
+   "p_settle": 1.0,
+   "median_settle_steps": 20.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 1.0,
+   "kappa": 0.5,
+   "p_settle": 1.0,
+   "median_settle_steps": 48.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 1.0,
+   "kappa": 0.8,
+   "p_settle": 1.0,
+   "median_settle_steps": 26.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 1.0,
+   "kappa": 1.0,
+   "p_settle": 1.0,
+   "median_settle_steps": 18.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 1.0,
+   "kappa": 1.25,
+   "p_settle": 1.0,
+   "median_settle_steps": 16.0
+  },
+  {
+   "construct": "every_step",
+   "gain": 0.1055,
+   "latency_sigma": 1.0,
+   "kappa": 1.6,
+   "p_settle": 1.0,
+   "median_settle_steps": 20.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 0.5,
+   "p_settle": 1.0,
+   "median_settle_steps": 19.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 0.8,
+   "p_settle": 1.0,
+   "median_settle_steps": 7.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.0,
+   "p_settle": 1.0,
+   "median_settle_steps": 3.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.25,
+   "p_settle": 1.0,
+   "median_settle_steps": 11.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.6,
+   "p_settle": 1.0,
+   "median_settle_steps": 23.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 0.5,
+   "p_settle": 0.995,
+   "median_settle_steps": 135.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 0.8,
+   "p_settle": 1.0,
+   "median_settle_steps": 85.5
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.0,
+   "p_settle": 1.0,
+   "median_settle_steps": 20.5
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.25,
+   "p_settle": 0.345,
+   "median_settle_steps": 266.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.6,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 0.5,
+   "p_settle": 0.175,
+   "median_settle_steps": 291.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 0.8,
+   "p_settle": 0.265,
+   "median_settle_steps": 266.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.0,
+   "p_settle": 0.985,
+   "median_settle_steps": 62.0
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.25,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "predictor",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.6,
+   "p_settle": 0.0,
+   "median_settle_steps": null
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 0.5,
+   "p_settle": 1.0,
+   "median_settle_steps": 20.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 0.8,
+   "p_settle": 1.0,
+   "median_settle_steps": 8.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.0,
+   "p_settle": 1.0,
+   "median_settle_steps": 4.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.25,
+   "p_settle": 1.0,
+   "median_settle_steps": 12.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.0,
+   "kappa": 1.6,
+   "p_settle": 1.0,
+   "median_settle_steps": 24.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 0.5,
+   "p_settle": 1.0,
+   "median_settle_steps": 24.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 0.8,
+   "p_settle": 1.0,
+   "median_settle_steps": 10.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.0,
+   "p_settle": 1.0,
+   "median_settle_steps": 5.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.25,
+   "p_settle": 1.0,
+   "median_settle_steps": 14.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 0.5,
+   "kappa": 1.6,
+   "p_settle": 1.0,
+   "median_settle_steps": 29.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 0.5,
+   "p_settle": 1.0,
+   "median_settle_steps": 26.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 0.8,
+   "p_settle": 1.0,
+   "median_settle_steps": 11.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.0,
+   "p_settle": 1.0,
+   "median_settle_steps": 5.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.25,
+   "p_settle": 1.0,
+   "median_settle_steps": 16.0
+  },
+  {
+   "construct": "gated",
+   "gain": 1.0,
+   "latency_sigma": 1.0,
+   "kappa": 1.6,
+   "p_settle": 1.0,
+   "median_settle_steps": 31.5
+  }
+ ]
+}

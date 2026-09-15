@@ -1,0 +1,467 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    6,
+    28
+   ]
+  ],
+  "date-time": "2026-06-28T11:28:01Z",
+  "timestamp": 1782646081486,
+  "version": "3.54.5"
+ },
+ "publisher-location": "New York, NY, USA",
+ "reference-count": 29,
+ "publisher": "ACM",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2007,
+      3,
+      21
+     ]
+    ],
+    "date-time": "2007-03-21T00:00:00Z",
+    "timestamp": 1174435200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "dl.acm.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2007,
+    3,
+    21
+   ]
+  ]
+ },
+ "DOI": "10.1145/1272996.1273026",
+ "type": "proceedings-article",
+ "created": {
+  "date-parts": [
+   [
+    2012,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2012-10-10T10:45:29Z",
+  "timestamp": 1349865929000
+ },
+ "page": "289-302",
+ "update-policy": "https://doi.org/10.1145/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 283,
+ "title": [
+  "Adaptive control of virtualized resources in utility computing environments"
+ ],
+ "prefix": "10.1145",
+ "author": [
+  {
+   "given": "Pradeep",
+   "family": "Padala",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "University of Michigan, Ann Arbor, MI"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Kang G.",
+   "family": "Shin",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of Michigan, Ann Arbor, MI"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xiaoyun",
+   "family": "Zhu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Hewlett Packard Laboratories, Palo Alto, CA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mustafa",
+   "family": "Uysal",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Hewlett Packard Laboratories, Palo Alto, CA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Zhikui",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Hewlett Packard Laboratories, Palo Alto, CA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Sharad",
+   "family": "Singhal",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Hewlett Packard Laboratories, Palo Alto, CA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Arif",
+   "family": "Merchant",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Hewlett Packard Laboratories, Palo Alto, CA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Kenneth",
+   "family": "Salem",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of Waterloo, Waterloo, Ontario, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "320",
+ "published-online": {
+  "date-parts": [
+   [
+    2007,
+    3,
+    21
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_3_2_1_1_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/71.980028"
+  },
+  {
+   "key": "e_1_3_2_1_2_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/WWC.2002.1226489"
+  },
+  {
+   "key": "e_1_3_2_1_4_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/339331.339383"
+  },
+  {
+   "key": "e_1_3_2_1_5_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/945445.945462"
+  },
+  {
+   "key": "e_1_3_2_1_6_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5555/580550.876444"
+  },
+  {
+   "key": "e_1_3_2_1_7_1",
+   "volume-title": "Proceedings of the Eleventh IEEE/ACM International Workshop on Quality of Service (IWQoS).",
+   "author": "Chandra A.",
+   "unstructured": "A. Chandra , W. Gong , and P. Shenoy . Dynamic resource allocation for shared data centers using online measurements . In Proceedings of the Eleventh IEEE/ACM International Workshop on Quality of Service (IWQoS). A. Chandra, W. Gong, and P. Shenoy. Dynamic resource allocation for shared data centers using online measurements. In Proceedings of the Eleventh IEEE/ACM International Workshop on Quality of Service (IWQoS)."
+  },
+  {
+   "key": "e_1_3_2_1_8_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/502034.502045"
+  },
+  {
+   "key": "e_1_3_2_1_9_1",
+   "volume-title": "Proceedings of American Control Conference (ACC)",
+   "author": "Diao Y.",
+   "year": "2002",
+   "unstructured": "Y. Diao , N. Gandhi , J. L. Hellerstein , S. Parekh , and D. M. Tilbury . Mimo control of an apache web server: Modeling and controller design . In Proceedings of American Control Conference (ACC) , 2002 . Y. Diao, N. Gandhi, J. L. Hellerstein, S. Parekh, and D. M. Tilbury. Mimo control of an apache web server: Modeling and controller design. In Proceedings of American Control Conference (ACC), 2002."
+  },
+  {
+   "key": "e_1_3_2_1_10_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/JSAC.2005.857206"
+  },
+  {
+   "key": "e_1_3_2_1_11_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/988672.988710"
+  },
+  {
+   "key": "e_1_3_2_1_13_1",
+   "volume-title": "Proceedings of American Control Conference",
+   "author": "Hellerstein J. L.",
+   "year": "2004",
+   "unstructured": "J. L. Hellerstein . Designing in control engineering of computing systems . In Proceedings of American Control Conference , 2004 . J. L. Hellerstein. Designing in control engineering of computing systems. In Proceedings of American Control Conference, 2004."
+  },
+  {
+   "key": "e_1_3_2_1_14_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5555/975344"
+  },
+  {
+   "key": "e_1_3_2_1_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/268998.266689"
+  },
+  {
+   "key": "e_1_3_2_1_16_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IWQOS.2004.1309356"
+  },
+  {
+   "key": "e_1_3_2_1_17_1",
+   "first-page": "49",
+   "volume-title": "Proceedings of the USENIX Workshop on Hot Topics in Operating Systems",
+   "author": "Karamanolis C.",
+   "year": "2005",
+   "unstructured": "C. Karamanolis , M. Karlsson , and X. Zhu . Designing controllable computer systems . In Proceedings of the USENIX Workshop on Hot Topics in Operating Systems , pages 49 -- 54 , June 2005 . C. Karamanolis, M. Karlsson, and X. Zhu. Designing controllable computer systems. In Proceedings of the USENIX Workshop on Hot Topics in Operating Systems, pages 49--54, June 2005."
+  },
+  {
+   "key": "e_1_3_2_1_18_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IWQOS.2004.1309358"
+  },
+  {
+   "key": "e_1_3_2_1_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1135777.1135865"
+  },
+  {
+   "key": "e_1_3_2_1_20_1",
+   "volume-title": "Proceedings of the 9th International Symposium on Integrated Network Management",
+   "author": "Liu X.",
+   "year": "2005",
+   "unstructured": "X. Liu , X. Zhu , S. Singhal , and M. Arlitt . Adaptive entitlement control of resource partitions on shared servers . In Proceedings of the 9th International Symposium on Integrated Network Management , May 2005 . X. Liu, X. Zhu, S. Singhal, and M. Arlitt. Adaptive entitlement control of resource partitions on shared servers. In Proceedings of the 9th International Symposium on Integrated Network Management, May 2005."
+  },
+  {
+   "key": "e_1_3_2_1_21_1",
+   "volume-title": "Proceedings of the IEEE Real-Time Technology and Applications Symposium",
+   "author": "Lu C.",
+   "year": "2001",
+   "unstructured": "C. Lu , T. F. Abdelzaher , J. Stankovic , and S. Son . A feedback control approach for guaranteeing relative delays in web servers . In Proceedings of the IEEE Real-Time Technology and Applications Symposium , 2001 . C. Lu, T. F. Abdelzaher, J. Stankovic, and S. Son. A feedback control approach for guaranteeing relative delays in web servers. In Proceedings of the IEEE Real-Time Technology and Applications Symposium, 2001."
+  },
+  {
+   "key": "e_1_3_2_1_22_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPDS.2004.1278101"
+  },
+  {
+   "key": "e_1_3_2_1_23_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/268998.266677"
+  },
+  {
+   "key": "e_1_3_2_1_24_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.peva.2004.07.015"
+  },
+  {
+   "key": "e_1_3_2_1_25_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/844128.844150"
+  },
+  {
+   "key": "e_1_3_2_1_26_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5555/296806.296820"
+  },
+  {
+   "key": "e_1_3_2_1_27_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5555/1060289.1060312"
+  },
+  {
+   "key": "e_1_3_2_1_28_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2005.27"
+  },
+  {
+   "key": "e_1_3_2_1_29_1",
+   "volume-title": "Proceedings of the 1st Symposium on Operating Systems Design and Implementation (OSDI)",
+   "author": "Waldspurger C. A.",
+   "year": "1994",
+   "unstructured": "C. A. Waldspurger and W. E. Weihl . Lottery scheduling: flexible proprotional-share aresource management . In Proceedings of the 1st Symposium on Operating Systems Design and Implementation (OSDI) , November 1994 . C. A. Waldspurger and W. E. Weihl. Lottery scheduling: flexible proprotional-share aresource management. In Proceedings of the 1st Symposium on Operating Systems Design and Implementation (OSDI), November 1994."
+  },
+  {
+   "key": "e_1_3_2_1_31_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1064979.1064983"
+  },
+  {
+   "key": "e_1_3_2_1_32_1",
+   "volume-title": "Proceedings of American Control Conference (ACC)",
+   "author": "Zhu X.",
+   "year": "2006",
+   "unstructured": "X. Zhu , Z. Wang , and S. Singhal . Utility driven workload management using nested control design . In Proceedings of American Control Conference (ACC) , June 2006 . X. Zhu, Z. Wang, and S. Singhal. Utility driven workload management using nested control design. In Proceedings of American Control Conference (ACC), June 2006."
+  }
+ ],
+ "event": {
+  "name": "EuroSys07: Eurosys 2007 Conference",
+  "location": "Lisbon Portugal",
+  "acronym": "EuroSys07",
+  "sponsor": [
+   "SIGOPS ACM Special Interest Group on Operating Systems"
+  ]
+ },
+ "container-title": [
+  "Proceedings of the 2nd ACM SIGOPS/EuroSys European Conference on Computer Systems 2007"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://dl.acm.org/doi/10.1145/1272996.1273026",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://dl.acm.org/doi/pdf/10.1145/1272996.1273026",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    18
+   ]
+  ],
+  "date-time": "2025-06-18T10:47:36Z",
+  "timestamp": 1750243656000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.acm.org/doi/10.1145/1272996.1273026"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2007,
+    3,
+    21
+   ]
+  ]
+ },
+ "references-count": 29,
+ "alternative-id": [
+  "10.1145/1272996.1273026",
+  "10.1145/1272996"
+ ],
+ "URL": "https://doi.org/10.1145/1272996.1273026",
+ "relation": {
+  "is-identical-to": [
+   {
+    "id-type": "doi",
+    "id": "10.1145/1272998.1273026",
+    "asserted-by": "object"
+   }
+  ]
+ },
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2007,
+    3,
+    21
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2007-03-21",
+   "order": 2,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ],
+ "fetched": "2026-09-15"
+}

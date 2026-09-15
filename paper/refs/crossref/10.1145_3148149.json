@@ -1,0 +1,832 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    15
+   ]
+  ],
+  "date-time": "2026-09-15T01:18:51Z",
+  "timestamp": 1789435131418,
+  "version": "build-2803163510"
+ },
+ "reference-count": 111,
+ "publisher": "Association for Computing Machinery (ACM)",
+ "issue": "4",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      13
+     ]
+    ],
+    "date-time": "2018-07-13T00:00:00Z",
+    "timestamp": 1531440000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Future Fellowship grant from the Australian Research Council"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "dl.acm.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "ACM Comput. Surv."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2019,
+    7,
+    31
+   ]
+  ]
+ },
+ "abstract": "<jats:p>Web application providers have been migrating their applications to cloud data centers, attracted by the emerging cloud computing paradigm. One of the appealing features of the cloud is elasticity. It allows cloud users to acquire or release computing resources on demand, which enables web application providers to automatically scale the resources provisioned to their applications without human intervention under a dynamic workload to minimize resource cost while satisfying Quality of Service (QoS) requirements. In this article, we comprehensively analyze the challenges that remain in auto-scaling web applications in clouds and review the developments in this field. We present a taxonomy of auto-scalers according to the identified challenges and key properties. We analyze the surveyed works and map them to the taxonomy to identify the weaknesses in this field. Moreover, based on the analysis, we propose new future directions that can be explored in this area.</jats:p>",
+ "DOI": "10.1145/3148149",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2018,
+    7,
+    13
+   ]
+  ],
+  "date-time": "2018-07-13T12:08:17Z",
+  "timestamp": 1531483697000
+ },
+ "page": "1-33",
+ "update-policy": "https://doi.org/10.1145/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 216,
+ "title": [
+  "Auto-Scaling Web Applications in Clouds"
+ ],
+ "prefix": "10.1145",
+ "volume": "51",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-8693-213X",
+   "authenticated-orcid": false,
+   "given": "Chenhao",
+   "family": "Qu",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "The University of Melbourne, Parkville, VIC, Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Rodrigo N.",
+   "family": "Calheiros",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Western Sydney University, Parramatta, NSW, Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Rajkumar",
+   "family": "Buyya",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "The University of Melbourne, Parkville, VIC, Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "320",
+ "published-online": {
+  "date-parts": [
+   [
+    2018,
+    7,
+    13
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_2_1_1_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CloudCom.2013.142"
+  },
+  {
+   "key": "e_1_2_1_2_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2287036.2287044"
+  },
+  {
+   "key": "e_1_2_1_3_1",
+   "volume-title": "Proceedings of 2012 IEEE Network Operations and Management Symposium (NOMS\u201912)",
+   "author": "Ali-Eldin A."
+  },
+  {
+   "key": "e_1_2_1_4_1",
+   "unstructured": "A. Ali-Eldin J. Tordsson E. Elmroth and M. Kihl. 2013. Workload Classification for Efficient Auto-Scaling of Cloud Resources. Technical Report. Retrieved from http://www.cs.umu.se/research/uminf/reports/2013/013/part1.pdf.  A. Ali-Eldin J. Tordsson E. Elmroth and M. Kihl. 2013. Workload Classification for Efficient Auto-Scaling of Cloud Resources. Technical Report. Retrieved from http://www.cs.umu.se/research/uminf/reports/2013/013/part1.pdf."
+  },
+  {
+   "key": "e_1_2_1_5_1",
+   "volume-title": "Proceedings of 2013 13th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid\u201913)",
+   "author": "Almeida Morais F. J."
+  },
+  {
+   "key": "e_1_2_1_6_1",
+   "unstructured": "Amazon. 2016. Amazon Auto Scaling Service. Retrieved from http://aws.amazon.com/autoscaling/.  Amazon. 2016. Amazon Auto Scaling Service. Retrieved from http://aws.amazon.com/autoscaling/."
+  },
+  {
+   "key": "e_1_2_1_7_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "L. Aniello S. Bonomi F. Lombardi A. Zelli and R. Baldoni. 2014. An Architecture for Automatic Scaling of Replicated Services. Springer International Publishing 122--137.  L. Aniello S. Bonomi F. Lombardi A. Zelli and R. Baldoni. 2014. An Architecture for Automatic Scaling of Replicated Services. Springer International Publishing 122--137.",
+   "DOI": "10.1007/978-3-319-09581-3_9"
+  },
+  {
+   "key": "e_1_2_1_8_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/cpe.2864"
+  },
+  {
+   "key": "e_1_2_1_9_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2010.53"
+  },
+  {
+   "key": "e_1_2_1_10_1",
+   "volume-title": "Proceedings of the 2009 Conference on Hot Topics in Cloud Computing. 12--16",
+   "author": "Bodik P."
+  },
+  {
+   "key": "e_1_2_1_11_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPDS.2012.174"
+  },
+  {
+   "key": "e_1_2_1_12_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s00607-012-0198-8"
+  },
+  {
+   "key": "e_1_2_1_13_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10723-010-9178-4"
+  },
+  {
+   "key": "e_1_2_1_14_1",
+   "volume-title": "Proceedings of 5th USENIX Symposium on Networked Systems Design and Implementation",
+   "volume": "8",
+   "author": "Chen G."
+  },
+  {
+   "key": "e_1_2_1_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSC.2015.2499770"
+  },
+  {
+   "key": "e_1_2_1_16_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSE.2016.2608826"
+  },
+  {
+   "key": "e_1_2_1_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICEBE.2011.63"
+  },
+  {
+   "key": "e_1_2_1_18_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2014.67"
+  },
+  {
+   "key": "e_1_2_1_19_1",
+   "volume-title": "Proceedings of 2014 IEEE Symposium on Computers and Communication (ISCC\u201914)",
+   "author": "da Silva Dias A."
+  },
+  {
+   "key": "e_1_2_1_20_1",
+   "volume-title": "Elastic Virtual Machine for Fine-Grained Cloud Resource Provisioning. Communications in Computer and Information Science",
+   "volume": "269",
+   "author": "Dawoud W."
+  },
+  {
+   "key": "e_1_2_1_21_1",
+   "volume-title": "Proceedings of the 2003 USENIX Symposium on Internet Technologies and Systems",
+   "volume": "4",
+   "author": "Doyle R. P."
+  },
+  {
+   "key": "e_1_2_1_22_1",
+   "volume-title": "Proceedings of 2011 International Conference on Autonomic and Autonomous Systems. 67--74",
+   "author": "Dutreilh X."
+  },
+  {
+   "key": "e_1_2_1_23_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2010.55"
+  },
+  {
+   "key": "e_1_2_1_24_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2012.12"
+  },
+  {
+   "key": "e_1_2_1_25_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5120/19798-1577"
+  },
+  {
+   "key": "e_1_2_1_26_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SCC.2012.47"
+  },
+  {
+   "key": "e_1_2_1_27_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IC2E.2014.25"
+  },
+  {
+   "key": "e_1_2_1_28_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IC2E.2014.30"
+  },
+  {
+   "key": "e_1_2_1_29_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSC.2015.2389236"
+  },
+  {
+   "key": "e_1_2_1_30_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MIC.2012.142"
+  },
+  {
+   "key": "e_1_2_1_31_1",
+   "volume-title": "Proceedings of the 11th International Conference on Autonomic Computing.",
+   "author": "Gandhi A."
+  },
+  {
+   "key": "e_1_2_1_32_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SBAC-PAD.2014.16"
+  },
+  {
+   "key": "e_1_2_1_33_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2382553.2382556"
+  },
+  {
+   "key": "e_1_2_1_34_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IC2E.2014.75"
+  },
+  {
+   "key": "e_1_2_1_35_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2014.21"
+  },
+  {
+   "key": "e_1_2_1_36_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2371536.2371567"
+  },
+  {
+   "key": "e_1_2_1_37_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2017.02.022"
+  },
+  {
+   "key": "e_1_2_1_38_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "B. V. Gnedenko and I. N. Kovalenko. 1989. Introduction to Queueing Theory. Birkhauser Boston.   B. V. Gnedenko and I. N. Kovalenko. 1989. Introduction to Queueing Theory. Birkhauser Boston.",
+   "DOI": "10.1007/978-1-4615-9826-8"
+  },
+  {
+   "key": "e_1_2_1_39_1",
+   "volume-title": "Proceedings of 2010 International Conference on Network and Service Management. 9--16",
+   "author": "Gong Z."
+  },
+  {
+   "key": "e_1_2_1_40_1",
+   "volume-title": "Proceedings of 2014 IEEE Network Operations and Management Symposium (NOMS\u201914)",
+   "author": "Grabarnik G. Y."
+  },
+  {
+   "key": "e_1_2_1_41_1",
+   "volume-title": "2015 IEEE Global Communications Conference (GLOBECOM\u201915)",
+   "author": "Grimaldi D."
+  },
+  {
+   "key": "e_1_2_1_42_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/spe.2168"
+  },
+  {
+   "key": "e_1_2_1_43_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2662112"
+  },
+  {
+   "key": "e_1_2_1_44_1",
+   "unstructured": "N. Grozev and R. Buyya. 2016. Dynamic selection of virtual machines for application servers in cloud environments. CoRR abs/1602.02339 (2016). Retrieved from http://arxiv.org/abs/1602.02339.  N. Grozev and R. Buyya. 2016. Dynamic selection of virtual machines for application servers in cloud environments. CoRR abs/1602.02339 (2016). Retrieved from http://arxiv.org/abs/1602.02339."
+  },
+  {
+   "key": "e_1_2_1_45_1",
+   "volume-title": "Proceedings of 2016 IEEE International Conference on Cloud Engineering (IC2E\u201916)",
+   "author": "Guo T."
+  },
+  {
+   "key": "e_1_2_1_46_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5555/2748143.2748357"
+  },
+  {
+   "key": "e_1_2_1_47_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2749246.2749275"
+  },
+  {
+   "key": "e_1_2_1_48_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/cpe.3224"
+  },
+  {
+   "key": "e_1_2_1_49_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1988008.1988021"
+  },
+  {
+   "key": "e_1_2_1_50_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-3-642-10665-1_22"
+  },
+  {
+   "key": "e_1_2_1_51_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/JSYST.2015.2424998"
+  },
+  {
+   "key": "e_1_2_1_52_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2010.10.016"
+  },
+  {
+   "key": "e_1_2_1_53_1",
+   "volume-title": "Proceedings of IEEE International Conference on Utility and Cloud Computing (UCC\u201910)",
+   "author": "Islam S."
+  },
+  {
+   "key": "e_1_2_1_54_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MCC.2016.66"
+  },
+  {
+   "key": "e_1_2_1_55_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1772690.1772739"
+  },
+  {
+   "key": "e_1_2_1_56_1",
+   "volume-title": "Proceedings of the 2nd USENIX Conference on Web Application Development. USENIX Association, 49--60",
+   "author": "Jiang D.",
+   "year": "2011"
+  },
+  {
+   "key": "e_1_2_1_57_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGrid.2013.73"
+  },
+  {
+   "key": "e_1_2_1_58_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2007.28"
+  },
+  {
+   "key": "e_1_2_1_59_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2008.21"
+  },
+  {
+   "key": "e_1_2_1_60_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1555228.1555261"
+  },
+  {
+   "key": "e_1_2_1_61_1",
+   "volume-title": "12th IEEE International Workshop on Quality of Service",
+   "author": "Kamra A.",
+   "year": "2004"
+  },
+  {
+   "key": "e_1_2_1_62_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2014.02.018"
+  },
+  {
+   "key": "e_1_2_1_63_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MC.2003.1160055"
+  },
+  {
+   "key": "e_1_2_1_64_1",
+   "volume-title": "Proceedings of 17th International Workshop on Quality of Service (IWQoS\u201909)",
+   "author": "Lama P."
+  },
+  {
+   "key": "e_1_2_1_65_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MASCOTS.2010.24"
+  },
+  {
+   "key": "e_1_2_1_66_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1998582.1998630"
+  },
+  {
+   "key": "e_1_2_1_67_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1809049.1809051"
+  },
+  {
+   "key": "e_1_2_1_68_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1555271.1555275"
+  },
+  {
+   "key": "e_1_2_1_69_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CloudCom.2014.161"
+  },
+  {
+   "key": "e_1_2_1_70_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10723-014-9314-7"
+  },
+  {
+   "key": "e_1_2_1_71_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1998582.1998604"
+  },
+  {
+   "key": "e_1_2_1_72_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MASCOTS.2014.32"
+  },
+  {
+   "key": "e_1_2_1_73_1",
+   "volume-title": "Proceedings of the USENIX International Conference on Automated Computing (ICAC\u201913)",
+   "author": "Nguyen H."
+  },
+  {
+   "key": "e_1_2_1_74_1",
+   "volume-title": "Proceedings of the 2015 IEEE/ACM 10th International Symposium on Software Engineering for Adaptive and Self-Managing Systems. 35--45",
+   "author": "Nikravesh A. Y."
+  },
+  {
+   "key": "e_1_2_1_75_1",
+   "unstructured": "A. Nisar W. Iqbal F. S. Bokhari and F. Bukhari. {n.d.}. Hybrid auto-scaling of multi-tier web applications: A case of using Amazon public cloud.  A. Nisar W. Iqbal F. S. Bokhari and F. Bukhari. {n.d.}. Hybrid auto-scaling of multi-tier web applications: A case of using Amazon public cloud."
+  },
+  {
+   "key": "e_1_2_1_76_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1519065.1519068"
+  },
+  {
+   "key": "e_1_2_1_77_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2930659"
+  },
+  {
+   "key": "e_1_2_1_78_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1988008.1988040"
+  },
+  {
+   "key": "e_1_2_1_79_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.future.2008.11.002"
+  },
+  {
+   "key": "e_1_2_1_80_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jnca.2016.03.001"
+  },
+  {
+   "key": "e_1_2_1_81_1",
+   "volume-title": "Microservices vs. service-oriented architecture",
+   "author": "Richards M."
+  },
+  {
+   "key": "e_1_2_1_82_1",
+   "unstructured": "RightScale. 2016. Understanding the voting process. Retrieved from https://support.rightscale.com/12-Guides/RightScale_101/System_Architecture/RightScale_Alert_System/Alerts_based_on_Voting_Tags/Understanding_the_Voting_Process/.  RightScale. 2016. Understanding the voting process. Retrieved from https://support.rightscale.com/12-Guides/RightScale_101/System_Architecture/RightScale_Alert_System/Alerts_based_on_Voting_Tags/Understanding_the_Voting_Process/."
+  },
+  {
+   "key": "e_1_2_1_83_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2667522.2667538"
+  },
+  {
+   "key": "e_1_2_1_84_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPDS.2006.145"
+  },
+  {
+   "key": "e_1_2_1_85_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2011.42"
+  },
+  {
+   "key": "e_1_2_1_86_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CCGrid.2012.52"
+  },
+  {
+   "key": "e_1_2_1_87_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10922-015-9352-x"
+  },
+  {
+   "key": "e_1_2_1_88_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2494621.2494628"
+  },
+  {
+   "key": "e_1_2_1_89_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2741948.2741953"
+  },
+  {
+   "key": "e_1_2_1_90_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2371536.2371545"
+  },
+  {
+   "key": "e_1_2_1_91_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2038916.2038921"
+  },
+  {
+   "key": "e_1_2_1_92_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1809049.1809053"
+  },
+  {
+   "key": "e_1_2_1_93_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SASO.2014.29"
+  },
+  {
+   "key": "e_1_2_1_94_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CloudCom.2014.24"
+  },
+  {
+   "key": "e_1_2_1_95_1",
+   "volume-title": "Proceedings of AAAI Conference on Artificial Intelligence.",
+   "volume": "5",
+   "author": "Tesauro G.",
+   "year": "2005"
+  },
+  {
+   "key": "e_1_2_1_96_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10586-007-0035-6"
+  },
+  {
+   "key": "e_1_2_1_97_1",
+   "first-page": "1",
+   "article-title": "Business-driven service placement for highly dynamic and distributed cloud systems",
+   "volume": "99",
+   "author": "Tortonesi M.",
+   "year": "2016",
+   "journal-title": "IEEE Transactions on Cloud Computing PP"
+  },
+  {
+   "key": "e_1_2_1_98_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDCS.2011.59"
+  },
+  {
+   "key": "e_1_2_1_99_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1342171.1342172"
+  },
+  {
+   "key": "e_1_2_1_100_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2150976.2151021"
+  },
+  {
+   "key": "e_1_2_1_101_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1189740.1189747"
+  },
+  {
+   "key": "e_1_2_1_102_1",
+   "volume-title": "Proceeding of 2016 IEEE 9th International Conference on Cloud Computing (CLOUD\u201916)",
+   "author": "Wang C."
+  },
+  {
+   "key": "e_1_2_1_103_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/INFCOM.2012.6195813"
+  },
+  {
+   "key": "e_1_2_1_104_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10796-013-9459-0"
+  },
+  {
+   "key": "e_1_2_1_105_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CNSM.2015.7367349"
+  },
+  {
+   "key": "e_1_2_1_106_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CGC.2012.108"
+  },
+  {
+   "key": "e_1_2_1_107_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CLOUD.2013.142"
+  },
+  {
+   "key": "e_1_2_1_108_1",
+   "volume-title": "Proceedings of the 14th International Conference on Web Information Systems Engineering, Part II (WISE\u201913)",
+   "author": "You Y."
+  },
+  {
+   "key": "e_1_2_1_109_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2007.1"
+  },
+  {
+   "key": "e_1_2_1_110_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/JSAC.2013.SUP2.1213008"
+  },
+  {
+   "key": "e_1_2_1_111_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSC.2011.61"
+  }
+ ],
+ "container-title": [
+  "ACM Computing Surveys"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://dl.acm.org/doi/10.1145/3148149",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://dl.acm.org/doi/pdf/10.1145/3148149",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    17
+   ]
+  ],
+  "date-time": "2025-06-17T22:26:34Z",
+  "timestamp": 1750199194000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.acm.org/doi/10.1145/3148149"
+  }
+ },
+ "subtitle": [
+  "A Taxonomy and Survey"
+ ],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2018,
+    7,
+    13
+   ]
+  ]
+ },
+ "references-count": 111,
+ "journal-issue": {
+  "issue": "4",
+  "published-print": {
+   "date-parts": [
+    [
+     2019,
+     7,
+     31
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1145/3148149"
+ ],
+ "URL": "https://doi.org/10.1145/3148149",
+ "relation": {},
+ "ISSN": [
+  "0360-0300",
+  "1557-7341"
+ ],
+ "issn-type": [
+  {
+   "value": "0360-0300",
+   "type": "print"
+  },
+  {
+   "value": "1557-7341",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2018,
+    7,
+    13
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2016-09-01",
+   "order": 0,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2017-09-01",
+   "order": 1,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2018-07-13",
+   "order": 2,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ],
+ "fetched": "2026-09-15"
+}

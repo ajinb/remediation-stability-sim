@@ -1,0 +1,924 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    29
+   ]
+  ],
+  "date-time": "2026-08-29T11:19:56Z",
+  "timestamp": 1788002396918,
+  "version": "build-2784847793"
+ },
+ "reference-count": 116,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "8",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2018,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2018-08-01T00:00:00Z",
+    "timestamp": 1533081600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Assurances for Decentralized Self-Adaptive Systems Vetenskapsradet Sweden",
+   "award": [
+    "2013-5218"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "2013-5218"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IIEEE Trans. Software Eng."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2018,
+    8,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.1109/tse.2017.2704579",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2017,
+    5,
+    16
+   ]
+  ],
+  "date-time": "2017-05-16T18:33:10Z",
+  "timestamp": 1494959590000
+ },
+ "page": "784-810",
+ "source": "Crossref",
+ "is-referenced-by-count": 74,
+ "title": [
+  "Control-Theoretical Software Adaptation: A Systematic Literature Review"
+ ],
+ "prefix": "10.1109",
+ "volume": "44",
+ "author": [
+  {
+   "given": "Stepan",
+   "family": "Shevtsov",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mihaly",
+   "family": "Berekmeri",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Danny",
+   "family": "Weyns",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Martina",
+   "family": "Maggio",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref39",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10703-009-0084-y"
+  },
+  {
+   "key": "ref38",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3182/20100830-3-DE-4013.00044"
+  },
+  {
+   "key": "ref33",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/12.990127"
+  },
+  {
+   "key": "ref32",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SEAMS.2012.6224389"
+  },
+  {
+   "key": "ref31",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSE.2010.92"
+  },
+  {
+   "key": "ref30",
+   "article-title": "Guidelines for performing systematic literature reviews in software engineering",
+   "author": "kitchenham",
+   "year": "2007"
+  },
+  {
+   "key": "ref37",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICCAC.2015.35"
+  },
+  {
+   "key": "ref36",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2593929.2593940"
+  },
+  {
+   "key": "ref35",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2382570.2382572"
+  },
+  {
+   "key": "ref34",
+   "first-page": "13",
+   "article-title": "Automated multi-objective control for self-adaptive software design",
+   "author": "filieri",
+   "year": "2015",
+   "journal-title": "Proceedings of the Joint Meeting on Foundations of Software Engineering"
+  },
+  {
+   "key": "ref28",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICAC.2006.1662377"
+  },
+  {
+   "key": "ref27",
+   "article-title": "An architecture for software that adapts to changes in requirements",
+   "volume": "50",
+   "author": "eracar",
+   "year": "1998",
+   "journal-title": "J Syst Softw"
+  },
+  {
+   "key": "ref29",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2950290.2950301"
+  },
+  {
+   "key": "ref20",
+   "article-title": "Utility-driven workload management using nested control design",
+   "author": "zhu",
+   "year": "2006",
+   "journal-title": "Proc Amer Control Conf"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "crossref",
+   "first-page": "27",
+   "DOI": "10.1007/978-3-642-02161-9_2",
+   "article-title": "Modeling dimensions of self-adaptive software systems",
+   "author": "andersson",
+   "year": "2009",
+   "journal-title": "Software Engineering for Self-Adaptive Systems"
+  },
+  {
+   "key": "ref21",
+   "first-page": "299",
+   "article-title": "Automated design of self-adaptive software with control-theoretical formal guarantees",
+   "author": "filieri",
+   "year": "2014",
+   "journal-title": "Proc 36th Int Conf Softw Eng"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2804337.2804340"
+  },
+  {
+   "key": "ref23",
+   "first-page": "33",
+   "article-title": "A design space for self-adaptive systems",
+   "author": "brun",
+   "year": "2013",
+   "journal-title": "Proc Int Seminar Softw Eng Self-Adaptive Syst"
+  },
+  {
+   "key": "ref101",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1988008.1988011"
+  },
+  {
+   "key": "ref26",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1809049.1809065"
+  },
+  {
+   "key": "ref100",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/967900.968209"
+  },
+  {
+   "key": "ref25",
+   "first-page": "77",
+   "article-title": "An overview of software cybernetics",
+   "author": "cai",
+   "year": "2003",
+   "journal-title": "Proc 11th Annual Int'l Workshop Software Technology and Eng Practice"
+  },
+  {
+   "key": "ref50",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/RE.2010.25"
+  },
+  {
+   "key": "ref51",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2593929.2593944"
+  },
+  {
+   "key": "ref59",
+   "author": "h\u00e4gglund",
+   "year": "2006",
+   "journal-title": "Advanced PID Control"
+  },
+  {
+   "key": "ref58",
+   "article-title": "Computer control: An overview",
+   "author": "wittenmark",
+   "year": "2002"
+  },
+  {
+   "key": "ref57",
+   "author": "kuo",
+   "year": "2002",
+   "journal-title": "Automatic Control Systems"
+  },
+  {
+   "key": "ref56",
+   "author": "ljung",
+   "year": "1986",
+   "journal-title": "System Identification Theory for the User"
+  },
+  {
+   "key": "ref55",
+   "author": "ogata",
+   "year": "2001",
+   "journal-title": "Modern Control Engineering"
+  },
+  {
+   "key": "ref54",
+   "author": "krstic",
+   "year": "1995",
+   "journal-title": "Nonlinear and Adaptive Control Design"
+  },
+  {
+   "key": "ref53",
+   "author": "murray",
+   "year": "2008",
+   "journal-title": "Feedback Systems An Introduction for Scientists and Engineers"
+  },
+  {
+   "key": "ref52",
+   "author": "levine",
+   "year": "2010",
+   "journal-title": "The Control Systems Handbook Second Edition Control System Advanced Methods"
+  },
+  {
+   "key": "ref40",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2897053.2897056"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SEAMS.2012.6224402"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/RTAS.2015.7108419"
+  },
+  {
+   "key": "ref6",
+   "first-page": "1",
+   "article-title": "Software engineering for self-adaptive systems: A second research roadmap",
+   "author": "de lemos",
+   "year": "2013",
+   "journal-title": "Software Engineering for Self-Adaptive Systems II"
+  },
+  {
+   "key": "ref5",
+   "first-page": "1",
+   "author": "cheng",
+   "year": "2009",
+   "journal-title": "Software Engineering for Self-adaptive Systems A Research Roadmap"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MC.2004.175"
+  },
+  {
+   "key": "ref49",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SEAMS.2013.6595487"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICSE.1998.671114"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/FOSE.2007.19"
+  },
+  {
+   "key": "ref46",
+   "author": "bencomo",
+   "year": "2014",
+   "journal-title": "Models at Runtime"
+  },
+  {
+   "key": "ref45",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1007/978-3-642-35813-5",
+   "author": "de lemos",
+   "year": "2013",
+   "journal-title": "Software Engineering for Self-Adaptive Systems II"
+  },
+  {
+   "key": "ref48",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1380584.1380585"
+  },
+  {
+   "key": "ref47",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1186778.1186782"
+  },
+  {
+   "key": "ref42",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ECRTS.2013.17"
+  },
+  {
+   "key": "ref41",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICCTIDE.2016.7725348"
+  },
+  {
+   "key": "ref44",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1007/978-3-642-02161-9",
+   "author": "cheng",
+   "year": "2009",
+   "journal-title": "Software Eng for Self-Adaptive Systems"
+  },
+  {
+   "key": "ref43",
+   "article-title": "Software engineering of self-adaptive systems: An organised tour and future challenges",
+   "author": "weyns",
+   "year": "2017",
+   "journal-title": "Handbook of Software Engineering"
+  },
+  {
+   "key": "ref73",
+   "first-page": "111",
+   "article-title": "On searching relevant studies in software engineering",
+   "author": "zhang",
+   "year": "2010",
+   "journal-title": "Proc Int Conf Eval Assessment Softw Eng"
+  },
+  {
+   "key": "ref72",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSE.2013.56"
+  },
+  {
+   "key": "ref71",
+   "article-title": "The goal question metric approach",
+   "author": "basili",
+   "year": "1994",
+   "journal-title": "Encyclopedia of Software Engineering"
+  },
+  {
+   "key": "ref70",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2568225.2568227"
+  },
+  {
+   "key": "ref76",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SRDS.2014.14"
+  },
+  {
+   "key": "ref77",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICCAC.2015.25"
+  },
+  {
+   "key": "ref74",
+   "doi-asserted-by": "crossref",
+   "first-page": "689",
+   "DOI": "10.3182/20140824-6-ZA-1003.00669",
+   "article-title": "Control strategies for predictable brownouts in cloud computing",
+   "volume": "47",
+   "author": "maggio",
+   "year": "2014",
+   "journal-title": "IFAC Proc"
+  },
+  {
+   "key": "ref75",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2014.7040221"
+  },
+  {
+   "key": "ref78",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ASE.2011.6100064"
+  },
+  {
+   "key": "ref79",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SEAMS.2012.6224390"
+  },
+  {
+   "key": "ref60",
+   "author": "morari",
+   "year": "1989",
+   "journal-title": "Robust Process Control"
+  },
+  {
+   "key": "ref62",
+   "volume": "2",
+   "author": "skogestad",
+   "year": "2007",
+   "journal-title": "Multivariable Feedback Control Analysis and Design"
+  },
+  {
+   "key": "ref61",
+   "author": "zhou",
+   "year": "1996",
+   "journal-title": "Robust and Optimal Control"
+  },
+  {
+   "key": "ref63",
+   "author": "maciejowski",
+   "year": "2002",
+   "journal-title": "Predictive Control with Constraints"
+  },
+  {
+   "key": "ref64",
+   "author": "camacho",
+   "year": "2013",
+   "journal-title": "Model Predictive Control"
+  },
+  {
+   "key": "ref65",
+   "first-page": "249",
+   "article-title": "Claims and evidence for architecture-based self-adaptation: A systematic literature review",
+   "author": "weyns",
+   "year": "2013",
+   "journal-title": "Proc 7th Eur Conf Softw Archit"
+  },
+  {
+   "key": "ref66",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/258915.258923"
+  },
+  {
+   "key": "ref67",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/cpe.1470"
+  },
+  {
+   "key": "ref68",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1988008.1988020"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MC.2003.1160055"
+  },
+  {
+   "key": "ref69",
+   "doi-asserted-by": "crossref",
+   "first-page": "134",
+   "DOI": "10.1016/j.jnca.2014.07.019",
+   "article-title": "Cloud service selection: State-of-the-art and future research directions",
+   "volume": "45",
+   "author": "sun",
+   "year": "2014",
+   "journal-title": "J Netw Comput Appl"
+  },
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1370175.1370181"
+  },
+  {
+   "key": "ref109",
+   "doi-asserted-by": "crossref",
+   "first-page": "833",
+   "DOI": "10.1016/j.infsof.2008.01.006",
+   "article-title": "Empirical studies of agile software development: A systematic review",
+   "volume": "50",
+   "author": "dyb\u00e5",
+   "year": "2008",
+   "journal-title": "Inf Softw Technol"
+  },
+  {
+   "key": "ref95",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jss.2006.03.033"
+  },
+  {
+   "key": "ref108",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ejcon.2016.04.007"
+  },
+  {
+   "key": "ref94",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ISSRE.2001.989477"
+  },
+  {
+   "key": "ref107",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACC.2013.6580779"
+  },
+  {
+   "key": "ref93",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jss.2012.05.060"
+  },
+  {
+   "key": "ref106",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2897053.2897054"
+  },
+  {
+   "key": "ref92",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.cie.2010.11.014"
+  },
+  {
+   "key": "ref105",
+   "article-title": "Energy efficient soft real-time computing through cross-layer predictive control",
+   "author": "cao",
+   "year": "2014"
+  },
+  {
+   "key": "ref91",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/5254.769883"
+  },
+  {
+   "key": "ref104",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2567929"
+  },
+  {
+   "key": "ref90",
+   "doi-asserted-by": "crossref",
+   "first-page": "391",
+   "DOI": "10.1145/2554850.2555020",
+   "article-title": "ACTRESS: Domain-specific modeling of self-adaptive software architectures",
+   "author": "k?ikava",
+   "year": "2014",
+   "journal-title": "Proc 29th ACM Symp Applied Computing"
+  },
+  {
+   "key": "ref103",
+   "doi-asserted-by": "crossref",
+   "first-page": "265",
+   "DOI": "10.1007/978-3-642-35813-5_11",
+   "article-title": "DYNAMICO: A reference model for governing control objectives and context relevance in self-adaptive software systems",
+   "author": "villegas",
+   "year": "2013",
+   "journal-title": "Software Engineering for Self-Adaptive Systems II"
+  },
+  {
+   "key": "ref102",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jss.2012.04.079"
+  },
+  {
+   "key": "ref111",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jprocont.2014.02.020"
+  },
+  {
+   "key": "ref112",
+   "doi-asserted-by": "crossref",
+   "first-page": "699",
+   "DOI": "10.1016/0967-0661(93)91394-C",
+   "article-title": "Automatic tuning and adaptation for PID controllers-a survey",
+   "volume": "1",
+   "author": "\u00e5str?m",
+   "year": "1993",
+   "journal-title": "Control Eng Practice"
+  },
+  {
+   "key": "ref110",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SEAMS.2012.6224395"
+  },
+  {
+   "key": "ref98",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/isre.1050.0059"
+  },
+  {
+   "key": "ref99",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/j.1937-5956.2010.01215.x"
+  },
+  {
+   "key": "ref96",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ejor.2002.11.002"
+  },
+  {
+   "key": "ref97",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jss.2006.11.008"
+  },
+  {
+   "key": "ref10",
+   "first-page": "8:1",
+   "article-title": "FORMS: Unifying reference model for formal specification of distributed self-adaptive systems",
+   "volume": "7",
+   "author": "weyns",
+   "year": "2012",
+   "journal-title": "ACM Trans Autonom Adaptive Syst"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/2330667.2330686"
+  },
+  {
+   "key": "ref12",
+   "article-title": "Perpetual assurances in self-adaptive systems",
+   "author": "weyns",
+   "year": "2014",
+   "journal-title": "Softw Eng Self-Adaptive Syst Assurances"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1516533.1516538"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "crossref",
+   "first-page": "48",
+   "DOI": "10.1007/978-3-642-02161-9_3",
+   "article-title": "Engineering self-adaptive systems through feedback loops",
+   "author": "brun",
+   "year": "2009",
+   "journal-title": "Software Engineering for Self-Adaptive Systems"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/047166880X"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SEAMS.2015.12"
+  },
+  {
+   "key": "ref82",
+   "first-page": "1",
+   "article-title": "SimCA versus ActivFORMS: Comparing control- and architecture-based adaptation on the TAS exemplar",
+   "author": "shevtsov",
+   "year": "2015",
+   "journal-title": "Proceedings of the 1st International Workshop on Control Theory for Software Engineering ACM"
+  },
+  {
+   "key": "ref17",
+   "doi-asserted-by": "crossref",
+   "first-page": "62",
+   "DOI": "10.1145/1496909.1496922",
+   "article-title": "What does control theory bring to systems research?",
+   "volume": "43",
+   "author": "zhu",
+   "year": "2009",
+   "journal-title": "SIGOPS Operating Syst Rev"
+  },
+  {
+   "key": "ref81",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ECRTS.2014.32"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MCS.2003.1200252"
+  },
+  {
+   "key": "ref84",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.conengprac.2011.09.003"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NOMS.2002.1015566"
+  },
+  {
+   "key": "ref83",
+   "first-page": "469",
+   "article-title": "Towards optimal performance and resource management in web systems via model predictive control",
+   "author": "patikirikorala",
+   "year": "2011",
+   "journal-title": "Proc Australian Control Conf"
+  },
+  {
+   "key": "ref114",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/32.60317"
+  },
+  {
+   "key": "ref113",
+   "author": "french",
+   "year": "2002",
+   "journal-title": "Performance of Nonlinear Approximate Adaptive Controllers"
+  },
+  {
+   "key": "ref116",
+   "author": "shevtsov",
+   "year": "2016",
+   "journal-title": "The Literature Review Supporting Material"
+  },
+  {
+   "key": "ref80",
+   "doi-asserted-by": "crossref",
+   "first-page": "11",
+   "DOI": "10.1145/2737182.2737187",
+   "article-title": "Control theory for model-based performance-driven software adaptation",
+   "author": "arcelli",
+   "year": "2015",
+   "journal-title": "Proc 11th Int ACM SIGSOFT Conf Qual Softw Archit"
+  },
+  {
+   "key": "ref115",
+   "author": "zhang",
+   "year": "2010",
+   "journal-title": "Advanced Industrial Control Technology"
+  },
+  {
+   "key": "ref89",
+   "first-page": "25",
+   "article-title": "Integrating adaptation mechanisms using control theory centric architecture models: A case study",
+   "author": "k?ikava",
+   "year": "2014",
+   "journal-title": "Proc 11th Int Conf Autonomic Comput"
+  },
+  {
+   "key": "ref85",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jss.2012.05.077"
+  },
+  {
+   "key": "ref86",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/RTTAS.2004.1317283"
+  },
+  {
+   "key": "ref87",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDCS.2006.8"
+  },
+  {
+   "key": "ref88",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/71.980028"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Software Engineering"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/32/8434075/07929422.pdf?arnumber=7929422",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    18
+   ]
+  ],
+  "date-time": "2025-06-18T16:56:46Z",
+  "timestamp": 1750265806000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/7929422/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2018,
+    8,
+    1
+   ]
+  ]
+ },
+ "references-count": 116,
+ "journal-issue": {
+  "issue": "8"
+ },
+ "URL": "https://doi.org/10.1109/tse.2017.2704579",
+ "relation": {},
+ "ISSN": [
+  "0098-5589",
+  "1939-3520",
+  "2326-3881"
+ ],
+ "issn-type": [
+  {
+   "value": "0098-5589",
+   "type": "print"
+  },
+  {
+   "value": "1939-3520",
+   "type": "electronic"
+  },
+  {
+   "value": "2326-3881",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2018,
+    8,
+    1
+   ]
+  ]
+ },
+ "fetched": "2026-09-15"
+}

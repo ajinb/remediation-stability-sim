@@ -1,0 +1,308 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    2,
+    28
+   ]
+  ],
+  "date-time": "2026-02-28T13:24:34Z",
+  "timestamp": 1772285074996,
+  "version": "3.50.1"
+ },
+ "reference-count": 24,
+ "publisher": "Informa UK Limited",
+ "issue": "05",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Journal of Difference Equations and Applications"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2011,
+    5
+   ]
+  ]
+ },
+ "DOI": "10.1080/10236190903146938",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2011,
+    4,
+    1
+   ]
+  ],
+  "date-time": "2011-04-01T11:32:10Z",
+  "timestamp": 1301657530000
+ },
+ "page": "657-675",
+ "source": "Crossref",
+ "is-referenced-by-count": 1,
+ "title": [
+  "New stability conditions for linear difference equations using Bohl\u2013Perron type theorems"
+ ],
+ "prefix": "10.1080",
+ "volume": "17",
+ "author": [
+  {
+   "given": "Leonid",
+   "family": "Berezansky",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Elena",
+   "family": "Braverman",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  }
+ ],
+ "member": "301",
+ "reference": [
+  {
+   "key": "CIT0001",
+   "first-page": "19",
+   "volume": "11",
+   "author": "Berezansky L.",
+   "year": "2004",
+   "journal-title": "Funct. Differ. Equ."
+  },
+  {
+   "key": "CIT0002",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jmaa.2004.09.042"
+  },
+  {
+   "key": "CIT0003",
+   "first-page": "29",
+   "volume": "1",
+   "author": "Berezansky L.",
+   "year": "2006",
+   "journal-title": "Adv. Dyn. Syst. Appl."
+  },
+  {
+   "key": "CIT0004",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/10236190500141050"
+  },
+  {
+   "key": "CIT0005",
+   "first-page": "169",
+   "volume-title": "Proceedings of the Conference on Differential and Difference Equations and Applications",
+   "author": "Berezansky L.",
+   "year": "2006"
+  },
+  {
+   "key": "CIT0006",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/10236190701692273"
+  },
+  {
+   "key": "CIT0007",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1006/jmaa.1994.1037"
+  },
+  {
+   "key": "CIT0008",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/10236199808808097"
+  },
+  {
+   "key": "CIT0009",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/10236199508808016"
+  },
+  {
+   "key": "CIT0010",
+   "first-page": "181",
+   "volume": "29",
+   "author": "Gy\u00f6ri I.",
+   "year": "2001",
+   "journal-title": "Fields Inst. Commun."
+  },
+  {
+   "key": "CIT0011",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1093/oso/9780198535829.001.0001",
+   "volume-title": "Oscillation Theory of Delay Differential Equations",
+   "author": "Gy\u00f6ri I.",
+   "year": "1991"
+  },
+  {
+   "key": "CIT0012",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/0362-546X(91)90142-N"
+  },
+  {
+   "key": "CIT0013",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/10236190601132933"
+  },
+  {
+   "key": "CIT0014",
+   "series-title": "Math. Appl.",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1007/978-94-017-1703-8",
+   "volume-title": "Global behavior of nonlinear difference equations of higher order with applications",
+   "volume": "256",
+   "author": "Koci\u0107 V.L.",
+   "year": "1993"
+  },
+  {
+   "key": "CIT0015",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/1023619031000115377"
+  },
+  {
+   "key": "CIT0016",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jmaa.2004.08.048"
+  },
+  {
+   "key": "CIT0017",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.na.2003.07.013"
+  },
+  {
+   "key": "CIT0018",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1155/ADE.2005.41"
+  },
+  {
+   "key": "CIT0019",
+   "first-page": "239",
+   "volume": "15",
+   "author": "Malygina V.V.",
+   "year": "2008",
+   "journal-title": "Func. Differ. Equ."
+  },
+  {
+   "key": "CIT0020",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0898-1221(03)00084-1"
+  },
+  {
+   "key": "CIT0021",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/10236190601008810"
+  },
+  {
+   "key": "CIT0022",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jmaa.2005.09.052"
+  },
+  {
+   "key": "CIT0023",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0898-1221(98)80021-7"
+  },
+  {
+   "key": "CIT0024",
+   "first-page": "307",
+   "volume": "6",
+   "author": "Zhang B.G.",
+   "year": "1999",
+   "journal-title": "Dynam. Contin. Discrete Impuls. Syst."
+  }
+ ],
+ "container-title": [
+  "Journal of Difference Equations and Applications"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://www.tandfonline.com/doi/pdf/10.1080/10256018808623883",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2024,
+    4,
+    5
+   ]
+  ],
+  "date-time": "2024-04-05T17:02:31Z",
+  "timestamp": 1712336551000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "http://www.tandfonline.com/doi/abs/10.1080/10236190903146938"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2011,
+    5
+   ]
+  ]
+ },
+ "references-count": 24,
+ "journal-issue": {
+  "issue": "05",
+  "published-print": {
+   "date-parts": [
+    [
+     2011,
+     5
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1080/10236190903146938"
+ ],
+ "URL": "https://doi.org/10.1080/10236190903146938",
+ "relation": {},
+ "ISSN": [
+  "1023-6198",
+  "1563-5120"
+ ],
+ "issn-type": [
+  {
+   "value": "1023-6198",
+   "type": "print"
+  },
+  {
+   "value": "1563-5120",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2011,
+    5
+   ]
+  ]
+ },
+ "fetched": "2026-09-15"
+}

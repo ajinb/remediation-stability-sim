@@ -1,36 +1,89 @@
 # remediation-stability-sim
 
-> Discrete-time simulator for **AI-driven self-healing remediation loops**: reproduce the instability modes (oscillation, overshoot, runaway, loop interaction) and the stable-by-design constructs that tame them.
+> Stability of AI-driven remediation loops: closed-form limits, simulation studies, a Kubernetes
+> testbed with a digital twin, and LLM controllers in the loop.
 
-Companion artifact for the paper **"Stable by Design: A Control-Theoretic Account of AI-Driven Self-Healing Remediation Loops."**
+This repository is the companion artifact for two documents:
 
-## Model
+1. **Delay-bounded stability of AI-driven remediation loops: analysis and Kubernetes experiments with
+   large language model controllers** (journal manuscript, 2026). Everything under `analysis/`,
+   `cluster/`, `llm/`, `paper/` and `data/` belongs to it.
+2. **Stable by Design: A Control-Theoretic Account of AI-Driven Self-Healing Remediation Loops**
+   (preprint v0.3, 2026). The simulator in `src/` and the scripts in `examples/` belong to it; the journal
+   manuscript reuses the simulator for its study E0a.
 
-- **Plant** — a bounded scalar state (utilization-like) holding a setpoint until a persistent step disturbance shifts it; remediations are persistent shifts back.
-- **Sensor** — reports the plant `sensor_delay` steps late, with noise.
-- **Controller** — proportional remediation policy with *probabilistic* magnitude (lognormal jitter) and *probabilistic* dead-time (reasoning latency): the paper's LLM-in-the-loop controller. Direction is always correct given the measurement — decisions are individually correct by construction.
-- **Constructs (§5 of the paper)** — hysteresis gates, action damping, settling-time cooldowns, dead-time-aware gating, and the loop-interaction matrix (actuator mutex held through the correction's settling window).
+## The one-line result
 
-## Reproduce the paper's study
+A controller that corrects a fraction `g` of the deficit it sees, with a loop delay of `L` periods,
+follows `e[k+1] = e[k] - g*e[k-L]`. It is stable if and only if `g < 2 sin(pi / (2(2L+1)))`; no gain
+decays faster than `L/(L+1)` per period; and `g(L+1) < pi/2` is sufficient at every delay. In time units:
+**plan to drain what you see over more than (2/pi) x (loop delay + period).**
+
+## Layout
+
+| Path | What it is |
+|---|---|
+| `analysis/theory.py` | closed forms and numerics: boundary, fastest gain, decay floor, product rule, varying-delay bound, predictor and construct polynomials |
+| `analysis/e0_studies.py` | E0a (prior frontier vs theory), E0b (random latency, overlapping decisions), E0c (constructs under uncertainty), E0d (sequential agent loops) |
+| `cluster/plant.yaml.tpl` | queue-worker plant: Redis list + worker Deployment whose replica count is the actuator |
+| `cluster/lab.py` | host harness: exact-rate producer, delayed sensor, injected dead time, policies, JSONL traces |
+| `cluster/twin.py` | virtual-time digital twin with the same interface as the real plant |
+| `cluster/calibrate.py`, `cluster/identify.py` | calibration, and least-squares identification of plant gain and actuation lag from traces |
+| `cluster/experiments.py`, `cluster/analyze.py` | E1 (frontier) and E2 (constructs) grids; per-run metrics |
+| `llm/claude_cli.py`, `llm/probe.py`, `llm/closed_loop.py` | E3a open-loop probe and E3b closed-loop runs with Claude models via the Claude Code CLI |
+| `paper/make_figures.py`, `paper/tables.py`, `paper/build_bib.py` | every figure, table and the reference list, regenerated from `data/` and live records (`paper/refs/`) |
+| `data/` | all traces and study outputs, including discarded runs and why they were discarded |
+| `tests/` | 93 tests, including the closed-form results pinned against numerics |
+
+## Reproduce
 
 ```bash
-pip install -e ".[dev]"
-pytest                           # 16 tests: H1, H2, H3 and the E4 frontier pinned
-python examples/paper_study.py   # E1/E2/E3 tables (20 seeds per cell)
-python examples/frontier_study.py  # E4: the stability frontier (v0.3)
+python3.11 -m venv .venv && . .venv/bin/activate
+pip install -r requirements.txt
+pytest                                               # theory and the preprint's simulator
+python analysis/e0_studies.py --out data/e0          # E0a-E0d (E0b/E0c take several minutes)
+python paper/tables.py --data data --out paper/generated
+python paper/make_figures.py --data data --out paper/figures
 ```
 
-Headline results (400-step scenarios, 20 seeds per cell):
+### Kubernetes testbed (E1, E2)
 
-- **E1 (H1)** — at fixed gain, growing dead-time alone flips the loop from stable (τ=1: 1/20 oscillating, MTTR ≈ 15) to rail-to-rail oscillation that never settles (τ≥4: 20/20 oscillating).
-- **E2 (H2)** — hysteresis+damping alone do *not* stabilize a dead-time-driven oscillation; the temporal constructs are each individually sufficient, and **dead-time-aware gating settles ~3× faster than a fixed cooldown** (MTTR ≈ 40 vs ≈ 117) because it adapts its hold to the controller's actual dead-time.
-- **E4 (v0.3)** — the settle/diverge boundary of the greedy loop follows a **delay–gain product law**: across a 6× gain range the critical product g·L (L = dead-time + sensor delay) stays in 1.35–1.8, the deterministic cliff is one dead-time step wide, and controller stochasticity **blurs the frontier instead of shifting it** — 1 → 4 → 15 of 70 cells settle only partially as jitter grows 0 → 0.3 → 0.6, in both directions (stable marginal cells lose reliability, divergent cells occasionally settle). Every sampled cell at g·L ≤ 1.2 settled in all seeds at every jitter level — the engineering margin.
-- **E3 (H3)** — two individually-stable loops sharing an actuator destabilize each other (overshoot 8.9 vs 1.3; 13/20 settle); an actuator mutex held through the settling window restores single-loop behavior (20/20 settle).
+Requires Docker and [kind](https://kind.sigs.k8s.io/) 0.33 or later. The image `redis:7-alpine` is
+loaded into the cluster so no pulls happen during runs.
 
-## Not in scope
+```bash
+kind create cluster --config cluster/kind-config.yaml --kubeconfig ~/.local/share/stability-lab/kubeconfig
+kind load docker-image redis:7-alpine --name stability-lab
+export KUBECONFIG=~/.local/share/stability-lab/kubeconfig
+python cluster/calibrate.py lab-1
+python cluster/experiments.py e1 --slot 1 --shard 0/2 --reps 2 &
+python cluster/experiments.py e1 --slot 2 --shard 1/2 --reps 2
+python cluster/experiments.py e2 --slot 1 --shard 0/2 --reps 2 &
+python cluster/experiments.py e2 --slot 2 --shard 1/2 --reps 2
+```
 
-The stochastic controller abstraction approximates an LLM's variability; it is not an LLM. The simulator establishes the *mechanisms*; production validation is future work (see paper §7).
+Keep the host otherwise idle: four runs in the original study stalled while CPU-heavy simulations ran on
+the same machine and were discarded (`data/discarded/e1/README.txt`). Runs whose control periods start more
+than 1 s late are not valid.
+
+### LLM controllers (E3a, E3b)
+
+Uses the Claude Code CLI in headless mode (`claude -p`) with tools, plugins and MCP servers disabled and a
+replaced system prompt. Each call counts against the account it runs under.
+
+```bash
+python llm/probe.py --models claude-haiku-4-5,claude-sonnet-5 --reps 2
+python llm/closed_loop.py --model claude-sonnet-5 --condition stateless --slot 1 --rep 0
+python llm/closed_loop.py --model claude-sonnet-5 --condition pulse --slot 1 --rep 0
+```
+
+## The preprint's simulator
+
+```bash
+python examples/paper_study.py      # preprint E1-E3
+python examples/frontier_study.py   # preprint E4, the frontier that analysis/e0_studies.py E0a explains
+```
 
 ## License
 
-MIT
+Apache-2.0 (see `LICENSE`), for code and data.
