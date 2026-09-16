@@ -5,6 +5,11 @@ Crossref at build time; the fetched records are cached under paper/refs/ with th
 fetch date, so each formatted reference traces to a record, never to memory.
 
     python paper/build_bib.py --sections <paper>/sections --out <paper>/sections/10-references.tex
+    python paper/build_bib.py --style ieee --sections <paper>/sections --out <paper>/sections/10-references.tex
+
+Two styles are supported: `springer` (basic Springer numbered style, the default) and
+`ieee` (IEEE style for IEEEtran's thebibliography, which supplies its own heading).
+Both read the same cached records; only the formatting differs.
 """
 
 from __future__ import annotations
@@ -67,6 +72,27 @@ MANUAL = {
     "baby2026sim": "Baby A (2026) remediation-stability-sim: simulator, Kubernetes harness and data for "
                    "remediation-loop stability. \\url{https://github.com/ajinb/remediation-stability-sim}. "
                    "Accessed 15 Sep 2026",
+}
+
+
+IEEE_AUTHOR_OVERRIDE = {"normeyrico2007control": ["J. E. Normey-Rico", "E. F. Camacho"],
+                        "astrom2008feedback": ["K. J. \\AA{}str\\\"{o}m", "R. M. Murray"]}
+IEEE_MANUAL = {
+    "k8s2026hpa": "Kubernetes Documentation, ``Horizontal pod autoscaling,'' 2026. [Online]. Available: "
+                  "\\url{https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/} "
+                  "(accessed Sep. 15, 2026)",
+    "keda2026redis": "KEDA Documentation, ``Redis lists scaler,'' version 2.20, 2026. [Online]. Available: "
+                     "\\url{https://keda.sh/docs/2.20/scalers/redis-lists/} (accessed Sep. 15, 2026)",
+    "keda2026scaling": "KEDA Documentation, ``Scaling deployments, StatefulSets and custom resources,'' "
+                       "version 2.20, 2026. [Online]. Available: "
+                       "\\url{https://keda.sh/docs/2.20/concepts/scaling-deployments/} (accessed Sep. 15, 2026)",
+    "baby2026stable": "A. Baby, ``Stable by design: A control-theoretic account of AI-driven self-healing "
+                      "remediation loops,'' preprint, version 0.3, 2026. [Online]. Available: "
+                      "\\url{https://cloudandsre.com/research/stable-by-design-remediation-loops/} "
+                      "(accessed Sep. 15, 2026)",
+    "baby2026sim": "A. Baby, ``remediation-stability-sim: Simulator, harness and data for "
+                   "remediation-loop stability,'' 2026. [Online]. Available: "
+                   "\\url{https://github.com/ajinb/remediation-stability-sim} (accessed Sep. 15, 2026)",
 }
 
 
@@ -144,6 +170,88 @@ def join_names(names: list[str], limit: int = 8) -> str:
     return ", ".join(names)
 
 
+def ieee_initials(given: str) -> str:
+    """'Karl Johan' -> 'K. J.', 'S.A.' -> 'S. A.', 'Hans-Arno' -> 'H.-A.'."""
+    out = []
+    for part in re.split(r"[\s.]+", given.strip()):
+        if not part:
+            continue
+        if "-" in part:
+            out.append("-".join(f"{x[0]}." for x in part.split("-") if x))
+        else:
+            out.append(f"{part[0]}.")
+    return " ".join(out)
+
+
+def ieee_names_arxiv(authors: list[str]) -> list[str]:
+    out = []
+    for a in authors:
+        if "," in a:
+            fam, given = a.split(",", 1)
+        else:
+            bits = a.split()
+            fam, given = bits[-1], " ".join(bits[:-1])
+        out.append(f"{ieee_initials(given)} {fam.strip()}".strip())
+    return out
+
+
+def ieee_join(names: list[str]) -> str:
+    """IEEE lists up to six authors; beyond that, the first author and 'et al.'."""
+    if not names:
+        return ""
+    if len(names) > 6:
+        return f"{names[0]} et al."
+    if len(names) == 1:
+        return names[0]
+    if len(names) == 2:
+        return f"{names[0]} and {names[1]}"
+    return ", ".join(names[:-1]) + f", and {names[-1]}"
+
+
+def fmt_arxiv_ieee(key: str) -> str:
+    r = fetch_arxiv(ARXIV[key])
+    year = r["date"][:4]
+    return f"{tex(ieee_join(ieee_names_arxiv(r['authors'])))}, ``{tex(r['title'])},'' {year}, arXiv:{r['id']}"
+
+
+def fmt_doi_ieee(key: str) -> str:
+    m = fetch_doi(DOI[key])
+    if key in IEEE_AUTHOR_OVERRIDE:
+        names = IEEE_AUTHOR_OVERRIDE[key]
+    else:
+        names = [f"{ieee_initials(a.get('given', ''))} {a.get('family', '').strip()}".strip()
+                 for a in m.get("author", [])]
+    year = (m.get("issued", {}).get("date-parts") or [[None]])[0][0]
+    title = tex(" ".join((m.get("title") or [""])[0].split()))
+    sub = (m.get("subtitle") or [""])
+    if sub and sub[0] and sub[0].lower() not in title.lower():
+        sep = " " if title.rstrip()[-1:] in "?!." else ": "
+        title = f"{title}{sep}{tex(sub[0])}"
+    title = TITLE_OVERRIDE.get(key, title)
+    cont = tex((m.get("container-title") or [""])[0])
+    typ = m.get("type")
+    vol, iss, page = m.get("volume"), m.get("issue"), m.get("page")
+    pages = page.replace("-", "--") if page else None
+    head = f"{tex(ieee_join(names))}, ``{title},''"
+    if typ == "journal-article":
+        loc = f" \\emph{{{cont}}}"
+        if vol:
+            loc += f", vol. {vol}"
+        if iss:
+            loc += f", no. {iss}"
+        if pages:
+            loc += f", pp. {pages}"
+        return f"{head}{loc}, {year}, doi: {DOI[key]}"
+    if typ == "proceedings-article":
+        loc = f" in \\emph{{{cont}}}, {year}"
+        if pages:
+            loc += f", pp. {pages}"
+        return f"{head}{loc}, doi: {DOI[key]}"
+    publisher = tex(m.get("publisher", ""))
+    # IEEE book entries carry title, publisher and year; the series is dropped.
+    return f"{tex(ieee_join(names))}, \\emph{{{title}}}. {publisher}, {year}, doi: {DOI[key]}"
+
+
 def fmt_arxiv(key: str) -> str:
     r = fetch_arxiv(ARXIV[key])
     year = r["date"][:4]
@@ -204,6 +312,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sections", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--style", choices=["springer", "ieee"], default="springer")
     args = ap.parse_args()
     order = cite_order(Path(args.sections))
     known = set(ARXIV) | set(DOI) | set(MANUAL)
@@ -211,21 +320,29 @@ def main() -> None:
     if missing:
         raise SystemExit(f"cited but not defined: {missing}")
     unused = sorted(known - set(order))
-    lines = ["\\section*{References}",
-             f"\\noindent{{\\footnotesize\\itshape Author lists, titles and identifiers generated from arXiv and "
-             f"Crossref records fetched {dt.date.today().strftime('%-d %B %Y')}; web pages checked the same day.}}",
-             "\\begingroup\\small",
-             "\\renewcommand{\\section}[2]{}",
-             "\\begin{thebibliography}{99}"]
+    ieee = args.style == "ieee"
+    if ieee:
+        # IEEEtran's thebibliography supplies the "References" heading itself.
+        lines = ["% Generated by paper/build_bib.py --style ieee from records cached under paper/refs/.",
+                 f"% Author lists, titles and identifiers from arXiv and Crossref records fetched "
+                 f"{dt.date.today().strftime('%-d %B %Y')}; web pages checked the same day.",
+                 "\\begin{thebibliography}{99}"]
+    else:
+        lines = ["\\section*{References}",
+                 f"\\noindent{{\\footnotesize\\itshape Author lists, titles and identifiers generated from arXiv and "
+                 f"Crossref records fetched {dt.date.today().strftime('%-d %B %Y')}; web pages checked the same day.}}",
+                 "\\begingroup\\small",
+                 "\\renewcommand{\\section}[2]{}",
+                 "\\begin{thebibliography}{99}"]
     for k in order:
         if k in ARXIV:
-            body = fmt_arxiv(k)
+            body = fmt_arxiv_ieee(k) if ieee else fmt_arxiv(k)
         elif k in DOI:
-            body = fmt_doi(k)
+            body = fmt_doi_ieee(k) if ieee else fmt_doi(k)
         else:
-            body = MANUAL[k]
-        lines.append(f"\\bibitem{{{k}}} {body}")
-    lines += ["\\end{thebibliography}", "\\endgroup", ""]
+            body = (IEEE_MANUAL if ieee else MANUAL)[k]
+        lines.append(f"\\bibitem{{{k}}} {body}." if ieee else f"\\bibitem{{{k}}} {body}")
+    lines += ["\\end{thebibliography}", ""] if ieee else ["\\end{thebibliography}", "\\endgroup", ""]
     Path(args.out).write_text("\n".join(lines))
     print(f"{len(order)} references written; unused definitions: {unused}")
 
