@@ -1,0 +1,21 @@
+name: Release
+
+# Push a tag (e.g. v1.1.0) to cut a GitHub Release. With the Zenodo GitHub
+# integration enabled for this repository, each release is archived and gets a DOI.
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  github-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - run: gh release create "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --title "$GITHUB_REF_NAME" --generate-notes --verify-tag
+        env:
+          GH_TOKEN: ${{ github.token }}
