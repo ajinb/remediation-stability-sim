@@ -2,7 +2,7 @@
 
 > Discrete-time simulator for **AI-driven self-healing remediation loops**: reproduce the instability modes (oscillation, overshoot, runaway, loop interaction) and the stable-by-design constructs that tame them.
 
-Companion artifact for the paper **"Stable by Design: A Control-Theoretic Account of AI-Driven Self-Healing Remediation Loops."**
+Companion artifact for the paper **["Stable by Design: A Control-Theoretic Account of AI-Driven Self-Healing Remediation Loops"](https://cloudandsre.com/research/stable-by-design-remediation-loops/)**.
 
 ## Model
 
@@ -31,6 +31,23 @@ Headline results (400-step scenarios, 20 seeds per cell):
 
 The stochastic controller abstraction approximates an LLM's variability; it is not an LLM. The simulator establishes the *mechanisms*; production validation is future work (see paper §7).
 
+## Paper
+
+This repository is the companion code for the preprint **[Stable by Design: A Control-Theoretic Account of AI-Driven Self-Healing Remediation Loops](https://cloudandsre.com/research/stable-by-design-remediation-loops/)**
+(Ajin Baby, September 2026, not peer reviewed). Full text: [PDF](https://ajinb.github.io/research/stable-by-design-remediation-loops/stable-by-design-remediation-loops.pdf) ·
+[paper page](https://ajinb.github.io/research/stable-by-design-remediation-loops/) · [all papers](https://ajinb.github.io/research/).
+
+```bibtex
+@techreport{baby2026stable,
+  title       = {Stable by Design: A Control-Theoretic Account of AI-Driven Self-Healing Remediation Loops},
+  author      = {Ajin Baby},
+  year        = {2026},
+  institution = {cloudandsre.com},
+  type        = {Preprint},
+  url         = {https://cloudandsre.com/research/stable-by-design-remediation-loops/}
+}
+```
+
 ## License
 
-MIT
+[Apache-2.0](LICENSE)

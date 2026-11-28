@@ -22,3 +22,16 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.22786822"
     description: Archived release (Zenodo)
+preferred-citation:
+  type: report
+  title: "Stable by Design: A Control-Theoretic Account of AI-Driven Self-Healing Remediation Loops"
+  authors:
+    - family-names: Baby
+      given-names: Ajin
+      orcid: "https://orcid.org/0009-0007-6190-9516"
+  institution:
+    name: cloudandsre.com
+  year: 2026
+  month: 9
+  url: "https://cloudandsre.com/research/stable-by-design-remediation-loops/"
+  notes: "Preprint, not peer reviewed. Full text: https://ajinb.github.io/research/stable-by-design-remediation-loops/stable-by-design-remediation-loops.pdf"
